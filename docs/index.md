@@ -1,6 +1,7 @@
 
 
-<img width="1200" height="630" alt="Untitled design (1)" src="https://github.com/user-attachments/assets/81b8eb95-a40c-4141-ac73-e060d04358e3" />
+<img width="1200" height="630" alt="Untitled design (2)" src="https://github.com/user-attachments/assets/915d5bdc-169b-4f23-9903-b558753f1d6d" />
+
 
 # MEGR 2156 — Design Projects I Laboratory
 
