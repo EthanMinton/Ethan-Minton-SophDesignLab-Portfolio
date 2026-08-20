@@ -1,3 +1,6 @@
+
+
+<img width="2048" height="1152" alt="3093448729290170609" src="https://github.com/user-attachments/assets/5ed4a3f2-0482-4d88-8ff9-15751e41cfe0" />
 # MEGR 2156 — Design Projects I Laboratory
 
 > **Engineering is the art of making decisions you can defend.**
