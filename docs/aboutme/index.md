@@ -1,6 +1,6 @@
 #About Me
 
-<img width="1737" height="2316" alt="3755e8a9-3e6d-49aa-ad4a-e1fb56301c5a" src="https://github.com/user-attachments/assets/63a0c893-ae45-422e-951e-a0cedc3485bc" />
+<img width="869" height="1158" alt="3755e8a9-3e6d-49aa-ad4a-e1fb56301c5a" src="https://github.com/user-attachments/assets/63a0c893-ae45-422e-951e-a0cedc3485bc" />
 
 Throughout primary school, I always had an affinity for math and science. The effort it took to understand difficult concepts, and the satisfaction that came from mastering them through determination and effort genuinely captivated me. Being able to learn and understand entire concepts through my own work became the core of my academic drive. It wasn’t until calculus that I seriously considered engineering as a career option. At that moment, my fascination with math and science broadened from simply being an academic interest to noticing its applications everywhere. I began to think about the number of things that are developed through months, years, or even decades of research, design, and creation. It made me interested in how the things around me were designed and what went into making them.
 
