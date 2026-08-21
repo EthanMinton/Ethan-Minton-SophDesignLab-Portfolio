@@ -6,17 +6,28 @@
   <img src="https://github.com/user-attachments/assets/63a0c893-ae45-422e-951e-a0cedc3485bc" width="435" alt="Project Asset">
 </p>
 
-*Hitting the Ground Running*
+*My History With Engineering*
 
 Throughout primary school, I always had an affinity for math and science. The effort it took to understand difficult concepts, and the satisfaction that came from mastering them through determination and effort genuinely captivated me. Being able to learn and understand entire concepts through my own work became the core of my academic drive. It wasn’t until calculus that I seriously considered engineering as a career option. At that moment, my fascination with math and science broadened from simply being an academic interest to noticing its applications everywhere. I began to think about the number of things that are developed through months, years, or even decades of research, design, and creation. It made me interested in how the things around me were designed and what went into making them.
 
 My first semester at UNC Charlotte, I had very little experience with many of the skills that would be considered “engineering skills.” I had never touched a 3D modeling platform, written a coding language, or worked with an internal mechanism. I’ll admit that I often felt behind when I saw people who had already picked up some of these skills. There were times when I simply didn’t know where to start or how to improve. However, after going through an entire year of engineering courses, both skill-based and math-based, I found myself becoming much more competent in the areas I wanted to improve. I became proficient with CAD software such as Creo and Autodesk Fusion, creating full assembly files with dynamic parts for projects. I also learned how to create data extractors in Python and MATLAB. Being able to work with different programs showed me that while many of these skills are similar, each program also has its own differences and challenges.
 
+--
 <img width="851" height="315" alt="Untitled design (4)" src="https://github.com/user-attachments/assets/ca0c7dd6-dc37-4def-b3e5-3dfdab66fd72" />
+--
 
 The capstone of that year was the Freshman Engineering Design Expo. It was a first-of-its-kind event where the best groups from each ENGR 1300 class came together to communicate and present the functionality of their projects. Our group chose to design a solar panel system that could reorient the angle of its panel to achieve optimal sunlight throughout the day. Determined to qualify, our group dedicated hours after class to researching, designing, and testing our model. We worked through coding bugs, redesigned parts when complications came up, and continued improving the project until we had a final product we were proud of. When the time came, we not only qualified for the Expo but placed in the Top 5 overall.
 
 Even with the achievement, I continue to have the same drive to improve my skills as an engineer. What originally drove me toward engineering is the same thing that continues to push me forward: the challenge of overcoming something difficult, putting in the effort to understand it, and seeing what I am capable of creating.
 
+
+--
+
+Feel free to go through any of the projects you find listed. I linked the video we made for the Solar Panel Project below if you were interested. If you have any questions about the projects or would like to get into contact with me email me at “eminton4@charlotte.edu”.
+
+
 [![The Lighthouse Engineering Video](https://img.youtube.com/vi/S9-TkFi3M1o/hqdefault.jpg)](https://www.youtube.com/watch?v=S9-TkFi3M1o)
 
+
+--
+MEGR 2157 — Design Projects I Laboratory | UNC Charlotte | Ethan C. Minton | eminton4@charlotte.edu
