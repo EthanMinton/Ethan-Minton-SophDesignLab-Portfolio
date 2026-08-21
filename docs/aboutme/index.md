@@ -27,7 +27,7 @@ Even with the achievement, I continue to have the same drive to improve my skill
 
 ---
 
-**Send Off**
+**Next Step**
 
 Feel free to go through any of the projects you find listed on the left. I linked the video we made for the Solar Panel Project below if you were interested in more information about the design process and the results. If you have any questions about the projects or would like to get into contact with me email me at “eminton4@charlotte.edu”.
 
