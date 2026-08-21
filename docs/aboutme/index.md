@@ -10,4 +10,4 @@ The capstone of that year was the Freshman Engineering Design Expo. It was a fir
 
 Even with the achievement, I continue to have the same drive to improve my skills as an engineer. What originally drove me toward engineering is the same thing that continues to push me forward: the challenge of overcoming something difficult, putting in the effort to understand it, and seeing what I am capable of creating.
 
-[![The Lighthouse Engineering Video](https://img.youtube.com/vi/S9-TkFi3M1o/maxresdefault.jpg)](https://www.youtube.com/watch?v=S9-TkFi3M1o)
+[![The Lighthouse Engineering Video](https://img.youtube.com/vi/S9-TkFi3M1o/hqdefault.jpg)](https://www.youtube.com/watch?v=S9-TkFi3M1o)
