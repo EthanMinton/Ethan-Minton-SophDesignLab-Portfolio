@@ -1,12 +1,12 @@
 
-#About Me
+#-About Me-
 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/63a0c893-ae45-422e-951e-a0cedc3485bc" width="435" alt="Project Asset">
 </p>
 
-*My History With Engineering*
+---
 
 Throughout primary school, I always had an affinity for math and science. The effort it took to understand difficult concepts, and the satisfaction that came from mastering them through determination and effort genuinely captivated me. Being able to learn and understand entire concepts through my own work became the core of my academic drive. It wasn’t until calculus that I seriously considered engineering as a career option. At that moment, my fascination with math and science broadened from simply being an academic interest to noticing its applications everywhere. I began to think about the number of things that are developed through months, years, or even decades of research, design, and creation. It made me interested in how the things around me were designed and what went into making them.
 
@@ -25,7 +25,7 @@ Even with the achievement, I continue to have the same drive to improve my skill
 
 ---
 
-Feel free to go through any of the projects you find listed. I linked the video we made for the Solar Panel Project below if you were interested. If you have any questions about the projects or would like to get into contact with me email me at “eminton4@charlotte.edu”.
+Feel free to go through any of the projects you find listed on the left. I linked the video we made for the Solar Panel Project below if you were interested in more information about the design process and the results. If you have any questions about the projects or would like to get into contact with me email me at “eminton4@charlotte.edu”.
 
 
 [![The Lighthouse Engineering Video](https://img.youtube.com/vi/S9-TkFi3M1o/hqdefault.jpg)](https://www.youtube.com/watch?v=S9-TkFi3M1o)
