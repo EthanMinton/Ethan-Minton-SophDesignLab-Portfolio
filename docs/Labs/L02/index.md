@@ -12,6 +12,13 @@ FDM Individual Research: An important design consideration that Engineers must t
 
 https://www.addmangroup.com/wp-content/uploads/2024/08/ADDMAN_DfAM-Guide2024.pdf
 
+Teamate Saniyah: Wall thickness is very important when desighning due to cooling.
+
+WALL THICKNESS 
+
+THERMAL WARPING
+
+
 ## Decide
 
 
