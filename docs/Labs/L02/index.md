@@ -10,6 +10,8 @@ Source: https://additiveplus.com/design-for-additive-manufacturing/
 
 FDM Individual Research: An important design consideration that Engineers must take into account when handling FDM is overhangs. An overhang is a section of a 3d print that is found to be layered outward from structural support, leading to many possible defects that could ruin an overall print. The general rule that engineers....  
 
+https://www.addmangroup.com/wp-content/uploads/2024/08/ADDMAN_DfAM-Guide2024.pdf
+
 ## Decide
 
 
