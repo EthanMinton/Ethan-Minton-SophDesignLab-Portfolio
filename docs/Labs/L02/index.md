@@ -1,9 +1,14 @@
-# A2 – Truss Stress Analysis
+# **Lab #2: Print something Small**
 
-## Objective
+---
 
+## **Objective**
 
-## Analyze
+Learn the core foundation of the additive manufacturing process through sourcing standard 3D file formats, configuring slices within PrusaSlicer, and transferring G-code to the 3D printer for fabrication.
+
+---
+
+## **Analyze**
 
 **DfAM Individual Research**: The actions that are required to be taken when performing additive manufacturing must be planned thoroughly to ensure that the process is conducted smoothly and without failure. Plan for post-processing, such as easy access to remove supports and features that allow for better handling. The design phase is the most versatile; use it to make the post-processing phase flow without trouble. Failures within the post-design phase can become costly with the money spent and the time wasted.
 
@@ -21,9 +26,9 @@ When designing and preparing for additive manufacturing, you must take steps to 
 
 ---
 
-## Decide
+## **Decide**
 
-### Downloading Decision
+### **Downloading Decision**
 
 The item I chose to download is a Bobby Pin Demo Print. Initially, I selected to print a flat piece of art with 2 cats but decided against it, as I felt that the print would be too flat and lack any real showcase of what the 3D printer could do. I chose the bobby pin because, despite its simplistic shape and nature, it showcases techniques outside of creating a static object. For example, the flexibility of the material we can use, with it bending and having its structure pull it back to its resting place. It shows the precistion of which the printer can print with the material and the smoothness of its edges. It isn't a trinket to carry around, but it does help gather more experience and knowledge with the printer's and materials' capabilities.
 
@@ -39,12 +44,12 @@ The item I chose to download is a Bobby Pin Demo Print. Initially, I selected to
 
 <img width="1917" height="1136" alt="image" src="https://github.com/user-attachments/assets/ba290d43-01db-4408-9d47-cb7cb7328040" />
 
-### Group Members 
+### **Group Members**
 - Jack Welch
 - Saniyah Wilson
 - Nicholas Brady
 
-### Orientation
+### **Orientation**
 
 To print within the lab, we had to form a group of 4 and compile all of our files together within a single PrusaSlicer file. We decided to orient all of the bodies close together so that the 3D printer had less distance to travel between them while printing. In our instructions, we were asked to scale down any large models to ensure that the prints would only take roughly 20 minutes. Nicholas Brady had to scale his down on all axes, as his initial file was well over the design constraints around time. 
 
@@ -56,7 +61,7 @@ To print within the lab, we had to form a group of 4 and compile all of our file
 
 ---
 
-### Settings 
+### **Settings **
 
 <img width="446" height="1017" alt="Screenshot 2026-08-27 135258" src="https://github.com/user-attachments/assets/72941c37-b190-4370-addd-eb8416659038" />
 
@@ -84,7 +89,7 @@ After we sliced the models, we uploaded the G-code to the USB stick and transfer
 
 ---
 
-### Print
+### **Print**
 
 Upon initially uploading the file into the 3D printer, we immediately began to face what was considered a software issue with the printer itself, as it claimed that we had selected the wrong constraint for materials, which, as observed in the photo above, contradicts the setting applied. After ensuring our constraint was actually correct, we continued with the print despite its objection.
 
