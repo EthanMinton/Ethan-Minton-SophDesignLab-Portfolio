@@ -61,7 +61,7 @@ To print within the lab, we had to form a group of 4 and compile all of our file
 
 ---
 
-### **Settings **
+### **Settings**
 
 <img width="446" height="1017" alt="Screenshot 2026-08-27 135258" src="https://github.com/user-attachments/assets/72941c37-b190-4370-addd-eb8416659038" />
 
@@ -99,7 +99,7 @@ https://github.com/user-attachments/assets/586e0056-9ec9-4016-b207-31bb3ef24029
 <video src="https://github.com/user-attachments/assets/586e0056-9ec9-4016-b207-31bb3ef24029" autoplay loop muted playsinline width="100%">
 </video>
 
-If you observe closely, you can see how the printed parts are becoming increasingly turbulent. Eventually, the printer just refused to continue printing, which led to us discovering that the material roll found on the side of the printer had gotten caught, which prevented any of the filament from being properly used. After cleaning the base and restarting the print we were finally able to continue without issue.
+If you observe closely, you can see how the printed parts are becoming increasingly turbulent. Eventually, the printer just refused to continue printing, which led to us discovering that the material roll found on the side of the printer had gotten caught, which prevented any of the filament from being properly used. After cleaning the base and restarting the print, we were finally able to continue without issue.
 
 **Video #2: Second Attempt Print**
 
@@ -123,9 +123,19 @@ https://github.com/user-attachments/assets/66eab676-9780-4e4d-96e4-330309d691d5
 
 (15%) Detailed lessons learned and things you would change throughout the process, you should learn a minimum of four things. Actual time it took from downloading to finishing the 3D print. Recognize anyone who helped you through the process.
 
+The major lessons
+- Ensure that the filament isnt caught on anything
+- Routinely check on print quality to ensure no mistakes take place
+- Figure out who is able to stay over the lab and if they are they are the ones with the print files
+- Clear out the main channel to view the 3d printers
+
+- Professor helped us
+- After going back and checking the G-code, it took 18 minutes and 24 seconds
 
 
 (5%) Resources
+
+NEED TO PUT SOURCES
 
 ## Communicate
 
