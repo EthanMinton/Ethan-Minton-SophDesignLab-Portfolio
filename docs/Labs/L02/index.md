@@ -12,15 +12,16 @@ Learn the core foundation of the additive manufacturing process through sourcing
 
 **DfAM Individual Research**: The actions that are required to be taken when performing additive manufacturing must be planned thoroughly to ensure that the process is conducted smoothly and without failure. Plan for post-processing, such as easy access to remove supports and features that allow for better handling. The design phase is the most versatile; use it to make the post-processing phase flow without trouble. Failures within the post-design phase can become costly with the money spent and the time wasted.
 
-**Source:** https://additiveplus.com/design-for-additive-manufacturing/
+**Source:** [https://additiveplus.com/design-for-additive-manufacturing/](https://additiveplus.com/design-for-additive-manufacturing/)
 
 **FDM Individual Research:** An important design consideration that Engineers must take into account when handling FDM is overhangs. An overhang is a section of a 3d print that is found to be layered outward from structural support, leading to many possible defects that could ruin an overall print. The general rule that engineers....  
 
-**Source:** https://www.addmangroup.com/wp-content/uploads/2024/08/ADDMAN_DfAM-Guide2024.pdf
+**Source:** [https://www.addmangroup.com/wp-content/uploads/2024/08/ADDMAN_DfAM-Guide2024.pdf](https://www.addmangroup.com/wp-content/uploads/2024/08/ADDMAN_DfAM-Guide2024.pdf)
+
 
 **Teamate Saniyah:**
 
-Wall thickness is considered extremely important when designing with 3D printers, as it heavily correlates to whether or not a creation is load-bearing. A wall too thin could cause buckling in the creation process, leading to design failure. Thick walls also typically contain infill patterns to save on total material cost and time taken for a print to complete.
+Wall thickness is considered extremely important when designing with 3D printers, as it heavily correlates to whether or not a creation is load-bearing. A wall too thin could cause buckling in the creation process, leading to design failure. Thick walls also typically contain infill patterns to save on total material cost and time taken for a print to complete. 
 
 When designing and preparing for additive manufacturing, you must take steps to prevent thermal warping in whatever you are manufacturing. Thermal warping is the unintended distortion of material due to uneven cooling that leads to thermal stress impacting the material. Prevention heavily relies on designing proper chambers that will allow for even cooling through the entire model.
 
@@ -32,13 +33,13 @@ When designing and preparing for additive manufacturing, you must take steps to 
 
 The item I chose to download is a Bobby Pin Demo Print. Initially, I selected to print a flat piece of art with 2 cats but decided against it, as I felt that the print would be too flat and lack any real showcase of what the 3D printer could do. I chose the bobby pin because, despite its simplistic shape and nature, it showcases techniques outside of creating a static object. For example, the flexibility of the material we can use, with it bending and having its structure pull it back to its resting place. It shows the precistion of which the printer can print with the material and the smoothness of its edges. It isn't a trinket to carry around, but it does help gather more experience and knowledge with the printer's and materials' capabilities.
 
-**Cat Print Source:** https://www.printables.com/model/447015-cat-love-for-fabric/files
+**Cat Print Source:** [https://www.printables.com/model/447015-cat-love-for-fabric/files](https://www.printables.com/model/447015-cat-love-for-fabric/files)
 
 <img width="1901" height="988" alt="image" src="https://github.com/user-attachments/assets/50caaa6d-0eec-4412-ad67-cbabfd857809" />
 
 <img width="1916" height="1136" alt="image" src="https://github.com/user-attachments/assets/cfb8d001-e890-499f-9fd0-95e3e911a879" />
 
-**Bobby Pin Print Source:** https://www.printables.com/model/88337-bobby-pin-demo-print/files
+**Bobby Pin Print Source:** [https://www.printables.com/model/88337-bobby-pin-demo-print/files](https://www.printables.com/model/88337-bobby-pin-demo-print/files)
 
 <img width="1900" height="982" alt="image" src="https://github.com/user-attachments/assets/578102b2-60d5-484b-b50b-44ff8e9a6145" />
 
