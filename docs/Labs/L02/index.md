@@ -10,11 +10,11 @@ Learn the core foundation of the additive manufacturing process through sourcing
 
 ## **Analyze**
 
-**DfAM Individual Research**: The actions that are required to be taken when performing additive manufacturing must be planned thoroughly to ensure that the process is conducted smoothly and without failure. Plan for post-processing, such as easy access to remove supports and features that allow for better handling. The design phase is the most versatile; use it to make the post-processing phase flow without trouble. Failures within the post-design phase can become costly with the money spent and the time wasted.
+**DfAM Individual Research**: The actions that are required to be taken when performing additive manufacturing must be planned thoroughly to ensure that the process is conducted smoothly and without failure. Plan for post-processing, such as easy access to remove supports and features that allow for better handling. The design phase is the most versatile; use it to ensure the post-processing phase flows smoothly. Failures in the post-design phase can be costly, with money spent and time wasted.
 
 **Source:** [https://additiveplus.com/design-for-additive-manufacturing/](https://additiveplus.com/design-for-additive-manufacturing/)
 
-**FDM Individual Research:** An important design consideration that Engineers must take into account when handling FDM is overhangs. An overhang is a section of a 3d print that is found to be layered outward from structural support, leading to many possible defects that could ruin an overall print. The general rule that engineers....  
+**FDM Individual Research:** An important design consideration that Engineers must take into account when handling FDM is overhangs. An overhang is a section of a 3d print that is found to be layered outward from structural support, leading to many possible defects that could ruin an overall print. The general rule that engineers follow is the 45-degree rule, which essentially says that as long as the overhang is found to be 45 degrees or less, the print can be successful without the need for supports.
 
 **Source:** [https://www.addmangroup.com/wp-content/uploads/2024/08/ADDMAN_DfAM-Guide2024.pdf](https://www.addmangroup.com/wp-content/uploads/2024/08/ADDMAN_DfAM-Guide2024.pdf)
 
@@ -95,7 +95,7 @@ After we sliced the models, we uploaded the G-code to the USB stick and transfer
 Upon initially uploading the file into the 3D printer, we immediately began to face what was considered a software issue with the printer itself, as it claimed that we had selected the wrong constraint for materials, which, as observed in the photo above, contradicts the setting applied. After ensuring our constraint was actually correct, we continued with the print despite its objection.
 
 **Video #1: First Attempt Print**
-https://github.com/user-attachments/assets/586e0056-9ec9-4016-b207-31bb3ef24029
+[Download of Video #1 File](https://github.com/user-attachments/assets/586e0056-9ec9-4016-b207-31bb3ef24029)
 
 <video src="https://github.com/user-attachments/assets/586e0056-9ec9-4016-b207-31bb3ef24029" autoplay loop muted playsinline width="100%">
 </video>
@@ -107,7 +107,7 @@ If you observe closely, you can see how the printed parts are becoming increasin
 <video src="https://github.com/user-attachments/assets/66eab676-9780-4e4d-96e4-330309d691d5" autoplay loop muted playsinline width="100%">
 </video>
 
-https://github.com/user-attachments/assets/66eab676-9780-4e4d-96e4-330309d691d5
+[Download of Video #2 File](https://github.com/user-attachments/assets/66eab676-9780-4e4d-96e4-330309d691d5)
 
 **2 images showing Mid-print Stages:**
 <img width="4032" height="3024" alt="IMG_5723" src="https://github.com/user-attachments/assets/a2a00d75-bcfe-47a2-a2d4-c6c504b28657" />
