@@ -121,23 +121,25 @@ If you observe closely, you can see how the printed parts are becoming increasin
 **Final Results from 3D Printer Screen:**
 <img width="4032" height="3024" alt="IMG_5732" src="https://github.com/user-attachments/assets/44d56a2a-35df-42dc-af8b-444d070e7b39" />
 
-### Lessons Learned
-
-(15%) Detailed lessons learned and things you would change throughout the process, you should learn a minimum of four things. Actual time it took from downloading to finishing the 3D print. Recognize anyone who helped you through the process.
-
-The major lessons
-- Ensure that the filament isnt caught on anything
-- Routinely check on print quality to ensure no mistakes take place
-- Figure out who is able to stay over the lab and if they are they are the ones with the print files
-- Clear out the main channel to view the 3d printers
-
-- Professor helped us
-- After going back and checking the G-code, it took 18 minutes and 24 seconds
-
-
-(5%) Resources
-
-NEED TO PUT SOURCES
 
 ## Communicate
 
+### Lessons Learned
+
+After this project was concluded, many lessons and experiences were learned from failures. Three of these lessons were learned directly because of our initial print failure due to the filament getting caught. 
+
+1. For one, you should always check to ensure that the filament can spin freely without any issues. Initially, I remember noticing the filament being positioned in a way that I considered odd, but I did not act on it to fix it. Knowing what I know now, I wouldn't hesitate to reposition it so that it could spin freely.
+2.  Always routinely check on print quality and current progress to minimize the time taken by error prints. After the filament had completely stopped printing it took us another roughly 5 minutes before we noticed it wasn't printing layers anymore. If we had caught it sooner, we wouldn't have had to stay after the lab to obtain our 3D prints.
+3.  After we had realized that something had failed within the 3D printing process, we had to initially determine the actual cause of the failure. Professor 
+Terence Fagan had asked to see the settings and file of the 3D print, but mistakenly, the teammate, Jack Welch, who had set up the G-code file, had to leave the lab for another class afterwards. Eventually, we discovered the real issue, but the lesson was learned nonetheless. The person who programs the file should be checked to ensure that they will be able to stay afterwards if issues arise.
+4.  Outside of our failure one of the most important lessons learned is that as a group we need to clear out the main channel to access the 3D printers, repeadily I was not able to reach our 3D printer due to the fact that so many people were in the way as they were watching the printers. It is a good lesson that a select person from each group can actively monitor the printers at a time so that everyone can access and view their printers without crowding or complications.
+
+**Actual Time taken to Print:**  18 Minutes 24 Seconds
+
+### Resources
+
+- DfAM Individual Research: [https://additiveplus.com/design-for-additive-manufacturing/](https://additiveplus.com/design-for-additive-manufacturing/)
+- FDM Individual Research: [https://www.addmangroup.com/wp-content/uploads/2024/08/ADDMAN_DfAM-Guide2024.pdf](https://www.addmangroup.com/wp-content/uploads/2024/08/ADDMAN_DfAM-Guide2024.pdf)
+- Cat Print: [https://www.printables.com/model/447015-cat-love-for-fabric/files](https://www.printables.com/model/447015-cat-love-for-fabric/files)
+- Bobby Pin Print: [https://www.printables.com/model/88337-bobby-pin-demo-print/files](https://www.printables.com/model/88337-bobby-pin-demo-print/files)
+- PrusaSlicer: [https://www.prusa3d.com/p/prusaslicer/](https://www.prusa3d.com/p/prusaslicer/)
