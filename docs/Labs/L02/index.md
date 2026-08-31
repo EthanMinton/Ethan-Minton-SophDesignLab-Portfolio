@@ -52,7 +52,7 @@ The item I chose to download is a Bobby Pin Demo Print. Initially, I selected to
 
 ### **Orientation**
 
-To print within the lab, we had to form a group of 4 and compile all of our files together within a single PrusaSlicer file. We decided to orient all of the bodies close together so that the 3D printer had less distance to travel between them while printing. In our instructions, we were asked to scale down any large models to ensure that the prints would only take roughly 20 minutes. Nicholas Brady had to scale his down on all axes, as his initial file was well over the design constraints around time. 
+To print within the lab, we had to form a group of 4 and compile all of our files together within a single PrusaSlicer file. We decided to orient all of the bodies close together so that the 3D printer had less distance to travel between them while printing. In our instructions, we were asked to scale down any large models to ensure that the prints would only take roughly 20 minutes. Nicholas Brady had to scale his down on all axes, as his initial file was well over the design constraints around time. No supports were used as instructed.
 
 **Nicholas' Model Pre-scale:**
 <img width="1380" height="1036" alt="Screenshot 2026-08-27 134942" src="https://github.com/user-attachments/assets/79a2f53c-c571-49ef-a657-bdab4970d1f3" />
@@ -132,9 +132,12 @@ After this project was concluded, many lessons and experiences were learned from
 2.  Always routinely check on print quality and current progress to minimize the time taken by error prints. After the filament had completely stopped printing it took us another roughly 5 minutes before we noticed it wasn't printing layers anymore. If we had caught it sooner, we wouldn't have had to stay after the lab to obtain our 3D prints.
 3.  After we had realized that something had failed within the 3D printing process, we had to initially determine the actual cause of the failure. Professor 
 Terence Fagan had asked to see the settings and file of the 3D print, but mistakenly, the teammate, Jack Welch, who had set up the G-code file, had to leave the lab for another class afterwards. Eventually, we discovered the real issue, but the lesson was learned nonetheless. The person who programs the file should be checked to ensure that they will be able to stay afterwards if issues arise.
-4.  Outside of our failure one of the most important lessons learned is that as a group we need to clear out the main channel to access the 3D printers, repeadily I was not able to reach our 3D printer due to the fact that so many people were in the way as they were watching the printers. It is a good lesson that a select person from each group can actively monitor the printers at a time so that everyone can access and view their printers without crowding or complications.
+4.  Outside of our failure, one of the most important lessons learned is that, as a group, we need to clear out the main channel to access the 3D printers, repeadily I was not able to reach our 3D printer due to the fact that so many people were in the way as they were watching the printers. It is a good lesson that a select person from each group can actively monitor the printers at a time so that everyone can access and view their printers without crowding or complications.
+
+*Professor Terence Fagan assisted with restarting the printer after our original error with the filament.*
 
 **Actual Time taken to Print:**  18 Minutes 24 Seconds
+**Actual Time taken in full:**  50 Minutes (Including our original attempt)
 
 ### Resources
 
