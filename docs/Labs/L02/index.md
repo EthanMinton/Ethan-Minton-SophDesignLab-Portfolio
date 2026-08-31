@@ -140,6 +140,7 @@ Terence Fagan had asked to see the settings and file of the 3D print, but mistak
 *Professor Terence Fagan assisted with restarting the printer after our original error with the filament.*
 
 **Actual Time taken to Print:**  18 Minutes 24 Seconds
+
 **Actual Time taken in full:**  50 Minutes (Including our original attempt)
 
 ### Resources
