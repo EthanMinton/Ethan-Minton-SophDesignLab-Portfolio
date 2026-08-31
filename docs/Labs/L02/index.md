@@ -121,6 +121,9 @@ If you observe closely, you can see how the printed parts are becoming increasin
 **Final Results from 3D Printer Screen:**
 <img width="4032" height="3024" alt="IMG_5732" src="https://github.com/user-attachments/assets/44d56a2a-35df-42dc-af8b-444d070e7b39" />
 
+**Final Results (Left: Error, Right: Corrected)**
+<img width="4032" height="3024" alt="IMG_5751" src="https://github.com/user-attachments/assets/917ac08b-022e-45f1-85d5-8d5697b6ed28" />
+
 
 ## Communicate
 
@@ -132,7 +135,7 @@ After this project was concluded, many lessons and experiences were learned from
 2.  Always routinely check on print quality and current progress to minimize the time taken by error prints. After the filament had completely stopped printing it took us another roughly 5 minutes before we noticed it wasn't printing layers anymore. If we had caught it sooner, we wouldn't have had to stay after the lab to obtain our 3D prints.
 3.  After we had realized that something had failed within the 3D printing process, we had to initially determine the actual cause of the failure. Professor 
 Terence Fagan had asked to see the settings and file of the 3D print, but mistakenly, the teammate, Jack Welch, who had set up the G-code file, had to leave the lab for another class afterwards. Eventually, we discovered the real issue, but the lesson was learned nonetheless. The person who programs the file should be checked to ensure that they will be able to stay afterwards if issues arise.
-4.  Outside of our failure, one of the most important lessons learned is that, as a group, we need to clear out the main channel to access the 3D printers, repeadily I was not able to reach our 3D printer due to the fact that so many people were in the way as they were watching the printers. It is a good lesson that a select person from each group can actively monitor the printers at a time so that everyone can access and view their printers without crowding or complications.
+4.  Outside of our failure, one of the most important lessons learned is that, as a group, we need to clear out the main channel to access the 3D printers, repeadily I was not able to reach our 3D printer since so many people were in the way as they were watching the printers. It is a good lesson that a select person from each group can actively monitor the printers at a time so that everyone can access and view their printers without crowding or complications.
 
 *Professor Terence Fagan assisted with restarting the printer after our original error with the filament.*
 
