@@ -95,10 +95,11 @@ After we sliced the models, we uploaded the G-code to the USB stick and transfer
 Upon initially uploading the file into the 3D printer, we immediately began to face what was considered a software issue with the printer itself, as it claimed that we had selected the wrong constraint for materials, which, as observed in the photo above, contradicts the setting applied. After ensuring our constraint was actually correct, we continued with the print despite its objection.
 
 **Video #1: First Attempt Print**
-[Download of Video #1 File](https://github.com/user-attachments/assets/586e0056-9ec9-4016-b207-31bb3ef24029)
 
 <video src="https://github.com/user-attachments/assets/586e0056-9ec9-4016-b207-31bb3ef24029" autoplay loop muted playsinline width="100%">
 </video>
+
+[Download of Video #1 File](https://github.com/user-attachments/assets/586e0056-9ec9-4016-b207-31bb3ef24029)
 
 If you observe closely, you can see how the printed parts are becoming increasingly turbulent. Eventually, the printer just refused to continue printing, which led to us discovering that the material roll found on the side of the printer had gotten caught, which prevented any of the filament from being properly used. After cleaning the base and restarting the print, we were finally able to continue without issue.
 
