@@ -1,4 +1,4 @@
-# **Lab #2: Print something Small**
+# **Lab #2: "Print something Small"**
 
 ---
 
@@ -49,6 +49,7 @@ The item I chose to download is a Bobby Pin Demo Print. Initially, I selected to
 - Jack Welch
 - Saniyah Wilson
 - Nicholas Brady
+- Ethan Minton
 
 ### **Orientation**
 
@@ -66,7 +67,7 @@ To print within the lab, we had to form a group of 4 and compile all of our file
 
 <img width="446" height="1017" alt="Screenshot 2026-08-27 135258" src="https://github.com/user-attachments/assets/72941c37-b190-4370-addd-eb8416659038" />
 
-**3D Printer ID:** PC-13 
+**3D Printer ID:** PC-13 (Prusa CORE One)
 
 **3D Printer Model:** Prusa CORE One 0.4 Nozzle
 
