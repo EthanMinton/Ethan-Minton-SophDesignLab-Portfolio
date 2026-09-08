@@ -141,7 +141,7 @@ Regardless of lessons learned from mistakes, the goal for my model was to learn 
 
 *Dedicated Time taken, including print time, documentation, and modeling: 5 Hours 30 Minutes*
 
-Resources (5%)
+## Resources
 
 Different Infill Patterns: [Prusa3D Article](https://help.prusa3d.com/article/infill-patterns_177130)
 
