@@ -1,4 +1,4 @@
-# A3 – [Topic]
+# Lab #3: Design Something Small
 
 
 ## Design 
@@ -77,7 +77,7 @@ Working with Nicholas Brady I uploaded his .stl file into PrusaSlicer and was in
 <img width="1916" height="1110" alt="Screenshot 2026-09-03 132334" src="https://github.com/user-attachments/assets/9d9c0805-f6a5-4227-8ce4-c303bccfeeb5" />
 <img width="1916" height="1108" alt="Screenshot 2026-09-03 132608" src="https://github.com/user-attachments/assets/5d3e293d-5fd7-4397-bd03-d9ccf6715133" />
 
-Thankfully to Nicholas and mine properly scaling our models within the given constraints we had no issues this time that involved scaling our models physically at all. We decided to use the "Honeycomb" infill patern with a 10% infill percentage to maintain a good structureal integretey without compensating so much time to print a infill such as Gyroid or another infill with a much higher percentage. We decided to stick with the 3 perimeter as our models were incredibly small means any huge external force is unlikelt to be applied to the point of fracture. Learning from our mistakes of the first lab we didn't struggle to much with any major mistakes through the setup process, the only major issue we faced was the time our print took, both mine and Nichlas's models took full advantage of the space we could work within which means more time spent. It was estimated by Prusa that the print would take around 1 Hour and 9 minutes.
+Thankfully, Nicholas and I properly scaled our models within the given constraints; we had no issues this time that involved scaling our models physically at all. We decided to use the "Honeycomb" infill pattern with a 10% infill percentage to maintain a good structureal integretey without compensating so much time to print a infill such as Gyroid or another infill with a much higher percentage. We decided to stick with the 3 perimeter, as our models were incredibly small means any huge external force is unlikely to be applied to the point of fracture. Learning from our mistakes in the first lab, we didn't struggle too much with any major mistakes through the setup process; the only major issue we faced was the time our print took. Both mine and Nicholas's models took full advantage of the space we could work within, which means more time spent. It was estimated by Prusa that the print would take around 1 Hour and 9 minutes.
 
 <img width="1917" height="1110" alt="Screenshot 2026-09-03 132927" src="https://github.com/user-attachments/assets/4fb1ae28-fb7e-451b-910d-c8f2f70e593f" />
 <img width="1917" height="1086" alt="Screenshot 2026-09-03 140027" src="https://github.com/user-attachments/assets/16903529-f657-4a54-bb31-862db96f609f" />
@@ -91,8 +91,10 @@ Thankfully to Nicholas and mine properly scaling our models within the given con
 Upload a video showing the 3D operation of your component to your GitHub portfolio.
 Confirm the printed part meets all stipulations (size, height, no overhangs, PLA/PETG, print time).
 
+The 3D printing process was considerably smoother than our first attempt at printing something, as we had kept a keen eye for issues relating to the filament getting caught like it previously had. To note, this had actually happened to another group during our printing time. If possible, it should be relayed to all students about the likelihood of this happening. 
+
 ## Lessons Learned 
-Detailed lessons learned throughout the process, the more detail the better. Which includes detailing any mistakes throughout the process and how you fixed them.
+Detailed lessons learned throughout the process; the more detail the better. Which includes detailing any mistakes throughout the process and how you fixed them.
 Actual time it took from start to finish, and resources.
 What would happen if you scaled this decision up? If your infill percentage or wall thickness choice were applied to a structural or safety-critical part instead of a small desk object, what would the consequences of getting it wrong be?
 What mistake did you catch, and what mistake might you not have caught? Detail an error you found and fixed. Then, more importantly: what's one flaw in your design or process that could have gone to print undetected, and what would need to change (in your process, not just this part) to catch it next time?
@@ -100,12 +102,3 @@ How does this connect to a real product decision? Identify a consumer or industr
 
 Resources (5%)
 List all resources used.
-
-## Analyze
-
-
-## Decide
-
-
-## Communicate
-
