@@ -31,7 +31,7 @@ Completing the model and downloading it into stl file required me to constrain t
 
 <img width="2559" height="1364" alt="Screenshot 2026-09-01 140857 (1)" src="https://github.com/user-attachments/assets/68b21ca4-1d89-4031-8c00-da1f2e82f996" />
 
-* To note, no overhangs were used within the model as instructed, I do find it very important to understand what overhangs are feasible without supports and which require. But for the sake of preventing any issues with the print I elected to avoid any overhangs in their entirety.*
+*To note, no overhangs were used within the model as instructed, I do find it very important to understand what overhangs are feasible without supports and which require. But for the sake of preventing any issues with the print I elected to avoid any overhangs in their entirety.*
 
 ## Research 
 
