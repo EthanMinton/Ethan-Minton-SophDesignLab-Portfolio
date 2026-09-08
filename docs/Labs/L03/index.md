@@ -1,5 +1,6 @@
 # Lab #3: Design Something Small
 
+---
 
 ## Design 
 Document the design process, which includes many pictures with an overview of images at the different stages.
@@ -33,6 +34,8 @@ Completing the model and downloading it into stl file required me to constrain t
 
 *To note, no overhangs were used within the model as instructed, I do find it very important to understand what overhangs are feasible without supports and which require. But for the sake of preventing any issues with the print I elected to avoid any overhangs in their entirety.*
 
+---
+
 ## Research 
 
 The 3 infill patterns below are ones that were not explicitly shown in class, I decided to find examples that provide different uses and abilities compared to other to gather a better general understanding of all patterns.
@@ -61,7 +64,7 @@ The density of the infill, the infill percentage, increases the cross-sectional 
   
 We find that the different infill patterns alter how the stress is distributed and handled. For example, the simple 2D lined infill pattern can properly distribute the stress applied parallel to its interface but would struggle to handle any applied shear stress. But 3D infill patterns such as the gyroid are great at distributing the stress evenly in all directions, preventing any single stress from localizing.
 
-
+---
 
 ## Preprocessor and Printing 
 Document the slicer information on PrusaSlicer. Some, not all, questions to answer are outlined below to guide your documentation.
@@ -89,6 +92,7 @@ To elaborate more on the chosen wall thickness, we believed that the small simpl
 *Screenshot of G-code Upload*
 <img width="935" height="585" alt="Screenshot 2026-09-03 132836" src="https://github.com/user-attachments/assets/a1fea5b9-c4bd-41c7-86d3-ff007d976973" />
 
+---
 
 ## Print 
 
@@ -117,6 +121,7 @@ As shown in the print within the settings, the print was completed using PETG; t
 <img width="4032" height="3024" alt="IMG_5801" src="https://github.com/user-attachments/assets/ab27e91e-95f0-4461-adb5-ed51c4c19aac" />
 <img width="4032" height="3024" alt="IMG_5802" src="https://github.com/user-attachments/assets/b08f19f8-eabc-4254-ab2a-4876be8266f1" />
 
+---
 
 ## Lessons Learned 
 
