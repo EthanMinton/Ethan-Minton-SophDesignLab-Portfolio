@@ -138,9 +138,9 @@ Regardless of lessons learned from mistakes, the goal for my model was to learn 
 
 Resources (5%)
 
-Different Infill Patterns: https://help.prusa3d.com/article/infill-patterns_177130
+Different Infill Patterns: [Prusa3D Article](https://help.prusa3d.com/article/infill-patterns_177130)
 
-Infills affect on Mechanical Properties: https://www.mdpi.com/2504-477X/8/4/115
+Infills affect on Mechanical Properties: [MDPI Study](https://www.mdpi.com/2504-477X/8/4/115)
 
 3D Model: [geometry_print_test.prt](geometry_print_test.prt)
 
