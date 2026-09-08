@@ -5,29 +5,29 @@
 Document the design process, which includes many pictures with an overview of images at the different stages.
 Detail the steps and reasons/decisions from start to finish.
 
-Openning CREO I initially began by slecting the datum plane to create my model. I had a plan in mind here to create a model that would be able to test the abilities of the 3D printers with curved edges and the geometetry that surrounded it. I wanted to utilize the engineering shaping tools within this design to really observe the details that the printer can create at such a small scale.
+Opening CREO, I initially began by selecting the datum plane to create my model. I had a plan in mind here to create a model that would be able to test the abilities of the 3D printers with curved edges and the geometry that surrounded it. I wanted to utilize the engineering shaping tools within this design to really observe the details that the printer can create at such a small scale.
 <img width="2559" height="1362" alt="Screenshot 2026-09-01 132927" src="https://github.com/user-attachments/assets/c099c2e7-ef3e-4841-b784-bae4ef6de808" />
 <img width="2559" height="1364" alt="Screenshot 2026-09-01 133045" src="https://github.com/user-attachments/assets/624d7038-2729-4dc2-872a-ce8de12972af" />
 
-I sketched out the initial shape of the sketch to be a 1.5 inch by 1.5 inch square to maximize the total area that could be used and to really scale out the model, of course this comes at a drawback with taking much more time to physically print.
+I sketched out the initial shape of the sketch to be a 1.5-inch by 1.5-inch square to maximize the total area that could be used and to really scale out the model; of course, this comes at the drawback of taking much more time to physically print.
 
 <img width="2559" height="1365" alt="Screenshot 2026-09-01 133206" src="https://github.com/user-attachments/assets/b010a852-d2eb-4fdc-844d-d8e5e1a4c41f" />
 
-To maximize the the given constraints I then extruded the shape by 0.5 inch to create the general outline.
+To maximize the given constraints, I then extruded the shape by 0.5 inches to create the general outline.
 
 <img width="2559" height="1360" alt="Screenshot 2026-09-01 133302" src="https://github.com/user-attachments/assets/98e54aa1-7545-4f57-b635-c489f8c86099" />
 
-The next couples of steps involves applying the engienering shaping tools in a way to create some more complex geometries. The first step was taking the 3D model and applying a shell to it creating a gap within the model. Once completed I then added a large round shaping the edges of the interior portion of the box with a radius of 0.7 inch. I then added an edge chamfer to the adjacent side of the interior to the round to create this more traditional slope that transitioned into the round section. I went out of my way to ensure this geometry took place as I wanted to test how different sloping geometries would be handed with the traditional slope, the curved slope, and the sudden clash between the 2. 
+The next couples of steps involves applying the engineering shaping tools in a way to create some more complex geometries. The first step was taking the 3D model and applying a shell to it, creating a gap within the model. Once completed, I then added a large round to shape the edges of the interior portion of the box with a radius of 0.7 inches. I then added an edge chamfer to the adjacent side of the interior to the round to create this more traditional slope that transitioned into the round section. I went out of my way to ensure this geometry took place, as I wanted to test how different sloping geometries would be handled with the traditional slope, the curved slope, and the sudden clash between the 2. 
 
 
 <img width="2559" height="1363" alt="Screenshot 2026-09-01 134924" src="https://github.com/user-attachments/assets/66727334-9a34-448a-8ac5-6972912dda9e" />
 <img width="2559" height="1366" alt="Screenshot 2026-09-01 135124" src="https://github.com/user-attachments/assets/77f65370-5005-4624-9024-3023bff47618" />
 
-Once I had finished utilizing the engineering tools I then created a hole with a diameter of 0.25 inch within the beginning of the curve slope extruding it through the box entirely to see how it handles the sloping ledge that it creates. 
+Once I had finished utilizing the engineering tools, I then created a hole with a diameter of 0.25 inches at the beginning of the curve slope, extruding it through the box entirely to see how it handles the sloping ledge that it creates. 
 
 <img width="2559" height="1365" alt="Screenshot 2026-09-01 140122" src="https://github.com/user-attachments/assets/bfbac843-4847-485e-a2fc-925d77a41a0c" />
 
-Completing the model and downloading it into stl. file required me to constraint the geometry into simpler polygons that could be properly interpreted by Prusaslicer leading to the result you find below, this is the final model used for the print.
+Completing the model and downloading it into stl file required me to constrain the geometry into simpler polygons that could be properly interpreted by PrusaSlicer, leading to the result you find below. This is the final model used for the print.
 
 <img width="2559" height="1364" alt="Screenshot 2026-09-01 140857 (1)" src="https://github.com/user-attachments/assets/68b21ca4-1d89-4031-8c00-da1f2e82f996" />
 
@@ -37,13 +37,13 @@ Completing the model and downloading it into stl. file required me to constraint
 
 ### Aligned rectilinear 
 
-Aligned Rectilinear is a infill pattern that is made of parallel lines that are drawn across the interior of the model. The primary reason of which this infill pattern is used is to save time when printing, it has an average material consumption, and is considerably simple for the printer to print. Often though this infill can create issues with the first solid top layer on whether the printers path is alligned directly parallel to the infill pattern. As it can leave that top with no support to print onto and bridge the gap.
+Aligned Rectilinear is an infill pattern that is made of parallel lines that are drawn across the interior of the model. The primary reason this infill pattern is used is to save time when printing; it has an average material consumption and is considerably simple for the printer to print. Often, though, this infill can create issues with the first solid top layer on whether the printer's path is aligned directly parallel to the infill pattern. As it can leave that top with no support to print onto and bridge the gap.
 
 <img width="2048" height="1536" alt="aligned_rectilinearfinal-2048x1536" src="https://github.com/user-attachments/assets/ad84af50-4f3e-4f03-a7b4-e8b745069013" />
 
 ### Concentric 
 
-Concentric infill has a more complex geometry model as it will take the model's direct perimeter lines and create smaller and smaller versions of that shape within itself. The best way to describe it is like a Russian Nesting Doll. Each having the same general shape only becoming smaller and smaller within itself. The primary use for this infill is the flexiblility of the models that it produces. The trade-off for this flexibility is the overall time spent printing this infill with little difference among the material actually used.
+Concentric infill has a more complex geometry model, as it will take the model's direct perimeter lines and create smaller and smaller versions of that shape within itself. The best way to describe it is like a Russian Nesting Doll. Each has the same general shape, only becoming smaller and smaller within itself. The primary use for this infill is the flexibility of the models that it produces. The trade-off for this flexibility is the overall time spent printing this infill, with little difference in the material actually used.
 
 <img width="2048" height="1536" alt="aligned_rectilinearfinal-2048x1536" src="https://github.com/user-attachments/assets/ad84af50-4f3e-4f03-a7b4-e8b745069013" />
 
@@ -118,9 +118,11 @@ As shown in the print within the settings, the print was completed using PETG; t
 
 One of the biggest struggles that 3D printers face is the allocation of time and resources. Through research of the infill strengths and weaknesses, they each carry the process of selecting settings is much more complex and nuanced than previously thought. I had believed that although these choices are allowed to be made by yourself, they are often more arbitrary in their differences. But each different variant of infill has its own strengths, weaknesses, and differences, such as gyroid giving 3D prints a much higher strength compared to other infill patterns due to its geometry being able to distribute stress more evenly than most. Yet it is also a much more expensive infill, both in the time it takes and the material it costs. For small prints such as this lab, it wouldn't have much of an impact but if you scale up the size of the print or the infill percentage. Our print barely was below the 1 and half hour limit with a 10% infill percentage. The object's relatively small size gives a lot of flexibility to reduce our percentage without much worry. But in the case of printing something that is more load-bearing, such as a real-world support beam, the infill percentage could be the defining setting that ensures stability within a structure. An infill percentage that was mistakenly set below what is required can lead to structural integrity that would fail under a considered normal load. Initially, we considered using a higher infill percentage to observe the strength of our prints, but after slicing our models, we found that the estimated time was above the set limit. Thankfully, I had caught the mistake before taking the code to the printer, which would have had consequences that would require us to reset the 3D print and reslice our models. This eventually led to us deciding to select the honeycomb pattern at 10% infill to try and balance out the time it takes with material strength.
 
-A lot of possible mistakes that could have been made are likely to be within the settings, due to being most unfamiliar with navigation and what each setting does. Specifically, the setting for the perimeter is the most uncertain setting that was modified. Initially, we struggled to find a setting that would account for the print's thickness; we googled for guidance and were pointed to the perimeter setting. Information about it was generally vague. Describing the setting, we decided to keep the setting close to numerical values, as we believed that the value of 3, the value we selected, meant that 3 filled layers of the 0.4mm nozzle would encapsulate the print on every surface. I plan to ask Professor Terence Fagan at the start of Lab #4 to ensure that no mistakes are made in the future, if that is the case. Due to the small scale of the prints, the perimeter or wall thickness has no issue as the print was considered a success with no structural issues.
+A lot of possible mistakes that could have been made are likely to be within the settings, due to being most unfamiliar with navigation and what each setting does. Specifically, the setting for the perimeter is the most uncertain setting that was modified. Initially, we struggled to find a setting that would account for the print's thickness; we googled for guidance and were pointed to the perimeter setting. Information about it was generally vague. Describing the setting, we decided to keep the setting close to numerical values, as we believed that the value of 3, the value we selected, meant that 3 filled layers of the 0.4mm nozzle would encapsulate the print on every surface. I plan to ask Professor Terence Fagan at the start of Lab #4 to ensure that no mistakes are made in the future, if that is the case. Due to the small scale of the prints, the perimeter or wall thickness has no issue, as the print was considered a success with no structural issues.
 
-Regardless of lessons learned from mistakes, the goal for my model was to learn as much information about the details that the 3D prints could handle at such a scale. Such as how it can handle cylindrical curves; I now observe that to break down the curved section, the print creates overlapping layers on top of each other, getting closer and closer together to create the curved section. The sloped geometry showed similar results, with uniform overlapping layers as it climbed up the print. When the slope met the curved section, it used a wrapping technique that extended from the slope and met at the edge of the curved section. One struggle that the printer seemed to face was creating the hole within the bottom of the curved section, as it seemed to misprint the lines surrounding it, making it more like a drain with a gradient leading to the hole rather than just a cut cylinder from the body. Overall, there was a lot of interesting information to gather from such a small and simple print. It is important to note all of this down to carry on to the next project when designing.
+Regardless of lessons learned from mistakes, the goal for my model was to learn as much information about the details that the 3D prints could handle at such a scale. Such as how it can handle cylindrical curves, I now observe that to break down the curved section, the print creates overlapping layers on top of each other, getting closer and closer together to create the curved section. The sloped geometry showed similar results, with uniform overlapping layers as it climbed up the print. When the slope met the curved section, it used a wrapping technique that extended from the slope and met at the edge of the curved section. One struggle that the printer seemed to face was creating the hole within the bottom of the curved section, as it seemed to misprint the lines surrounding it, making it more like a drain with a gradient leading to the hole rather than just a cut cylinder from the body. Overall, there was a lot of interesting information to gather from such a small and simple print. It is important to note all of this down to carry on to the next project when designing.
+
+<img width="4032" height="3024" alt="IMG_5805" src="https://github.com/user-attachments/assets/f94d0576-3422-4565-900e-14ef659e8348" />
 
 Resources (5%)
 
@@ -128,5 +130,6 @@ Different Infill Patterns: https://help.prusa3d.com/article/infill-patterns_1771
 
 Infills affect on Mechanical Properties: https://www.mdpi.com/2504-477X/8/4/115
 
-3D Model: 
+3D Model: [geometry_print_test.prt](geometry_print_test.prt)
+
 
