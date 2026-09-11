@@ -1,7 +1,6 @@
 # Lab #4: Benchmark a Parameter
-
-## Benchmark Test: Tolerance Gauge Test
-
+<h1 align="center">Benchmark Test: Tolerance Gauge Test </h1>
+  
 ### Prediction
 I predict that my design will likely fail to be pushed through until it reaches the 0.33-inch diameter pins, the 3rd column. Based on my calculations, each increment in diameter decreases roughly by 0.01 inches. With the tolerance of each layer being roughly +-0.01 inches, it is likely for the pin with the "0.34" inch diameter to contain imperfections that contact each other and bind them together to become a singular body. Once we reach 0.33 inches, these imperfections are less likely to completely bind the 2 parts into one.
 
@@ -30,7 +29,7 @@ No Scaling was needed, as both Nicholas's and my models were scaled proportional
 
 Using Printer PC-13, we began by initializing the "Preheat" option to try to reduce the amount of time that we would take on the printer, as in our previous assignments we noticed that the time accounted for adding to the estimated time was due to this preheating. After uploading the G-Code to the USB, we moved to the printer, uploaded the file, and started the print.
 
-Print Time Estimated: 1 Hour 25 Minutes
+**Print Time Estimated: 1 Hour 25 Minutes**
 
 Once the print began and lifted off the baseplate, I immediately began to worry about the quality of the print and the tolerances it could handle. I worried my calculated measurements were inaccurate, rendering my prediction and test useless. Within the video below, near the end, you can see me begin to zoom in on the best-case pins, trying to observe the gaps between them. I'm concerned that either the printer or the settings aren't optimized to achieve the best tolerance results.
 
@@ -54,8 +53,15 @@ REMIND: Talk about text in lessons leanred
 *Current Progress on Printer Screen*
 <img width="4032" height="3024" alt="IMG_5833" src="https://github.com/user-attachments/assets/55353812-db1d-43e1-a438-20057ea469e3" />
 
+Once the Print was completed, the platform lowered and allowed us to access the models. You can observe in the lowered position below that the models were considerably messier than prior prints and required a substantial brush-off to clean them up to look presentable.
 
+<img width="4032" height="3024" alt="IMG_5835" src="https://github.com/user-attachments/assets/98c25801-e127-45c5-ae11-fabcfc5ff519" />
 
+**Final Time taken to print:** 1 hour 36 minutes
+
+To note this is likely due to us not preheating early enough on the printer, as we were able to quickly upload the G-code to the USB and then take it to the printer before the preheating process could complete.
+
+<img width="4032" height="3024" alt="IMG_5836" src="https://github.com/user-attachments/assets/aeca5c31-0b68-444d-a0f8-740929441dc2" />
 
 
 
