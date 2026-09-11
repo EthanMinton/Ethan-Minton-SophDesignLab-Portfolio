@@ -83,7 +83,11 @@ As I mentioned prior, one of the things that I noticed was the quality of the pr
 
 <img width="4032" height="1551" alt="IMG_5842" src="https://github.com/user-attachments/assets/031fee74-8608-49b7-b8d4-7aa687746cf9" />
 
-Another 
+Another lesson learned is how to take my CAD files and upload them into PrusaSlicer without the concern of geometric compression, the automatic mesh it creates that simplifies geometry. This is a very considerable issue here, as to measure tolernce accurately requires high precision within your geometry, and geometric meshes that make assumptions could ruin any real results from your test. A classmate was able to educate me on how I could work around these geometric meshes and obtain more accurate models within PrusaSlicer using a STEP file. If we instead save our CAD file in CREO as a STEP file rather than an STL file, it doesn't create the mesh that simplifies your geometry when it comes to printing. In the image below you can find the result of using a step file within Prusa.
+
+Remind: Use a STEP file in Prusa and get an image
+
+Similar to last week's lab, we ran into another issue with the time taken to print; due to the increased scale of our model, it was projected to take "1 Hour 25 Minutes." We attempted to preheat the printer to reduce any extra time but still faced some increase in time taken due to heating. A major concern that I have is a print failing later on in its print, requiring me to stay way later into the evening just to make sure that the print is completed and collected; with a strict lab time, this increases the stress. The change that I would make here is printing at a more optimal time. Thankfully, I now have access to the 3D lab with my Student ID, so I can make 3D prints at an earlier time in the day and ensure that if any issue arises, I can fix it without being too late.
 
 
 
