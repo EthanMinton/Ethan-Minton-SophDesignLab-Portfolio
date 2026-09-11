@@ -36,7 +36,7 @@ Once the print began and lifted off the baseplate, I immediately began to worry 
 
 
 <video controls width="100%">
-  <source src="videos/IMG_5829%20(1).mov" type="video/quicktime">
+    <source src="IMG_5829.mp4" type="video/mp4">
 </video>
 
 
