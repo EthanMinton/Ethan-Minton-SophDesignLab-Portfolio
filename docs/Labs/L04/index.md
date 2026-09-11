@@ -10,14 +10,14 @@ I predict that my design will likely fail to be pushed through until it reaches 
 
 #### PrusaSlicer
 
-The infill that I chose for the 3D print was 10% Honeycomb; this was chosen mainly due to time constraints and force redistribution without the cost of extra material and time. I initially wanted to attempt to use the Gyroid pattern but considered that the time I was predicted to take was roughly 1 hour and 25 minutes, with Nicholas's artifact included as well (the assignment specifies "Print time may not exceed one hour per artifact"). The pair of the 10% and honeycomb provide a adequite enough structure without having to cost us more materials and time.
+The infill that I chose for the 3D print was 10% Honeycomb; this was chosen mainly due to time constraints and force redistribution without the cost of extra material and time. I initially wanted to attempt to use the Gyroid pattern but considered that the time I was predicted to take was roughly 1 hour and 25 minutes, with Nicholas's artifact included as well (the assignment specifies "Print time may not exceed one hour per artifact"). The pair of the 10% and honeycomb provide a adequite enough structure without costing us more materials and time.
 
 No supports were used within either of our prints; this was a deliberate choice to avoid complications in measuring the tolerances of the pins within the holes. Any floating structures that require supports could introduce errors that throw off results. Although it is considered important to take into account these errors if you engage with tolerances with supports. But for the simplicity of the experiment, we choose to avoid them for now.
 
 The Chosen Build orientation shown below was decided to prioritize ease of printing and the effect on the tolerances; both Nicholas's and my models were input on their sides and required a rotational adjustment of 90 degrees to ensure that the base of the primary models and the pins are flush with the baseplate of the printer. If the model remained on its side, the individual pin models would have been floating and would have almost definitely introduced failure with the tolerances, rendering the experiment completely useless.
 
 Reminder: Picture of model on side
-Remind: PICTURE OF BUILD ORIENTATION
+Reminder: PICTURE OF BUILD ORIENTATION
 
 No Scaling was needed, as both Nicholas's and my models were scaled proportionally within CREO using inches as our scale. If we had scaled our models, it would completely ruin the test, as entirely new parameters would be introduced.
 
@@ -59,13 +59,32 @@ Once the Print was completed, the platform lowered and allowed us to access the 
 
 **Final Time taken to print:** 1 hour 36 minutes
 
-To note this is likely due to us not preheating early enough on the printer, as we were able to quickly upload the G-code to the USB and then take it to the printer before the preheating process could complete.
+To note, this is likely due to us not preheating early enough on the printer, as we were able to quickly upload the G-code to the USB and then take it to the printer before the preheating process could complete.
 
 <img width="4032" height="3024" alt="IMG_5836" src="https://github.com/user-attachments/assets/aeca5c31-0b68-444d-a0f8-740929441dc2" />
 
+## Lessons Learned
 
+### Results 
 
-## Objective
+After removing the 3D print from the baseplate, I found that my results lined up nearly exactly to what I predicted. Which, in the moment, genuinely surprised me based on how inconsistent and messy the print finished. After a small application of force to the "0.32" and "0.31" inch diameter pins, they were easily able to push through the cut holes in the primary part. When I applied force to the "0.33" bottom row, one was able to be pushed through without much difficulty but I found that the top one had a lot more resistance. I could tell that it was loose, as I could easily wiggle it, yet I decided to leave it within the primary as I didn't want to break any pieces. Despite any application of force, the "0.35" and "0.34" inch diameter pins were not able to be extracted and did not have any wiggle room. All of these results were generally expected, with some great insights into the tolerances the Core One machines have.
+
+In the picture below, you can observe the pins that were able to be extracted and the pins that were not able to be extracted. Note you can also observe the gap between the not-extracted "0.33" inch pin and the walls of the primary part. 
+
+<img width="4032" height="2258" alt="IMG_5838" src="https://github.com/user-attachments/assets/efff5f81-faaa-4fdf-bfe4-a89dcbb41c06" />
+
+Looking back at the Design Rules Chart (linked at the bottom within "Resources"), it stated that the minimum tolerence that Fused Deposition Modeling generally has a lower limit tolerance of 0.3 mm, which translates to about 0.011811 inches. I chose to use 0.01 increments for the pin diameters as an estimated value to show the results. Based on the chart, I assumed that it would work around "0.33" because each layer of the 3D print carried the +-0.011811 inches tolerance, which, in the setup I performed, meant that, in a worse case senarior the walls of the primary part and the walls of the pin could have a maximum inconsistency of 0.023622 inches. Well within the "0.35" and "0.34" range and even dipping below the "0.33" pin diameter, with the worst-case diameter required being 0.326378 inches. The fact that only one of the "0.33" inch pins could be safely extracted shows exactly how these tolerance ranges work, with inconsistencies more likely to happen the closer you approach the base value. It provides great value to have the double pin design here because it gave me the chance to observe that tolerance inconsistencies are inconsistent themselves.
+
+<img width="1243" height="77" alt="image" src="https://github.com/user-attachments/assets/78c9d18b-7605-4afb-abf1-c89411c0f66b" />
+
+### Future Changes
+
+As I mentioned prior, one of the things that I noticed was the quality of the print. Specifically, its effect on the imprinted text on the side of the primary model. The extrusion of the text was not nearly deep enough for the text to be easily legible at a glance. Taking a second to observe it, you can figure out what it all means, but an important factor when you create products such as these is that it needs to be easy for the observer to understand its use and what information it conveys. The attached photo below was edited with enhanced contrast, as the camera was not able to clearly capture the lettering. An easy solution here would be to just extrude the text deeper into the model so that the printer doesn't just lightly print the letters out. In this specific case it is unlikely this would be possible, though, as extruding the text deeper could interfere with the primary and pins tolerance interactions. It would be recommended to expand the width of the model more to prevent any issues such as this.
+
+<img width="4032" height="1551" alt="IMG_5842" src="https://github.com/user-attachments/assets/031fee74-8608-49b7-b8d4-7aa687746cf9" />
+
+Another 
+
 
 
 Remind: mention Elephant foot setting: 2 mm 
@@ -74,8 +93,4 @@ Remind: mention Elephant foot setting: 2 mm
 Design Rules for 3D Printing PDF: [Download Link](https://github.com/user-attachments/files/32124984/PL_3DP_Design_Rules_EN.1.pdf)
 
 Printables Tolerance Test Example: [Link to Page](https://www.printables.com/model/31843-tolerance-test/files)
-## Decide
-
-
-## Communicate
 
