@@ -10,6 +10,12 @@ Below are the logic and calculations I used when deciding the diameters of each 
 
 <img width="820" height="310" alt="Math Scratch Paper (23)" src="https://github.com/user-attachments/assets/a1c128bc-323a-4a4a-aa23-ea3d836b9de2" />
 
+Before modeling the design, I do want to give some credence to the design that I took inspiration from, as it gave me the idea to expand upon. The link to the page is found at the bottom within resources. 
+
+<img width="1917" height="987" alt="image" src="https://github.com/user-attachments/assets/5020ad20-e5fa-42de-b379-229896afb763" />
+
+The major change I wanted to make was to introduce a second row of pins with identical diameters to the pins in their column. This is to test the consistency of their tolerances to gain a better general understanding of how they work.
+
 #### CAD Modeling
 Starting the CAD modeling, I decided first to create the Primary Part, the holding piece that would contain the pins within itself. I did this by creating a rectangular sketch on the top datum plane, dimensioning it at 3 inches by 1 inch to create a proper plate to house all of the pins. I then extruded it roughly 0.2 inches off the base.
 
@@ -41,6 +47,9 @@ After completing the model, I then saved it as an STL file and prepared to uploa
 
 
 #### PrusaSlicer
+Remind: FInish Prusa Slicer explaination and measure tolerances.
+
+Once I was able to get ahold of Nicholas' and my files, I uploaded them to PrusaSlicer.
 
 The infill that I chose for the 3D print was 10% Honeycomb; this was chosen mainly due to time constraints and force redistribution without the cost of extra material and time. I initially wanted to attempt to use the Gyroid pattern but considered that the time I was predicted to take was roughly 1 hour and 25 minutes, with Nicholas's artifact included as well (the assignment specifies "Print time may not exceed one hour per artifact"). The pair of the 10% and honeycomb provide a adequite enough structure without costing us more materials and time.
 
