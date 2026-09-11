@@ -34,8 +34,12 @@ Print Time Estimated: 1 Hour 25 Minutes
 
 Once the print began and lifted off the baseplate, I immediately began to worry about the quality of the print and the tolerances it could handle. I was worried that my calculated measurements were either inaccurate, rendering my prediction and test as a whole useless. Within the video below, near the end, you can see me begin to zoom in on the best-case pins, trying to observe the gaps between them. In the moment, I was concerned that either the printer or the settings weren't optimized to achieve best tolerance results.
 
-<video src="[https://github.com/user-attachments/assets/0ceceebf-1528-44a6-a6eb-c96dce0764e4](https://github.com/user-attachments/assets/ccaab0e2-1499-4a8b-9833-012a265795ed)" controls style="max-width: 100%;">
+
+
+<video controls>
+  <source src="https://github.com/user-attachments/assets/cbfa0b1a-067c-45bd-b2a3-1f585fec1335">
 </video>
+
 
 
 
