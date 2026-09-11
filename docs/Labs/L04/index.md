@@ -32,17 +32,27 @@ Using Printer PC-13, we began by initializing the "Preheat" option to try to red
 
 Print Time Estimated: 1 Hour 25 Minutes
 
-Once the print began and lifted off the baseplate, I immediately began to worry about the quality of the print and the tolerances it could handle. I was worried that my calculated measurements were either inaccurate, rendering my prediction and test as a whole useless. Within the video below, near the end, you can see me begin to zoom in on the best-case pins, trying to observe the gaps between them. In the moment, I was concerned that either the printer or the settings weren't optimized to achieve best tolerance results.
+Once the print began and lifted off the baseplate, I immediately began to worry about the quality of the print and the tolerances it could handle. I worried my calculated measurements were inaccurate, rendering my prediction and test useless. Within the video below, near the end, you can see me begin to zoom in on the best-case pins, trying to observe the gaps between them. I'm concerned that either the printer or the settings aren't optimized to achieve the best tolerance results.
 
 
 <video controls width="100%">
     <source src="IMG_5829.mp4" type="video/mp4">
 </video>
 
+Remind: NEED TO FIX VIDEO
 
+In the photo below, you can find a still of the pins tolerances during the print. The print was a lot messier than our previous one, which is a big reason to why I was a lot more concerned with the final results. Note you can also see the 10% Honeycomb infill within the photo.
 
+<img width="4032" height="3024" alt="IMG_5831" src="https://github.com/user-attachments/assets/446cd02a-e2ad-44c4-b2b8-d92982b47fc2" />
 
+Here you can see that the printer has completed the primary models of both Nicholas's and my parts. If you observe closely, you can see the text that I placed on the side of the model identifying the diameters of the pins. I have more to say about this text within the lessons learned, but it mainly pertains to its depth and legibility.
 
+REMIND: Talk about text in lessons leanred
+
+<img width="4032" height="3024" alt="IMG_5832" src="https://github.com/user-attachments/assets/c3b4dbc1-e3e3-47f7-98dc-c0d6252f8991" />
+
+*Current Progress on Printer Screen*
+<img width="4032" height="3024" alt="IMG_5833" src="https://github.com/user-attachments/assets/55353812-db1d-43e1-a438-20057ea469e3" />
 
 
 
@@ -52,14 +62,12 @@ Once the print began and lifted off the baseplate, I immediately began to worry 
 ## Objective
 
 
-Elephant foot setting: 2 mm 
+Remind: mention Elephant foot setting: 2 mm 
 
-No supports
-No need for scale, modeled correctly
+## Resources
+Design Rules for 3D Printing PDF: [Download Link](https://github.com/user-attachments/files/32124984/PL_3DP_Design_Rules_EN.1.pdf)
 
-## Analyze
-
-
+Printables Tolerance Test Example: [Link to Page](https://www.printables.com/model/31843-tolerance-test/files)
 ## Decide
 
 
