@@ -1,5 +1,5 @@
-# Lab #4: Benchmark a Parameter
-<h1 align="center">Benchmark Test: Tolerance Gauge Test </h1>
+<h1 align="center">Lab #4: Benchmark a Parameter </h1>
+<h2 align="center">Benchmark Test: Tolerance Gauge Test </h2>
   
 ### Prediction
 I predict that my design will likely fail to be pushed through until it reaches the 0.33-inch diameter pins, the 3rd column. Based on my calculations, each increment in diameter decreases roughly by 0.01 inches. With the tolerance of each layer being roughly +-0.01 inches, it is likely for the pin with the "0.34" inch diameter to contain imperfections that contact each other and bind them together to become a singular body. Once we reach 0.33 inches, these imperfections are less likely to completely bind the 2 parts into one.
