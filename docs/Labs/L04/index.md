@@ -6,7 +6,39 @@ I predict that my design will likely fail to be pushed through until it reaches 
 
 ### Design
 
+Below are the logic and calculations I used when deciding the diameters of each of the Pin holes. I didn't want to run into any issues while modeling and inputting values that either won't work or will give data that isn't helpful. To explain it, I first grabbed the data from the Design Rules Chart of the lower limit tolerance for Fused Deposition Modeling, which sat at 0.3 mm. I then converted this value into inches, as I had planned to model using inches as my dimensional constraints. It converted to around 0.0118 inches, rounding it to 0.01 inches for simplicity of constraints should still perform correctly as predicted in the table.
+
+<img width="820" height="310" alt="Math Scratch Paper (23)" src="https://github.com/user-attachments/assets/a1c128bc-323a-4a4a-aa23-ea3d836b9de2" />
+
 #### CAD Modeling
+Starting the CAD modeling, I decided first to create the Primary Part, the holding piece that would contain the pins within itself. I did this by creating a rectangular sketch on the top datum plane, dimensioning it at 3 inches by 1 inch to create a proper plate to house all of the pins. I then extruded it roughly 0.2 inches off the base.
+
+<img width="1917" height="1097" alt="image" src="https://github.com/user-attachments/assets/3989d45d-1009-4b29-9972-1eb721a8338e" />
+
+Once we had the base for the Primary completed, I then created a new sketch on the top surface. This sketch would be the equal-diameter holes that the pins would be printed inside of. I started by first by creating 2 circles that were vertically constrained together with equal diameters. Moving down the columns until I had 5 pairs of circles sketched, all horizontally constrained together. I then constrained the first pair of circles to be 0.5 inches away from the edge of the Primary. I then used the equal constraint to set each of them to be distanced by the same value. Once they were horizontally all equidistant and symmetrical, I constrained the left top circle to be 0.25 inches from the top ledge. This kept the model completely symmetrical, as seen below. Once all distances had been established, I constrained them to have a diameter of 0.35 inches.
+
+<img width="1905" height="1100" alt="image" src="https://github.com/user-attachments/assets/51438132-11be-4240-8f4f-c648c671f413" />
+
+Once this sketch was finalized, it was then extruded completely downward to the bottom base.
+
+<img width="1916" height="1095" alt="image" src="https://github.com/user-attachments/assets/2b9efa66-314b-422a-9eda-dc4bc11c1ec0" />
+
+After the holes were completed, I moved on to creating the Pins. I started with a similar sort of pattern to the previous sketch by creating pairs of circles that were constrained to be vertically aligned with the same diameter. Once I had created all 5 pairs, I constrained their diameters to follow the incremented values within the table above. From left to right, 0.35, 0.34, 0.33, 0.32, 0.31 inches.
+
+<img width="1915" height="1102" alt="image" src="https://github.com/user-attachments/assets/86a0a776-6454-4acc-8c27-feab8ef644fe" />
+
+Once this sketch was completed, I then extruded them upward from the base 0.3 inches, a 0.1 difference from the height of primary.
+
+<img width="1910" height="1100" alt="image" src="https://github.com/user-attachments/assets/cb539fc7-9a1c-4f23-8248-c120cee23735" />
+
+Once the pins were complete, I then created a sketch on the side of the primary to extrude text that labeled each of the pins' diameters found above them. This was to keep them labeled but also to test out the 3D printer's capabilities in extruding the text properly. I decided to extrude them only about 0.015 inches as I wanted to avoid having the text interact with the tolerance test itself.
+
+<img width="1917" height="1100" alt="image" src="https://github.com/user-attachments/assets/e19ed12d-1bee-4fa1-9632-25d98c382c4d" />
+
+After completing the model, I then saved it as an STL file and prepared to upload it to PrusaSlicer.
+
+<img width="1916" height="1098" alt="image" src="https://github.com/user-attachments/assets/d83e00df-8e8c-49c0-b290-2356b3f74f89" />
+
 
 #### PrusaSlicer
 
