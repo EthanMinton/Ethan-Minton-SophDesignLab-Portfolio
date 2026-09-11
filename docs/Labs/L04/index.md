@@ -39,6 +39,12 @@ Once the print began and lifted off the baseplate, I immediately began to worry 
   <source src="https://github.com/user-attachments/assets/cbfa0b1a-067c-45bd-b2a3-1f585fec1335">
 </video>
 
+<video controls autoplay muted loop width="100%">
+  <source src="https://github.com/user-attachments/assets/8af9df34-0fb7-4f82-b2ac-bee8414d106d" type="video/mp4">
+</video>
+
+
+
 
 
 
