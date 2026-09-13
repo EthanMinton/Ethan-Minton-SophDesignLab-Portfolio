@@ -93,11 +93,7 @@ Using Printer PC-13, we began by initializing the "Preheat" option to try to red
 Once the print began and lifted off the baseplate, I immediately began to worry about the quality of the print and the tolerances it could handle. I worried my calculated measurements were inaccurate, rendering my prediction and test useless. Within the video below, near the end, you can see me begin to zoom in on the best-case pins, trying to observe the gaps between them. I'm concerned that either the printer or the settings aren't optimized to achieve the best tolerance results.
 
 
-
 [https://github.com/user-attachments/assets/48aa60a2-381f-4866-a76a-7111f278cd53](https://github.com/user-attachments/assets/48aa60a2-381f-4866-a76a-7111f278cd53)
-
-
-
 
 
 In the photo below, you can find a still of the pin tolerances during the print. The print was a lot messier than our previous one, which is a big reason to why I was a lot more concerned with the final results. Note that you can also see the 10% Honeycomb infill within the photo.
