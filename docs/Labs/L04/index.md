@@ -141,18 +141,19 @@ I measured some dimensions that I would consider significant to the test to gath
 <img width="4032" height="1967" alt="IMG_5857" src="https://github.com/user-attachments/assets/092020fb-a15d-468b-9aa0-30f958818ba8" />
 <img width="4032" height="2054" alt="IMG_5858" src="https://github.com/user-attachments/assets/f5b1ee95-bf9a-44e0-9271-84450c55a2e0" />
 
-I then took measurements of the hole left by the pins and 3 individually different pins to understand more about the accuracy of the print. As a reminder, the pin hole should have been roughly 0.35 inches, with the corresponding pin measurements being 0.33, 0.32, and 0.31 inches. It was found that the pin hole was roughly 0.3405 inches, with the pins going in largest to smallest order being 0.331 inches, 0.32 inches, and 0.03075 inches. The biggest standout was the pinhole diameter being nearly 0.01 inches off the dimensioned value. 
+I then took measurements of the hole left by the pins and 3 individually different pins to understand more about the accuracy of the print. As a reminder, the pin hole should have been roughly 0.35 inches, with the corresponding pin measurements being 0.33, 0.32, and 0.31 inches. It was found that the pin hole was roughly 0.3405 inches, with the pins going in largest-to-smallest order being 0.331 inches, 0.32 inches, and 0.03075 inches. The biggest standout was the pinhole diameter being nearly 0.01 inches off the dimensioned value. 
 
 <img width="4032" height="2285" alt="IMG_5859" src="https://github.com/user-attachments/assets/11897ea5-2feb-4e25-813b-dbf7463026f3" />
+<img width="4032" height="2161" alt="IMG_5863" src="https://github.com/user-attachments/assets/93ea32b6-7e0e-4e5f-99b9-dca63efddf4c" />
+<img width="4032" height="2276" alt="IMG_5864" src="https://github.com/user-attachments/assets/30a4fa03-a2d5-47d8-bba6-a398d61a1a5d" />
+<img width="4032" height="2243" alt="IMG_5865" src="https://github.com/user-attachments/assets/34645740-e958-42ed-9156-ae50f60520d2" />
 
 ### Future Changes
 
 As I mentioned prior, one of the things that I noticed was the quality of the print. Specifically, its effect on the imprinted text on the side of the primary model. The extrusion of the text was not nearly deep enough for the text to be easily legible at a glance. After a second, you can figure out what it means, but when you create products like this, it needs to be easy for the observer to understand its use and what information it conveys. The attached photo below was edited with enhanced contrast, as the camera was not able to clearly capture the lettering. An easy solution here would be to just extrude the text deeper into the model so that the printer doesn't just lightly print the letters out. In this specific case, it is unlikely this would be possible, though, as extruding the text deeper could interfere with the primary and pin tolerance interactions. It would be recommended to expand the width of the model more to prevent any issues such as this.
 
 <img width="4032" height="1551" alt="IMG_5842" src="https://github.com/user-attachments/assets/031fee74-8608-49b7-b8d4-7aa687746cf9" />
-<img width="4032" height="2161" alt="IMG_5863" src="https://github.com/user-attachments/assets/93ea32b6-7e0e-4e5f-99b9-dca63efddf4c" />
-<img width="4032" height="2276" alt="IMG_5864" src="https://github.com/user-attachments/assets/30a4fa03-a2d5-47d8-bba6-a398d61a1a5d" />
-<img width="4032" height="2243" alt="IMG_5865" src="https://github.com/user-attachments/assets/34645740-e958-42ed-9156-ae50f60520d2" />
+
 
 Another lesson learned is how to take my CAD files and upload them into PrusaSlicer without the concern of geometric compression, the automatic mesh it creates that simplifies geometry. This is a very considerable issue here, as to measure tolernce accurately requires high precision within your geometry, and geometric meshes that make assumptions could ruin any real results from your test. A classmate was able to educate me on how I could work around these geometric meshes and obtain more accurate models within PrusaSlicer using a STEP file. If we instead save our CAD file in CREO as a STEP file rather than an STL file, it doesn't create the mesh that simplifies your geometry when it comes to printing. In the image below, you can find the result of using a STEP file within Prusa.
 
