@@ -174,3 +174,4 @@ Design Rules for 3D Printing PDF: [Download Link](https://github.com/user-attach
 
 Printables Tolerance Test Example: [Link to Page](https://www.printables.com/model/31843-tolerance-test/files)
 
+Download CAD file: [Download Link](cylinder_tolerance_gauge_test.prt.2)
