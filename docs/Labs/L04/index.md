@@ -69,7 +69,7 @@ Outside of infill, the perimeter setting was set to 3 rounds for similar reasons
 
 <img width="1916" height="397" alt="image" src="https://github.com/user-attachments/assets/0af5f7f8-8dfa-4d47-88af-5f6791025901" />
 
-No supports were used within either of our prints; this was a deliberate choice to avoid complications in measuring the tolerances of the pins within the holes. Any floating structures that require supports could introduce errors that throw off results. Although it is considered important to take into account these errors if you engage with tolerances with supports. But for the simplicity of the experiment, we choose to avoid them for now.
+No supports were used within either of our prints; this was a deliberate choice to avoid complications in measuring the tolerances of the pins within the holes. Any floating structures that require supports could introduce errors that throw off results. Although it is considered important to take into account these errors if you engage with tolerances with supports. But for the simplicity of the experiment, we choose to avoid them for now. If supports had been required, they would have been enabled in PrusaSlicer under the Print Settings tab by selecting 'Everywhere' or 'For support enforcers only' from the Supports drop-down menu
 
 No Scaling was needed, as both Nicholas's and my models were scaled proportionally within CREO using inches as our scale. If we had scaled our models, it would completely ruin the test, as entirely new parameters would be introduced.
 
@@ -93,13 +93,14 @@ Using Printer PC-13, we began by initializing the "Preheat" option to try to red
 Once the print began and lifted off the baseplate, I immediately began to worry about the quality of the print and the tolerances it could handle. I worried my calculated measurements were inaccurate, rendering my prediction and test useless. Within the video below, near the end, you can see me begin to zoom in on the best-case pins, trying to observe the gaps between them. I'm concerned that either the printer or the settings aren't optimized to achieve the best tolerance results.
 
 
-<video controls width="100%">
-    <source src="IMG_5829.mp4" type="video/mp4">
-</video>
 
-Remind: NEED TO FIX VIDEO
+[https://github.com/user-attachments/assets/48aa60a2-381f-4866-a76a-7111f278cd53](https://github.com/user-attachments/assets/48aa60a2-381f-4866-a76a-7111f278cd53)
 
-In the photo below, you can find a still of the pins tolerances during the print. The print was a lot messier than our previous one, which is a big reason to why I was a lot more concerned with the final results. Note you can also see the 10% Honeycomb infill within the photo.
+
+
+
+
+In the photo below, you can find a still of the pin tolerances during the print. The print was a lot messier than our previous one, which is a big reason to why I was a lot more concerned with the final results. Note that you can also see the 10% Honeycomb infill within the photo.
 
 <img width="4032" height="3024" alt="IMG_5831" src="https://github.com/user-attachments/assets/446cd02a-e2ad-44c4-b2b8-d92982b47fc2" />
 
@@ -131,7 +132,7 @@ In the picture below, you can observe the pins that were able to be extracted an
 
 <img width="4032" height="2258" alt="IMG_5838" src="https://github.com/user-attachments/assets/efff5f81-faaa-4fdf-bfe4-a89dcbb41c06" />
 
-Looking back at the Design Rules Chart (linked at the bottom within "Resources"), it stated that the minimum tolerence that Fused Deposition Modeling generally has a lower limit tolerance of 0.3 mm, which translates to about 0.011811 inches. I chose to use 0.01 increments for the pin diameters as an estimated value to show the results. Based on the chart, I assumed that it would work around "0.33" because each layer of the 3D print carried the +-0.011811 inches tolerance, which, in the setup I performed, meant that, in a worse case senarior the walls of the primary part and the walls of the pin could have a maximum inconsistency of 0.023622 inches. Well within the "0.35" and "0.34" range and even dipping below the "0.33" pin diameter, with the worst-case diameter required being 0.326378 inches. The fact that only one of the "0.33" inch pins could be safely extracted shows exactly how these tolerance ranges work, with inconsistencies more likely to happen the closer you approach the base value. It provides great value to have the double pin design here because it gave me the chance to observe that tolerance inconsistencies are inconsistent themselves.
+Looking back at the Design Rules Chart (linked at the bottom within "Resources"), it stated that the minimum tolerance that Fused Deposition Modeling generally has a lower-limit tolerance of 0.3 mm, which translates to about 0.011811 inches. I chose to use 0.01 increments for the pin diameters as an estimated value to show the results. Based on the chart, I assumed that it would work around "0.33" because each layer of the 3D print carried the +-0.011811 inches tolerance, which, in the setup I performed, meant that, in a worst-case scenario, the walls of the primary part and the walls of the pin could have a maximum inconsistency of 0.023622 inches. Well within the "0.35" and "0.34" range and even dipping below the "0.33" pin diameter, with the worst-case diameter required being 0.326378 inches. The fact that only one of the "0.33" inch pins could be safely extracted shows exactly how these tolerance ranges work, with inconsistencies more likely to happen the closer you approach the base value. It provides great value to have the double pin design here because it gave me the chance to observe that tolerance inconsistencies are inconsistent themselves.
 
 <img width="1243" height="77" alt="image" src="https://github.com/user-attachments/assets/78c9d18b-7605-4afb-abf1-c89411c0f66b" />
 
@@ -141,7 +142,7 @@ As I mentioned prior, one of the things that I noticed was the quality of the pr
 
 <img width="4032" height="1551" alt="IMG_5842" src="https://github.com/user-attachments/assets/031fee74-8608-49b7-b8d4-7aa687746cf9" />
 
-Another lesson learned is how to take my CAD files and upload them into PrusaSlicer without the concern of geometric compression, the automatic mesh it creates that simplifies geometry. This is a very considerable issue here, as to measure tolernce accurately requires high precision within your geometry, and geometric meshes that make assumptions could ruin any real results from your test. A classmate was able to educate me on how I could work around these geometric meshes and obtain more accurate models within PrusaSlicer using a STEP file. If we instead save our CAD file in CREO as a STEP file rather than an STL file, it doesn't create the mesh that simplifies your geometry when it comes to printing. In the image below, you can find the result of using a step file within Prusa.
+Another lesson learned is how to take my CAD files and upload them into PrusaSlicer without the concern of geometric compression, the automatic mesh it creates that simplifies geometry. This is a very considerable issue here, as to measure tolernce accurately requires high precision within your geometry, and geometric meshes that make assumptions could ruin any real results from your test. A classmate was able to educate me on how I could work around these geometric meshes and obtain more accurate models within PrusaSlicer using a STEP file. If we instead save our CAD file in CREO as a STEP file rather than an STL file, it doesn't create the mesh that simplifies your geometry when it comes to printing. In the image below, you can find the result of using a STEP file within Prusa.
 
 <img width="1916" height="1087" alt="image" src="https://github.com/user-attachments/assets/2a535931-6377-4aee-a1e4-cf0e0bfbeb26" />
 
