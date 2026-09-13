@@ -133,6 +133,15 @@ Looking back at the Design Rules Chart (linked at the bottom within "Resources")
 
 <img width="1243" height="77" alt="image" src="https://github.com/user-attachments/assets/78c9d18b-7605-4afb-abf1-c89411c0f66b" />
 
+#### Measured Dimensions
+
+I measured some dimensions that I would consider significant to the test to gather some parameters of understanding of how accurate the printers can be. The first 3 images below are the width, length, and height. These 3 parameters were modeled to have dimensions of 1 inch, 3 inches, and 0.2 inches. The caliper found that they printed with a width, length, and height of 1.0095 inches, 2.9985 inches, and 0.2015 inches, respectively. 
+
+<img width="4032" height="1887" alt="IMG_5856" src="https://github.com/user-attachments/assets/097fa178-faa0-4ec0-aa7b-ee438e979df2" />
+<img width="4032" height="1967" alt="IMG_5857" src="https://github.com/user-attachments/assets/092020fb-a15d-468b-9aa0-30f958818ba8" />
+<img width="4032" height="2054" alt="IMG_5858" src="https://github.com/user-attachments/assets/f5b1ee95-bf9a-44e0-9271-84450c55a2e0" />
+
+
 ### Future Changes
 
 As I mentioned prior, one of the things that I noticed was the quality of the print. Specifically, its effect on the imprinted text on the side of the primary model. The extrusion of the text was not nearly deep enough for the text to be easily legible at a glance. After a second, you can figure out what it means, but when you create products like this, it needs to be easy for the observer to understand its use and what information it conveys. The attached photo below was edited with enhanced contrast, as the camera was not able to clearly capture the lettering. An easy solution here would be to just extrude the text deeper into the model so that the printer doesn't just lightly print the letters out. In this specific case, it is unlikely this would be possible, though, as extruding the text deeper could interfere with the primary and pin tolerance interactions. It would be recommended to expand the width of the model more to prevent any issues such as this.
@@ -147,6 +156,7 @@ Another lesson learned is how to take my CAD files and upload them into PrusaSli
 Similar to last week's lab, we ran into another issue with the time taken to print; due to the increased scale of our model, it was projected to take "1 Hour 25 Minutes." We attempted to preheat the printer to reduce any extra time but still faced some increase in time taken due to heating. A major concern that I have is a print failing later on in its print, requiring me to stay way later into the evening just to make sure that the print is completed and collected; with a strict lab time, this increases the stress. The change that I would make here is printing at a more optimal time. Thankfully, I now have access to the 3D lab with my Student ID, so I can make 3D prints at an earlier time in the day and ensure that if any issue arises, I can fix it without being too late.
 
 The last lesson would likely be to optimize the material usage and modeling of my CAD. If we look at the final print, one key issue that I struggled with was the time taken to print and the material usage. Of course, I was printing with a pair, so it took longer; that fact, on my part, took the majority of the time that was expected. If I could go back to the start of this lab, I would almost definitely optimize the modelling process. If you look at the final print below, one of the biggest issues with the model itself is the dead space that is left over on the left and right edges. When I was designing the model, I was conversing with the class TA, Nicholas Teixeira, as I was concerned about how the tolerances could end up, and he mentioned the idea of reducing the height and width of the model itself to allow for any possible reprints to move along quicker. The original test did work out, but it provided a lot of insight into the fact that looks and optimization are extremely important when designing to maximize your ability to test. If I were to design another test, I would decrease the width and overall height of the model to focus more on the test without taking nearly an hour to print alone.
+
 
 Total Time Taken: 6 Hours 30 Minutes
 
