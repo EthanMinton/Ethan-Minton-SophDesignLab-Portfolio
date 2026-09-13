@@ -47,28 +47,46 @@ After completing the model, I then saved it as an STL file and prepared to uploa
 
 
 #### PrusaSlicer
-Remind: FInish Prusa Slicer explaination and measure tolerances.
 
-Once I was able to get ahold of Nicholas' and my files, I uploaded them to PrusaSlicer.
+When directly uploading the STL file into Prusa Slicer it places it on its side.
 
-The infill that I chose for the 3D print was 10% Honeycomb; this was chosen mainly due to time constraints and force redistribution without the cost of extra material and time. I initially wanted to attempt to use the Gyroid pattern but considered that the time I was predicted to take was roughly 1 hour and 25 minutes, with Nicholas's artifact included as well (the assignment specifies "Print time may not exceed one hour per artifact"). The pair of the 10% and honeycomb provide a adequite enough structure without costing us more materials and time.
-
-No supports were used within either of our prints; this was a deliberate choice to avoid complications in measuring the tolerances of the pins within the holes. Any floating structures that require supports could introduce errors that throw off results. Although it is considered important to take into account these errors if you engage with tolerances with supports. But for the simplicity of the experiment, we choose to avoid them for now.
+<img width="1917" height="1097" alt="image" src="https://github.com/user-attachments/assets/358056e2-83ac-448c-b0a3-94bdf6ee05e3" />
 
 The Chosen Build orientation shown below was decided to prioritize ease of printing and the effect on the tolerances; both Nicholas's and my models were input on their sides and required a rotational adjustment of 90 degrees to ensure that the base of the primary models and the pins are flush with the baseplate of the printer. If the model remained on its side, the individual pin models would have been floating and would have almost definitely introduced failure with the tolerances, rendering the experiment completely useless.
 
-Reminder: Picture of model on side
-Reminder: PICTURE OF BUILD ORIENTATION
+<img width="1917" height="1067" alt="image" src="https://github.com/user-attachments/assets/d0a67919-991c-42c3-83fe-765626c8a9d8" />
+
+Once I was able to get a hold of Nicholas' file, I uploaded them to my PrusaSlicer. I pulled it over to the side and preformed the same 90 rotation I preformed previously.
+
+<img width="1917" height="1075" alt="image" src="https://github.com/user-attachments/assets/a9dc032b-2b01-466e-b095-340a47298496" />
+
+
+The infill that I chose for the 3D print was 10% Honeycomb; this was chosen mainly due to time constraints and force redistribution without the cost of extra material and time. I initially wanted to attempt to use the Gyroid pattern but considered that the time I was predicted to take was roughly 1 hour and 25 minutes, with Nicholas's artifact included as well (the assignment specifies "Print time may not exceed one hour per artifact"). The pair of the 10% and honeycomb provide a adequite enough structure without costing us more materials and time.
+
+<img width="1915" height="306" alt="image" src="https://github.com/user-attachments/assets/890894cb-4ae5-401c-a0d9-011d6a125850" />
+
+Outside of infill, the perimeter setting was set to 3 rounds for similar reasons to prioritize time and material while also keeping enough structure so that the test could be performed without structural issues.
+
+<img width="1916" height="397" alt="image" src="https://github.com/user-attachments/assets/0af5f7f8-8dfa-4d47-88af-5f6791025901" />
+
+No supports were used within either of our prints; this was a deliberate choice to avoid complications in measuring the tolerances of the pins within the holes. Any floating structures that require supports could introduce errors that throw off results. Although it is considered important to take into account these errors if you engage with tolerances with supports. But for the simplicity of the experiment, we choose to avoid them for now.
 
 No Scaling was needed, as both Nicholas's and my models were scaled proportionally within CREO using inches as our scale. If we had scaled our models, it would completely ruin the test, as entirely new parameters would be introduced.
 
+When researching how to properly perform the test, I came across a setting called the Elephant Foot setting; it is described as a setting that can benefit tolerance tests such as these by reducing the first layer's width by a specific value to compensate against the filament flattening and expanding from the layers above it. I decided this would be a great moment to test it out for the benefit of the test. It was set to 2mm.
+
+<img width="1912" height="31" alt="image" src="https://github.com/user-attachments/assets/f4fdbd01-a99f-4744-be12-20e70ce93ed3" />
+
+Once all of these settings were established, I then sliced the model and received the result below.
+
+<img width="1917" height="1085" alt="Screenshot 2026-09-10 132116" src="https://github.com/user-attachments/assets/66e8144c-ba80-482b-a2fe-61ced27f46be" />
 
 ### Printing 
 
 **G-Code**
 <img width="936" height="87" alt="Screenshot 2026-09-10 132150" src="https://github.com/user-attachments/assets/87eec813-5bc9-472e-b114-3cdff0ac78d9" />
 
-Using Printer PC-13, we began by initializing the "Preheat" option to try to reduce the amount of time that we would take on the printer, as in our previous assignments we noticed that the time accounted for adding to the estimated time was due to this preheating. After uploading the G-Code to the USB, we moved to the printer, uploaded the file, and started the print.
+Using Printer PC-13, we began by initializing the "Preheat" option to try to reduce the amount of time that we would take on the printer, as in our previous assignments we noticed that the time accounted for in the estimated time was due to this preheating. After uploading the G-Code to the USB, we moved to the printer, uploaded the file, and started the print.
 
 **Print Time Estimated: 1 Hour 25 Minutes**
 
@@ -85,9 +103,8 @@ In the photo below, you can find a still of the pins tolerances during the print
 
 <img width="4032" height="3024" alt="IMG_5831" src="https://github.com/user-attachments/assets/446cd02a-e2ad-44c4-b2b8-d92982b47fc2" />
 
-Here you can see that the printer has completed the primary models of both Nicholas's and my parts. If you observe closely, you can see the text that I placed on the side of the model identifying the diameters of the pins. I have more to say about this text within the lessons learned, but it mainly pertains to its depth and legibility.
+Here you can see that the printer has completed the primary models of both Nicholas's and my parts. If you look closely, you can see the text I placed on the side of the model identifying the pin diameters. I have more to say about this text within the lessons learned, but it mainly pertains to its depth and legibility.
 
-REMIND: Talk about text in lessons leanred
 
 <img width="4032" height="3024" alt="IMG_5832" src="https://github.com/user-attachments/assets/c3b4dbc1-e3e3-47f7-98dc-c0d6252f8991" />
 
@@ -120,21 +137,22 @@ Looking back at the Design Rules Chart (linked at the bottom within "Resources")
 
 ### Future Changes
 
-As I mentioned prior, one of the things that I noticed was the quality of the print. Specifically, its effect on the imprinted text on the side of the primary model. The extrusion of the text was not nearly deep enough for the text to be easily legible at a glance. Taking a second to observe it, you can figure out what it all means, but an important factor when you create products such as these is that it needs to be easy for the observer to understand its use and what information it conveys. The attached photo below was edited with enhanced contrast, as the camera was not able to clearly capture the lettering. An easy solution here would be to just extrude the text deeper into the model so that the printer doesn't just lightly print the letters out. In this specific case it is unlikely this would be possible, though, as extruding the text deeper could interfere with the primary and pins tolerance interactions. It would be recommended to expand the width of the model more to prevent any issues such as this.
+As I mentioned prior, one of the things that I noticed was the quality of the print. Specifically, its effect on the imprinted text on the side of the primary model. The extrusion of the text was not nearly deep enough for the text to be easily legible at a glance. After a second, you can figure out what it means, but when you create products like this, it needs to be easy for the observer to understand its use and what information it conveys. The attached photo below was edited with enhanced contrast, as the camera was not able to clearly capture the lettering. An easy solution here would be to just extrude the text deeper into the model so that the printer doesn't just lightly print the letters out. In this specific case, it is unlikely this would be possible, though, as extruding the text deeper could interfere with the primary and pin tolerance interactions. It would be recommended to expand the width of the model more to prevent any issues such as this.
 
 <img width="4032" height="1551" alt="IMG_5842" src="https://github.com/user-attachments/assets/031fee74-8608-49b7-b8d4-7aa687746cf9" />
 
-Another lesson learned is how to take my CAD files and upload them into PrusaSlicer without the concern of geometric compression, the automatic mesh it creates that simplifies geometry. This is a very considerable issue here, as to measure tolernce accurately requires high precision within your geometry, and geometric meshes that make assumptions could ruin any real results from your test. A classmate was able to educate me on how I could work around these geometric meshes and obtain more accurate models within PrusaSlicer using a STEP file. If we instead save our CAD file in CREO as a STEP file rather than an STL file, it doesn't create the mesh that simplifies your geometry when it comes to printing. In the image below you can find the result of using a step file within Prusa.
+Another lesson learned is how to take my CAD files and upload them into PrusaSlicer without the concern of geometric compression, the automatic mesh it creates that simplifies geometry. This is a very considerable issue here, as to measure tolernce accurately requires high precision within your geometry, and geometric meshes that make assumptions could ruin any real results from your test. A classmate was able to educate me on how I could work around these geometric meshes and obtain more accurate models within PrusaSlicer using a STEP file. If we instead save our CAD file in CREO as a STEP file rather than an STL file, it doesn't create the mesh that simplifies your geometry when it comes to printing. In the image below, you can find the result of using a step file within Prusa.
 
-Remind: Use a STEP file in Prusa and get an image
+<img width="1916" height="1087" alt="image" src="https://github.com/user-attachments/assets/2a535931-6377-4aee-a1e4-cf0e0bfbeb26" />
+
 
 Similar to last week's lab, we ran into another issue with the time taken to print; due to the increased scale of our model, it was projected to take "1 Hour 25 Minutes." We attempted to preheat the printer to reduce any extra time but still faced some increase in time taken due to heating. A major concern that I have is a print failing later on in its print, requiring me to stay way later into the evening just to make sure that the print is completed and collected; with a strict lab time, this increases the stress. The change that I would make here is printing at a more optimal time. Thankfully, I now have access to the 3D lab with my Student ID, so I can make 3D prints at an earlier time in the day and ensure that if any issue arises, I can fix it without being too late.
 
-The last lesson would likely be to optimize the material usage and modeling of my CAD. If we look at the final print, one key issue that I struggled with was the time taken to print and the material usage. Of course, I was printing with a pair so it took longer; that fact, on my part, took a majority of the time that was expected. If I could go back to the start of this lab, I would almost definitely optimize the modelling process. If you look at the final print below, one of the biggest issues with the model itself is the dead space that is left over on the left and right edges. When I was designing the model I was conversing with the class TA, Nicholas Teixeira, as I was concerned about how the tolerances could end up, and he mentioned the idea of reducing the height and width of the model itself to allow for any possible reprints to move along quicker. The original test did work out, but it provided a lot of insight to the fact that looks and optimization are extremely important when designing to maximize your ability to test. If I were to design another test I would decrease the width and overall height of the model to focus more on the test without taking nearly an hour to print alone.
+The last lesson would likely be to optimize the material usage and modeling of my CAD. If we look at the final print, one key issue that I struggled with was the time taken to print and the material usage. Of course, I was printing with a pair, so it took longer; that fact, on my part, took the majority of the time that was expected. If I could go back to the start of this lab, I would almost definitely optimize the modelling process. If you look at the final print below, one of the biggest issues with the model itself is the dead space that is left over on the left and right edges. When I was designing the model, I was conversing with the class TA, Nicholas Teixeira, as I was concerned about how the tolerances could end up, and he mentioned the idea of reducing the height and width of the model itself to allow for any possible reprints to move along quicker. The original test did work out, but it provided a lot of insight into the fact that looks and optimization are extremely important when designing to maximize your ability to test. If I were to design another test, I would decrease the width and overall height of the model to focus more on the test without taking nearly an hour to print alone.
 
 Total Time Taken: 6 Hours 30 Minutes
 
-Remind: mention Elephant foot setting: 2 mm 
+ 
 
 ## Resources
 Design Rules for 3D Printing PDF: [Download Link](https://github.com/user-attachments/files/32124984/PL_3DP_Design_Rules_EN.1.pdf)
