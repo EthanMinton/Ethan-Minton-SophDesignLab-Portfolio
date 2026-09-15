@@ -141,7 +141,7 @@ I measured some dimensions that I would consider significant to the test to gath
 <img width="4032" height="1967" alt="IMG_5857" src="https://github.com/user-attachments/assets/092020fb-a15d-468b-9aa0-30f958818ba8" />
 <img width="4032" height="2054" alt="IMG_5858" src="https://github.com/user-attachments/assets/f5b1ee95-bf9a-44e0-9271-84450c55a2e0" />
 
-I then took measurements of the hole left by the pins and 3 individually different pins to understand more about the accuracy of the print. As a reminder, the pin hole should have been roughly 0.35 inches, with the corresponding pin measurements being 0.33, 0.32, and 0.31 inches. It was found that the pin hole was roughly 0.3405 inches, with the pins going in largest-to-smallest order being 0.331 inches, 0.32 inches, and 0.03075 inches. The biggest standout was the pinhole diameter being nearly 0.01 inches off the dimensioned value. 
+I then took measurements of the hole left by the pins and 3 individually different pins to understand more about the accuracy of the print. As a reminder, the pin hole should have been roughly 0.35 inches, with the corresponding pin measurements being 0.33, 0.32, and 0.31 inches. It was found that the pin hole was roughly 0.3405 inches, with the pins going in largest-to-smallest order being 0.331 inches, 0.32 inches, and 0.3075 inches. The biggest standout was the pinhole diameter being nearly 0.01 inches off the dimensioned value. 
 
 <img width="4032" height="2285" alt="IMG_5859" src="https://github.com/user-attachments/assets/11897ea5-2feb-4e25-813b-dbf7463026f3" />
 <img width="4032" height="2161" alt="IMG_5863" src="https://github.com/user-attachments/assets/93ea32b6-7e0e-4e5f-99b9-dca63efddf4c" />
