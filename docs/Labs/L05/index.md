@@ -74,7 +74,8 @@ The next variable that was selected was the max deflection defined by DEFL = 0.0
 
 The variable for Base was assigned to the variable B a value of 0.5 inches; the value was applied to the extrusion of the sketch so that any altercation to the base will then result in the entire sketch model being redefined.
 
-<img width="647" height="133" alt="image" src="https://github.com/user-attachments/assets/0ab08176-c004-49c1-bb44-aba1bb0b6640" />
+<img width="1362" height="997" alt="image" src="https://github.com/user-attachments/assets/f91149e5-a608-4faa-86d6-c156e940515d" />
+
 
 Going back to the initial sketch, I then defined the Length of the model with a combination of all of the defined variables: Base B = 0.5 inches, thickness T = 0.14 inches, the max deflection DEFL = 0.08, and the variable F_T = 1.5 lbf for the transverse force applied. All combined into "((DEFL * E * B* (T^3))/(4 * F_T))^(1/3)" allows for any change in the values listed above to directly alter the length upon regeneration. As proven by our previous calculations. The length was found to be roughly 1.84 inches long. Similar to the thickness, this length was applied using the equal constraints to both the left and right components, so any changes to the variables derived would change both lengths simultaneously.
 
