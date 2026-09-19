@@ -26,23 +26,25 @@ We are asked to solve for the length of our Snap-fit based on our previous assum
 
 <img width="820" height="493" alt="Math Scratch Paper (25)" src="https://github.com/user-attachments/assets/a4000d4d-a61d-4080-b06f-74ca4a63d0b9" />
 
-### Solving for Stresses 
+## Solving for Stresses 
 
-#### Bending
+### Bending
 
 The next set of calculations solves for the different stresses that will be applied to our snap-fit. As is known from Solid Mechanics, the greatest impact of stress often comes from bending applied to our structures. The fact remains true here: as we formulate the bending stress and solve with our now-known values, we find that the stress is calculated to be around 1,689.8 PSI, just under our limit of 1873.1 PSI.
 
-#### Axial 
+<img width="820" height="482" alt="Math Scratch Paper (26)" src="https://github.com/user-attachments/assets/e302af4a-8406-4f21-ab6b-5e1b24f87cb4" />
 
-This calculation is to measure whether or not the snap fit can properly take the applied load of 10 pounds of force being applied to its end in tension. I expected the part to be able to properly handle such stress, as the strength was considered extremely high for the max load to be applied. Another factor to note with axial is that the 10 lbf of force will be equally distributed to 2 sides of the clip, as both will be attached as 1 when the force is applied. Taking this into consideration for our calculations by halving the force, we find an axial stress applied at 71.43 PSI. 
+### Axial 
 
-#### Shear 
+This calculation is to measure whether or not the snap fit can properly take the applied load of 10 pounds of force being applied to its end in tension. I expected the part to be able to properly handle such stress, as the strength was considered extremely high for the max load to be applied. Another factor to note with axial loading is that the 10 lbf of force will be equally distributed to 2 sides of the clip, as both will be attached as 1 when the force is applied. Taking this into consideration for our calculations by halving the force, we find an axial stress applied at 71.43 PSI. 
 
-This calculation is to measure whether or not the Snap fit can properly take the applied load of 10 pounds of force on the interface between the deflection triangle and the rest of the structure to be bent. Due to 2 of the interfaces being found on the model similar to our axial stress being applied, we also divide this value by 2. 
+<img width="820" height="183" alt="Math Scratch Paper (27)" src="https://github.com/user-attachments/assets/1847f598-7950-418a-b1a4-0a3c9d211ecb" />
 
+### Shear 
 
+This calculation is to measure whether or not the Snap fit can properly take the applied load of 10 pounds of force on the interface between the deflection triangle and the rest of the structure to be bent. Due to 2 of the interfaces being found on the model similar to our axial stress being applied, we also divide this value by 2. Note that the value of T_L is 0.12 inches. This value was grabbed from a rough sketch of the model I was working on simultaneously to determine the cross-sectional area of the interface. Once we plugged in our values we found the average shear stress to be roughly 83.3 PSI.
 
-
+<img width="820" height="264" alt="Math Scratch Paper (28)" src="https://github.com/user-attachments/assets/5cdb3c92-7334-4798-9f71-95fad9332972" />
 
 
 ## Analyze
