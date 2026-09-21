@@ -225,13 +225,15 @@ The video below is a showcase of all 3 of the primary clips being performed. The
 </video>
 
 
+## Lessons Learned 
 
 
 
 
+## Resources 
 
-## Decide
-https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/?utm_source=gemini
+[https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/](https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/)
 
+[https://www.matweb.com/search/DataSheet.aspx?MatGUID=ab96a4c0655c4018a8785ac4031b9278&ckck=1](https://www.matweb.com/search/DataSheet.aspx?MatGUID=ab96a4c0655c4018a8785ac4031b9278&ckck=1)
 ## Communicate
 
