@@ -194,13 +194,42 @@ Secondary G-Code:
 <video src="https://github.com/user-attachments/assets/e53d8611-d5c4-4081-8c23-c4079d37fe4a" controls style="max-width: 100%;">
 </video>
 
-https://github.com/user-attachments/assets/e53d8611-d5c4-4081-8c23-c4079d37fe4a
+<img width="4032" height="3024" alt="IMG_5928 (1)" src="https://github.com/user-attachments/assets/7b542696-66d9-4803-90cf-46202e5321de" />
+
+Once the primary had completed its print, it took roughly 32 minutes 27 seconds. It was printed without any cause for major issues. 
+
+### Secondary 
+
+<img width="4032" height="3024" alt="IMG_5935" src="https://github.com/user-attachments/assets/87822f85-813f-4cc5-a020-bcd9227db589" />
+
+<img width="4032" height="3024" alt="IMG_5936" src="https://github.com/user-attachments/assets/2e9f0060-5b12-4a52-bc55-c3b86b6162c1" />
+
+Unlike the Primary, the secondary had a lot more issues that caused it to drag further than intended. As the plate for the printer kept requiring readjustments, the print took way longer than expected, at 1 hour and 14 minutes. Another note is that I was unable to obtain a video, as the print issues and then a required class I had to attend left me unable to access the print lab in being able to get a video of the active print.
+
+## Testing and Iteration 
+
+Once the models had been printed, I began to test them. I immediately found a new issue with the current updates to the models themselves. The primary clip deflection value, the value that determines the height of the lip of the model, was too short despite calculations that, when any amount of axial force was applied to the end of the clip, the Primary and Secondary would detach from each other through slippage. I had noticed this same issue with the Prototype model, although I assumed that the issue was due to the plastic deformation of the model and not the actually deflection value itself. This resulted in me changing the variable of the deflection to DEFL_ID, which was set to 0.14 inches in order to iterate and combat the failure of the math previously calculated.
+
+
+<img width="1360" height="991" alt="image" src="https://github.com/user-attachments/assets/010f1f89-c4c8-440b-b26e-709379a86753" />
+
+The new resulting clip looked like the one below.
+
+<img width="1367" height="1002" alt="image" src="https://github.com/user-attachments/assets/51407036-5180-4f1b-bc7e-4fec33c9e1dd" />
+
+Printing this model again with the same Prusa settings gave us the result we were looking for. The clip was able to withstand axial force applied without slippage and was able to resist any major plastic deformation.
+
+The video below is a showcase of all 3 of the primary clips being performed. The left clip was the prototype clip with the shorter deflection value, no round constraints, and longer length. Observe the plastic deformation applied and how easily it is pulled apart from the secondary part. The middle clip was the first version of the real design, with the shorter deflection value, the round constraints applied to reduce permanent deflection, and the shorter length. Observe how, despite its redesign, it continues to be pulled apart easily. The final clip is the final design with the iterated deflection of 0.14 inches, the same length as 2, and the added rounds. Observe its ability to resist the axial force and keep the overall clip together.
+
+<video src="https://github.com/user-attachments/assets/27dd4cf0-6b03-4739-b9a6-6370d9224fb9" controls style="max-width: 100%;">
+</video>
 
 
 
-Mention deflection in a real-life test. and saw slippage due to the rounded edges of prints.
 
-Mention changing the deflection variable to DEFL_ID for deflection iteration 
+
+
+
 ## Decide
 https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/?utm_source=gemini
 
