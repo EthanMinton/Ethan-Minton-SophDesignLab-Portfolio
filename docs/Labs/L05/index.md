@@ -163,7 +163,7 @@ For Supports, there was a setting called "Don't Support Bridge" that had to be d
 
 <img width="1575" height="31" alt="image" src="https://github.com/user-attachments/assets/1d788780-aef5-4c71-9252-f2742fc3093b" />
 
-
+To elaborate on Supports, I selected to use the "Everywhere" setting as I wanted to see how the computer would place them itself.
 
 Mention deflection in a real-life test. and saw slippage due to the rounded edges of prints.
 
