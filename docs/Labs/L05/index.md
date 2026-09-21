@@ -159,15 +159,47 @@ For infill, I chose the Gyroid setting because it's a print infill pattern I've 
 
 <img width="1637" height="97" alt="image" src="https://github.com/user-attachments/assets/758057b7-ad33-4609-9941-2b8c053b9cc3" />
 
-For Supports, there was a setting called "Don't Support Bridge" that had to be disabled; otherwise, supports couldn't actively support the bridges. Once disabled I was then allowed to have bridges with supports. 
+For Supports, there was a setting called "Don't Support Bridge" that had to be disabled; otherwise, supports couldn't actively support the bridges. Once disabled, I was then allowed to have bridges with supports. 
 
 <img width="1575" height="31" alt="image" src="https://github.com/user-attachments/assets/1d788780-aef5-4c71-9252-f2742fc3093b" />
 
-To elaborate on Supports, I selected to use the "Everywhere" setting as I wanted to see how the computer would place them itself.
+To elaborate on Supports, I selected to use the "Everywhere" setting as I wanted to see how the computer would place them itself. Changing the support structure to be organic. The assignment required us to use supports within our print, and I felt that if I had used supports for the Primary clip, it could lead to imperfections that could cause fractures to become more likely when in use. The supports for the Secondary housing unit would benefit it greatly based on its orientation. As the model standing upright would create a large bridge overhang that could be misprinted without supports. As mentioned prior, there is very little tolerance for the gap between, so any major imperfections could result in a print being rendered completely useless and would require a reprint. Its important to utilize supports to their full potential.
+
+<img width="1593" height="26" alt="image" src="https://github.com/user-attachments/assets/f4c4a043-24b2-4452-83ef-103884677b68" />
+
+### Slicing 
+
+Uploading the Primary Clip to Prusa, we are given a rough time estimate of 25 minutes; no supports needed. 
+
+<img width="1917" height="1048" alt="image" src="https://github.com/user-attachments/assets/4db4dec4-146c-4d37-85eb-37662c16d951" />
+
+Primary G-Code:
+
+<img width="880" height="76" alt="image" src="https://github.com/user-attachments/assets/da649aae-7f7d-4454-87c4-edaf0a427bec" />
+
+Uploading the Secondary Clip to Pruse, we were given a rough time estimate of 45 minutes; supports were added under the bridge and surrounding the model. 
+
+<img width="1886" height="1050" alt="image" src="https://github.com/user-attachments/assets/be1ca8b7-5c3c-4d90-a605-4416c01b95bb" />
+
+Secondary G-Code: 
+
+<img width="892" height="75" alt="image" src="https://github.com/user-attachments/assets/91099e6c-4f04-4fad-90a4-2de133c7fa58" />
+
+## Printing
+
+### Primary 
+
+<img width="4032" height="3024" alt="IMG_5923" src="https://github.com/user-attachments/assets/8989ed65-2eca-4614-8285-f8a4ef8be6c2" />
+
+
+
+https://github.com/user-attachments/assets/e53d8611-d5c4-4081-8c23-c4079d37fe4a
+
+
 
 Mention deflection in a real-life test. and saw slippage due to the rounded edges of prints.
 
-Mention Changing deflection variable to DEFL_ID for deflection iteration 
+Mention changing the deflection variable to DEFL_ID for deflection iteration 
 ## Decide
 https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/?utm_source=gemini
 
