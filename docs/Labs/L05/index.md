@@ -191,7 +191,8 @@ Secondary G-Code:
 
 <img width="4032" height="3024" alt="IMG_5923" src="https://github.com/user-attachments/assets/8989ed65-2eca-4614-8285-f8a4ef8be6c2" />
 
-
+<video src="https://github.com/user-attachments/assets/e53d8611-d5c4-4081-8c23-c4079d37fe4a" controls style="max-width: 100%;">
+</video>
 
 https://github.com/user-attachments/assets/e53d8611-d5c4-4081-8c23-c4079d37fe4a
 
