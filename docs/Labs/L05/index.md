@@ -62,7 +62,7 @@ Due to the deformation, the Clip would begin to easily slip out of the houser an
 
 ### Primary Clip
 
-The first model we worked on was the Primary model, or the Clip. This model was designed to take into account the failures of the prototype while applying our mathematics found above. Starting with defining the basic dimensions we selected and assigning them to variables. 
+The first model we worked on was the Primary model, or the Clip. This model was designed to take into account the failures of the prototype while applying the mathematics found above. Starting with defining the basic dimensions we selected and assigning them to variables. 
 
 These include the thickness variable defined by T = 0.14 inches. This particular variable was used to define the width of each of the 2 beam compoents, using the equal constraint; any change to T will impact both of the beams simultaneously.
 
@@ -95,16 +95,81 @@ The next 2 parameters were selected to define the piece of our part that would h
 
 <img width="1360" height="997" alt="image" src="https://github.com/user-attachments/assets/024e605f-7582-434d-8300-622697954fa4" />
 
-MENTION ROUND and how the prototype needed something to reduce perminate deformation.
+Once the model had been extruded, the final edit that I made was the rounding of all of the inner corners where the beams meet the base piece. I dimensioned it to a value of radius of 0.25 primarily because of how quickly and noticeably it was with the prototype. 
 
-### Parametric Design 
-## Analyze
+<img width="1360" height="1001" alt="image" src="https://github.com/user-attachments/assets/89681958-67dc-4b76-b279-493535380957" />
+
+### Secondary Base
+
+The Base is the simpler box structure that the clip portion is supposed to press into. I didn't think that it should be overengineered so I kept it simple. 
+
+I first began by creating a simple rectangular sketch, constraining the width of the feature with the constraint of SEC_WID, which is set to the value of 2 inches. I then constrained the length to the variable SEC_LEN, which was set to 0.5 inches. Initially, I wanted to set the length to be longer to mimic more a what a clip would actually look like, but opted for a shorter length for print time.
+
+<img width="1365" height="827" alt="image" src="https://github.com/user-attachments/assets/d5900072-e0f2-4506-85bf-0860e2376876" />
+
+<img width="1370" height="1000" alt="image" src="https://github.com/user-attachments/assets/40f9da8f-7c7e-4cdc-96a5-955cd7936ea5" />
+
+Once the Sketch had been completed, I then decided to constrain the height to a variable called SEC_HI, which was given the value of 1 inch.
+
+<img width="1368" height="998" alt="image" src="https://github.com/user-attachments/assets/e086ce95-6bb2-4ac5-b3ff-0b05a514df6a" />
+
+As seen in the bottom left, I then created a new sketch on the surface of the box previously modeled. I constrained the height of the box with a relation of 2 variables, BASE, which is the same base value we used within the Primary Clip, which was 0.5 inches, and TOL, a tolerance variable that was applied to our dimensions here. This variable was set to 0.02 inches; the value was derived based upon our previous print with the tolerance test, where we found roughly 0.02 inches of tolerance is needed for consistent ability to pass through. This results in a true height of 0.52 inches.
+
+<img width="1917" height="1057" alt="image" src="https://github.com/user-attachments/assets/e2f1d845-ac44-4bde-9070-66ddd1e775e9" />
+
+The next was the width of the mouth of this rectangle. Which was defined by, as seen again in the corner, MOUTH + TOL. MOUTH was a variable that equates to the previous value of the distance between the 2 beams found on our print; it was set to 1.6 inches. TOL, which equates to 0.02 inches, was added to this value to allow for our print to have a fit that wasn't considered too tight to be used. This equates to a total length of 1.62 inches.
+
+<img width="1917" height="1055" alt="image" src="https://github.com/user-attachments/assets/1c33d062-060b-4776-b15e-d4a151270673" />
+
+The 2 distance dimensions found on the top and bottom of the models utilize specialized equations that take into account the full length of the Secondary Part subtracting the length of the hole within its middle. Once subtracted it is then divided by 2. This gives us a product that will automatically center the hole within the model if any specific variable is changed or altered. For the horizontal constraint, the parameter is (SEC_WID - (MOUTH + TOL))/2, which equates to roughly 0.19 inches. The verticle constraint parameter is (SEC_HI - (BASE + TOL) )/2, which equates to roughly 0.24 inches.
+
+<img width="1917" height="1052" alt="image" src="https://github.com/user-attachments/assets/646db02f-d66b-4858-ac67-3eee58bccda8" />
+
+<img width="1916" height="1057" alt="image" src="https://github.com/user-attachments/assets/639588b0-bd08-4b23-8107-ec274b8b1b89" />
+
+Once the sketch was completed, I then dimensioned it so that it extrudes through the material entirely.
+
+<img width="1916" height="1055" alt="image" src="https://github.com/user-attachments/assets/45148fa1-0850-43ca-892c-a16331dd40b4" />
+
+The designs are found below.
+
+<img width="1366" height="996" alt="image" src="https://github.com/user-attachments/assets/58af8a5a-2633-402a-a2f7-fba9d4b8e1ec" />
+
+<img width="1361" height="997" alt="image" src="https://github.com/user-attachments/assets/2ce3fdc5-d98c-449c-bc5f-64873a84940b" />
+
+
+## Pre-Processing 
+
+### Research 
+To initialize, I did some research on 3D printing of Snap-Fits, using a found source from Protolabs Network (linked within resources). Stating that you should avoid ever printing the snap-fit cantilever beams in the vertical/Z-direction, as it introduces anisotropy where the material begins to behave differently depending on the direction of applied load. When printed vertically, tensile bending stresses pull directly across layer interfaces, relying on weak inter-layer adhesion and increasing the risk of delamination. This is supported by research on FDM mechanical properties, which demonstrates that parts printed flat (horizontal orientation) yield significantly higher flexural strength than those printed vertically. Because bending loads place the outer surfaces of the beam under maximum tension, orienting our flexure flat on the build plate ensures these stresses act parallel to continuous filament lines rather than pulling layer bonds apart, aligning directly with literature recommendations for parts under bending load.
+
+### Settings 
+
+Due to time constraints and availability to print, I opted to print the first attempt of the parts separately. While simultaniously keeping the same constraints and settings for simplicity.
+
+Keeping our basic layers and perimeter settings to the basics, with the most notable being the perimeters. I set the perimeters to be at a value of 3, as I felt that when performing the snap-fit, the snapping action and motion would almost definitely result in impacts on the surface that could damage or chip away if repeated enough times. To avoid this, I set it to 3 to give our model enough structure to handle it.
+
+<img width="1617" height="493" alt="image" src="https://github.com/user-attachments/assets/781e6e0a-e16e-43bd-ba23-4d50c3fc0f8e" />
+
+I left the skirt perimeter setting active, mainly because I think it gives a cool look while printing, but it also provides our print with a funnel check to ensure that the printing base is level and that the nozzle is primed to be able to print the actual model. A final test to prevent failure. This was especially important, as this time around I was not able to observe the prints throughout the entire process to prevent any major failures from damaging the print or the final model.
+
+<img width="1630" height="181" alt="image" src="https://github.com/user-attachments/assets/151651c4-c9cd-4839-9ba3-3f8fd4087ca4" />
+
+For infill, I chose the Gyroid setting because it's a print infill pattern I've wanted to use for a while, ever since it was explained in class. I decided to set this at 30% to give the print more structure and to prevent any major plastic deformation that would result from usage. 
+
+<img width="1637" height="97" alt="image" src="https://github.com/user-attachments/assets/758057b7-ad33-4609-9941-2b8c053b9cc3" />
+
+For Supports, there was a setting called "Don't Support Bridge" that had to be disabled; otherwise, supports couldn't actively support the bridges. Once disabled I was then allowed to have bridges with supports. 
+
+<img width="1575" height="31" alt="image" src="https://github.com/user-attachments/assets/1d788780-aef5-4c71-9252-f2742fc3093b" />
+
+
 
 Mention deflection in a real-life test. and saw slippage due to the rounded edges of prints.
 
 Mention Changing deflection variable to DEFL_ID for deflection iteration 
 ## Decide
-
+https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/?utm_source=gemini
 
 ## Communicate
 
