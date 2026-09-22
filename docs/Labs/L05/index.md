@@ -235,6 +235,8 @@ Another major lesson I learned was how important iteration is in engineering. Af
 
 I also learned that due to the slippage, parametric design becomes much more useful when a design needs to be changed multiple times. Because the important dimensions were controlled by variables, I did not have to completely remodel the part when I discovered the problem with the first design. I could change the variable and allow the model to update itself. This made the iteration process much easier and showed me why parametric modeling is useful for engineering applications where the first design is unlikely to be perfect.
 
+There were many lessons to learn and take away from this. The overarching theme is that Engineering requires iteration, and iterations over those iterations. It isn't a single easy process that can be predicted before any action is taken. You have to take steps forward, then steps back, and then forward again. It is important not to lose sight of the goal and the final design.
+
 Time spent, including all of the Printing times, is roughly 12 Hours 30 minutes. 
 ## Resources 
 
