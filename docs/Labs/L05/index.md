@@ -48,15 +48,15 @@ This calculation is to measure whether or not the Snap fit can properly take the
 
 ## Print Prototype - Eyeballed
 
-As stated prior, I wanted to gather real data so that I could iterate and understand how the PLA from our specific printers behaves with their mechanical processes. To note, the math performed above was done simultaneously with this print.  When performing a rough sketch of the math previously, I had assumed a much higher force would be applied, which had led to a much larger length of around 2.4 inches. Once printing this rough sketch of the snap-fit, I immediately noticed a problem when applying force to the part that had caused it to permanently deform. If we look at the formulas we had calculated above, length has a great impact on the amount of bending stress. I found that, when calculating the stress applied was roughly 6500 PSI with the assumption of only 5 lbf being applied. This was well over the limit of Stress allowed at 1,873.1 PSI.
+As stated previously, I wanted to gather real data so that I could iterate and understand how the PLA from our specific printers behaves with their mechanical processes. To note, the math performed above was done simultaneously with this print.  When performing a rough sketch of the math previously, I had assumed a much higher force would be applied, which had led to a much larger length of around 2.4 inches. Once printing this rough sketch of the snap-fit, I immediately noticed a problem when applying force to the part that had caused it to permanently deform. If we look at the formulas we had calculated above, length has a great impact on the amount of bending stress. I found that, when calculating the stress applied was roughly 6500 PSI with the assumption of only 5 lbf being applied. This was well over the limit of Stress allowed at 1,873.1 PSI.
 
-Remind: Image of original Clip model
+<img width="1367" height="997" alt="image" src="https://github.com/user-attachments/assets/755d042f-16fd-4f5c-9a45-061b308fe24d" />
 
-Remind: Image showing Clip deformation of prototype
 
-Remind: Video of Print
+<video src="https://github.com/user-attachments/assets/58a5f42c-ebf1-4d15-baf9-7bca7458cf26" controls style="max-width: 100%;">
+</video>
 
-Due to the deformation, the Clip would begin to easily slip out of the houser and rendered the build relatively useless. This is where I decided to make the assumption that the force applied was much lower to reduce the amount of length and bending stress applied to our build. This would result in the calculations you find above. 
+Due to the deformation, the Clip would begin to easily slip out of the housing and render the build relatively useless. This is where I decided to make the assumption that the force applied was much lower to reduce the amount of length and bending stress applied to our build. This would result in the calculations you find above. 
 
 ## Parametric Design
 
@@ -227,9 +227,15 @@ The video below is a showcase of all 3 of the primary clips being performed. The
 
 ## Lessons Learned 
 
+Honestly, the biggest lesson learned here is that the math doesn't always check out properly and that our assumptions can be completely incorrect and throw off our real-world applications. You can't assume everything to an accuracy without very deep and intensive research. I knew that primarily my assumption for the Material properties of PLA would very likely be considered not entirely accurate for the calculations I was performing. This is why I decided to print the Prototype model to get more of a general understanding of how the PLA used for the print behaves specifically.
 
+The Prototype ended up proving this point almost immediately. The model permanently deformed when force was applied, which showed that the assumptions I had made for the material and geometry did not represent the real behavior of the part very well. Even though the calculations gave me values that I could use to design the part, they did not account for every factor that would affect the actual printed component. Things such as the actual PLA being used, the printing process, layer bonding style, geometry, and the way the force was being applied all played a role in how the part behaved. This showed me that calculations should be used as a starting point for a design rather than being treated as a guarantee that the part will work.
 
+Another major lesson I learned was how important iteration is in engineering. After creating the first actual design based on the calculations, I found that the clip could still slip out of the housing even though the stresses were below the calculated allowable stress. This was another example of how something can appear to work mathematically but still have a problem when it is physically tested. I had originally assumed that the deflection value I calculated would provide enough engagement between the two components, but the physical test showed that this assumption was incorrect. I changed the DEFL variable from 0.08 inches to 0.14 inches, which increased the height of the lip and allowed the final design to stay engaged with the housing.
 
+I also learned that due to the slippage, parametric design becomes much more useful when a design needs to be changed multiple times. Because the important dimensions were controlled by variables, I did not have to completely remodel the part when I discovered the problem with the first design. I could change the variable and allow the model to update itself. This made the iteration process much easier and showed me why parametric modeling is useful for engineering applications where the first design is unlikely to be perfect.
+
+Time spent, including all of the Printing times, is roughly 12 Hours 30 minutes. 
 ## Resources 
 
 [https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/](https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/)
