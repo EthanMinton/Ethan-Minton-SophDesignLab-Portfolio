@@ -244,4 +244,6 @@ Time spent, including all of the Printing times, is roughly 12 Hours 30 minutes.
 
 [https://www.matweb.com/search/DataSheet.aspx?MatGUID=ab96a4c0655c4018a8785ac4031b9278&ckck=1](https://www.matweb.com/search/DataSheet.aspx?MatGUID=ab96a4c0655c4018a8785ac4031b9278&ckck=1)
 
+[primaryclipv3.prt.3](primaryclipv3.prt.3)
 
+[secondaryhouse.prt](secondaryhouse.prt)
