@@ -42,9 +42,22 @@ The last of these sets is the distance from the flat surface of the gap between 
 
 I want to note that these values are without any tolerances initially; this is primarily because a core concept for this snap fit is that it needs to be tight enough to properly grasp the shaft and transfer applied torque. If any iterations are applied to improve the design they will be mentioned and applied to the model to ensure success. I just wanted to note that this is supposed to be extremely tight to apply pressure properly.
 
-The step of the model is to 
+The step of the model is to define our geometric assumptions to calculate the length of the model. Starting with the thickness or the width of the beam, I initially chose to define the thickness as 0.15 inches. And assigned it to both dimensions, as you see in the screenshot below. I want to preface that assigning this dimension was extremely frustrating, as I attempted to make them both equal to each other, but every troubleshooting step altered something else. I spent roughly 25 minutes on this until I just decided to constrain both with the thickness value; it equates to the same parametric models when altered or regenerated. This value was selected to not require an overly thick model that would be too bulky when in use. 
+
+<img width="1916" height="840" alt="image" src="https://github.com/user-attachments/assets/82d93b5f-eeb0-498a-aef3-c50541d2f4b7" />
+
+The Base of the model is not a constraint that is defined by the predetermined geometry, with it being roughly the circumference of the cylinder divided by 4, the reason for the division will be elaborated on later. But the way we find the radius of the model is just by adding the bulb's diameter and the thickness of the model. When multiplied by Pi divided by 2, we find out the base is 1.22 inches.
+
+To calculate the length we were required to make a couple of more assumptions such as the Modulus of Elasticity which I assumed to be roughly around 200,000 PSI this is based on the previous assignment where I found that the 340,000 PSI was a measure that over estimated its Modulus. It repeatively gave a length way over what was actually able to be bend without plastic defomration I selected a reduced value to prevent this issue. If more information is gather out of any test prints it will be noted for future projects. Deflection was defined by the difference between the Bulbs and shafts diameters divided by 2, due to using a revolve feature this is best way to find this value which equated to 0.08 inches. The final variable to assume for the length is the force applied, similar to the previous project, I assumed the force to be 1.5 lbf, a very small value that could be realistically applied by a human finger.
+
+The equation below was used previously to calculate the length of a snap-fit with it being written out as "= ( ( "BASE" * "ELONG" * "THICK" ^ 3 * "DEFL" ) / ( 4 * "FORCE" ) ) ^ ( 1 / 3 )". This equation takes all the previously mentioned values and equates to a length of 2.2 inches.
+
+Remind: Talk about length of height of model, photo in first sketch, with added offset
+
 ## Decide
 
 
 ## Communicate
+Lesson learned
 
+mention troubleshooting thickness dimension 
