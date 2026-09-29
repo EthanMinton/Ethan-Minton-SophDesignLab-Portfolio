@@ -136,6 +136,9 @@ Below you can find a photo of the Print at the Start, Showing the base of the en
 
 The video shows a midstate of the Print with the Printer printing the infills, the walls, and the supports. 
 
+<video src="https://github.com/user-attachments/assets/326993e6-08b8-42d6-bca5-9342f4a7cde4" controls style="max-width: 100%;">
+</video>
+
 The final photo shows the final print with the model and support structure. 
 
 <img width="4032" height="3024" alt="IMG_6009" src="https://github.com/user-attachments/assets/4bb3d61d-eb0e-44f9-8b6d-7350856a05f1" />
