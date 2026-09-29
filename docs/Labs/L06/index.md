@@ -1,4 +1,4 @@
-# A6 – Design Fits for an artifact
+# Lab 6 – Design Fits for an artifact
 
 ## Objective
 
