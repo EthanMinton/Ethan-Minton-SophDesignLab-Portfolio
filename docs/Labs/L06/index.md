@@ -150,9 +150,15 @@ After all of the heating the print took 1 hour and 13 minutes to complete the pr
 
 ## Postprocessing 
 
+Once the model was removed I utilized 2 primary tools to remove the Support structure, this was the cutting pliers and the screw driver. Due to the orientation of the model I was unable to remove the supports simply with my hands using the Pliers I was able to cute and reach the inner branches and push them out with the screw driver. It took roughly 10 minutes to completely remove all supports as I was afraid of breaking the model when using the pliers. 
+
+After some quick testing the model had worked exactly as expected, the lack of any tolerances to the measured values gave the model a great snap fit that allowed for it to tightly grip the model without issue. When the model was spun the shaft of the motor spun as well which was exactly was I was attempting to do. If the situation did arise that required modification I would have used to previously mentioned tolerance variable within the Solidworks model to either take values away if our tolerances were too loose, or add to if our tolerances were too tight.
+
+
+
 ## Lessons Learned
 
-Real print time
+
 
 
 
