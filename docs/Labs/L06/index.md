@@ -6,6 +6,10 @@ Create a snap fit that can snap fit around a selected object in class. I decided
 
 <img width="4032" height="3024" alt="IMG_5997" src="https://github.com/user-attachments/assets/3ae817a5-9d9e-4868-9ab5-7a3a246823e2" />
 
+### General Idea Sketch 
+<img width="569" height="907" alt="Math Scratch Paper (30)" src="https://github.com/user-attachments/assets/c4254f01-3f78-4e75-8ed8-4f7357bd7f75" />
+
+
 ## Parametric Design
 
 ### Preplanning 
@@ -52,7 +56,29 @@ To calculate the length we were required to make a couple of more assumptions su
 
 The equation below was used previously to calculate the length of a snap-fit with it being written out as "= ( ( "BASE" * "ELONG" * "THICK" ^ 3 * "DEFL" ) / ( 4 * "FORCE" ) ) ^ ( 1 / 3 )". This equation takes all the previously mentioned values and equates to a length of 2.2 inches.
 
-Remind: Talk about length of height of model, photo in first sketch, with added offset
+Now, before I input this length, I want to mention the addition of an offset for the length. If our calculated value of length really means the distance that is required to bend our deflection value, meaning we must consider an additional length within our sketch to create an assumed rigid body that the "beam" will attach to and bend with. I was primarily concerned when deciding this value that the part could break into 2 if any force was applied that would cause deflection. I decided to set this value at 0.5 inches and added it to our calculated length to create the true length of the sketch.
+
+<img width="1916" height="1010" alt="image" src="https://github.com/user-attachments/assets/1a2fd430-d36b-4833-897a-b6f9ed7be44c" />
+
+Once fully defined, I then revolved the sketch around our originally created axis to form the product below.
+
+<img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/b093298b-9f6b-4dc4-baf6-ed66391f5bc8" />
+
+### Cut Extrusions
+
+The next step of the model was to perform 2 cut extrusions that will give our model flexibility to be able to be properly snap-fitted. Create 2 identical sketches below that are centered using the midpoint constraint tool with an assigned width of 0.2 inches and a height of the calculated length of 2.2 inches. This value for length is used here, as this determines what in our model actually flexes. 
+
+<img width="1917" height="1011" alt="image" src="https://github.com/user-attachments/assets/7b1f98e3-dbf2-49ab-8b39-d6399ee40a1d" />
+
+Once each of these sketches was created, they were then extruded through all in both directions to ensure that no part of the model that wasn't wanted was left.
+
+<img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/264069b2-0e0d-449f-94cb-c72566f3413a" />
+
+To note I decided to not include screenshots of the other sketch and cut extrusion of the other gap, it is exactly the same with all the same values and constraints. This is just to prevent any bloat, if further inspection is needed you can easily find the CAD model within the resources.
+
+Finalized CAD model for Prusa. 
+<img width="1916" height="1012" alt="image" src="https://github.com/user-attachments/assets/6ad4e7a7-8869-4e46-a061-4563fa36a8aa" />
+
 
 ## Decide
 
