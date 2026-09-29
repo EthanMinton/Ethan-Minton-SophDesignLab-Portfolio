@@ -75,10 +75,14 @@ Once each of these sketches was created, they were then extruded through all in 
 <img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/264069b2-0e0d-449f-94cb-c72566f3413a" />
 
 To note I decided to not include screenshots of the other sketch and cut extrusion of the other gap, it is exactly the same with all the same values and constraints. This is just to prevent any bloat, if further inspection is needed you can easily find the CAD model within the resources.
+### Finalized Model
 
-Finalized CAD model for Prusa. 
+**Finalized CAD model for Prusa.**
 <img width="1916" height="1012" alt="image" src="https://github.com/user-attachments/assets/6ad4e7a7-8869-4e46-a061-4563fa36a8aa" />
 
+**Finalized CAD Parameters and Variables**
+The list of variables below is the whole collection of parameters used when parametrically modeling our design. Each with a short attributed description describing what it is and how they were derived. To note, the Tolerance variable is currently unused, as for my hypothetical snap fit to function correctly it must be a tight fit. If iterated the tolerance variable will be used as needed, whether to shrink the model or increase it. 
+<img width="1815" height="267" alt="image" src="https://github.com/user-attachments/assets/46f7f9ae-6ed0-4c46-9180-12ff8275cba4" />
 
 ## Decide
 
