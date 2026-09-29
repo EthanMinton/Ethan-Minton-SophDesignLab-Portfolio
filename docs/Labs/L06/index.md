@@ -154,7 +154,7 @@ Once the model was removed I utilized 2 primary tools to remove the Support stru
 
 After some quick testing, the model worked exactly as expected; the lack of any tolerances to the measured values gave the model a great snap fit that allowed it to tightly grip the model without issue. When I spun the model, the motor shaft spun as well, which was exactly what I intended. If the situation did arise that required modification, I would have used the previously mentioned tolerance variable within the SolidWorks model to either take values away if our tolerances were too loose, or add to if our tolerances were too tight.
 
-
+<img width="4032" height="3024" alt="IMG_6012" src="https://github.com/user-attachments/assets/658a9d09-9e9d-4b33-a32d-620fdf90b621" />
 
 ## Lessons Learned
 
