@@ -1,4 +1,4 @@
-# Lab 6 – Design Fits for an artifact
+# Lab 6 – Design Fits for an Artifact
 
 ## Objective
 
@@ -102,7 +102,7 @@ Utilizing Prusa Slicer, I began to configure my settings for the Print. First ,I
 
 <img width="1917" height="1125" alt="image" src="https://github.com/user-attachments/assets/90baa600-23a0-4fdf-9e43-54c2ccc07f4a" />
 
-Configuring the Basic Settings: I decided to set the perimeter value to 3, similar to all previous lab experiments. I did this because I wanted to utilize the infill pattern while also having enough thickness within the wall that any friction or rubbing from the motorwon'tt easily chip or break the surface of the print itself. If it is too thick,nk the surface could chip easily,ily exposing the infill beneath; eath if it was too thick, it could reduce its ability to bend and properly function as a snap fit. With a 0.4 mm nozzle, the perimeter of 3 provides enough material around the outside of the snap-fit while still allowing the flexible sections to bend.
+Configuring the Basic Settings: I decided to set the perimeter value to 3, similar to all previous lab experiments. I did this because I wanted to utilize the infill pattern while also having enough thickness within the wall that any friction or rubbing from the motorwon'tt easily chip or break the surface of the print itself. If it is too thick,nk the surface could chip easily,ily exposing the infill beneath; eath if it was too thick, it could reduce its ability to bend and properly function as a snap fit. With a 0.4 mm nozzle, the perimeter of 3 provides a 1.2 mm wall thickness, enough material around the outside of the snap-fit while still allowing the flexible sections to bend.
 
 <img width="1612" height="192" alt="image" src="https://github.com/user-attachments/assets/f65188dd-b9fa-427b-a9fc-28b54ebbde05" />
 
@@ -158,7 +158,17 @@ After some quick testing, the model worked exactly as expected; the lack of any 
 
 ## Lessons Learned
 
+Throughout this process, I learned a lot about how difficult it can be to design a snap fit when the material properties and measurements are not perfectly known. The first lesson I learned was how important accurate measurements are when designing a part that needs to fit directly onto another component. When I initially measured the motor using the calipers provided in class, I received values that were considerably different when I attempted to measure the same features again. Because of this, I decided to use my electronic calipers after replacing the battery, which gave me much more consistent measurements. This showed me that even a small difference in measurement can have a significant effect when designing a tight-fitting component.
 
+Another major lesson I learned was how important properly setting up constraints in SolidWorks can be. One of the most frustrating parts of the design was attempting to make the thickness dimensions equal to each other. I spent roughly 25 minutes attempting different methods to make the two dimensions automatically equal, but each troubleshooting method I attempted caused another part of the sketch to change. Instead of continuing to waste time trying to force the dimensions to work, I decided to directly constrain both dimensions using the same thickness value of 0.15 inches. Although this was not the method I originally intended to use, it still created a fully parametric model because changing the thickness value would allow both dimensions to be changed consistently. This taught me that there can be multiple ways to create a parametric model, and sometimes the simplest method is more reliable than trying to force a specific constraint.
 
+I also learned that the assumed material properties can have a major effect on the final design. I initially used a modulus of elasticity of 340,000 PSI based on the previous snap-fit assignment. However, I found that this value resulted in a calculated length that was much larger than what I believed would work based on the actual behavior of the PLA. Because of this, I reduced the assumed modulus to approximately 200,000 PSI. This was done because I wanted the calculation to better represent the behavior I had observed from previous prints and avoid creating a snap fit that would require an unrealistic amount of material to bend.
 
-mention troubleshooting thickness dimension 
+Another lesson was that designing for a tight fit requires a balance between flexibility and strength. I originally did not include a tolerance in the main dimensions because the purpose of the design was to tightly grip the motor shaft and transfer torque. Instead, I relied on the calculated 0.08-inch deflection of the snap-fit arms to allow the arms to move over the larger bulb of the shaft and return toward the smaller shaft diameter. After printing the part, this approach worked as intended. The snap fit was able to attach to the motor, and when I rotated the printed component, the motor shaft rotated with it. This showed me that the calculated deflection could be used as an engineered allowance rather than simply adding a large amount of dimensional clearance.
+
+A lot of these lessons pertain directly to engineering principles and understanding of how they play out. It is always important to iterate based on past experiences and designs; the reason I was insistent on using PLA plastic for my print was that I already had experience with PLA when designing similar snap fits. I was even able to take my past knowledge and readjust previous mistakes, such as my assumption for the Modulus of Elasticity of PLA plastic. Recently, I struggled with how to properly parametrically model, but this assignment I feel like is my best for it. Taking the directly measured values of the Shaft and utilized them directly within the model and the calculations for the length. It felt like a genuine achievement and lessons to grow from.
+
+Time Taken: 10 Hours and 30 Minutes
+
+## Resources
+
