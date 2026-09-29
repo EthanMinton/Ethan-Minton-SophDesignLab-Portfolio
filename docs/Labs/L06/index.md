@@ -94,24 +94,61 @@ By saving the model in SolidWorks as a STEP file, I am able to transfer the CAD 
 
 <img width="940" height="72" alt="image" src="https://github.com/user-attachments/assets/98e64e2b-1817-41bc-80ac-8556c627be1c" />
 
-## PrusaSlicer
-Outline slicer settings and reasons for the settings.
+## Preprocessing
 
-Outline reasons for the size of supports used.
-What was the wall thickness?
-How many layers are used in the print?
-What is the layer thickness?
-What is the build volume of your print?
+PLA Plastic Utilized from 3D Printer
 
 Utilizing Prusa Slicer I began to configure my settings for the Print. First, beginning with inserting the model into Prusa. Initially, I wanted to have the model print vertically, standing up. Primarily because I wanted to prevent any complex supports that might be difficult to remove or damage the model itself. But I opted to print it horizontally for the overall strength benefit that comes with the layer boundaries being parallel to the length of the beams. The placement was considered to be in the middle of the plate to achieve maximum accuracy with the printer itself, avoiding any of the outer edges. The overall size is 0.9255 inches in the x direction, 2.7005 inches in the y direction, and 0.9255 inches in the z direction. 
 
 <img width="1917" height="1125" alt="image" src="https://github.com/user-attachments/assets/90baa600-23a0-4fdf-9e43-54c2ccc07f4a" />
 
+Configuring the Basic Settings I decided to set the perimeter value to 3, similar to all previous lab experiments I did this because I wanted to utilize the infill pattern while also having enough thickness within the wall that any friction or rubbing from the motor wont easily chip or break the surface of the print itself. If it is too think the surface could chip easily exposing the infill beneath if it was too thick it could reduce its ability to bend a properly function as a snap fit. With a 0.4 mm nozzle the perimeter of 3 provides enough material around the outside of the snap-fit while still allowing the flexible sections to bend.
+
+<img width="1612" height="192" alt="image" src="https://github.com/user-attachments/assets/f65188dd-b9fa-427b-a9fc-28b54ebbde05" />
+
+Once setting our perimeter value I moved onto setting the infill pattern and percentage, utilizing the Gyroid pattern at 30% infill. I chose these constraints similar to the previous lab as it gave positive results when tested. Enough area to bend and succeed without having plastic deformation that would ruin the overall design.
+
+<img width="1638" height="100" alt="image" src="https://github.com/user-attachments/assets/96dfaa21-39b7-40c4-bf82-885c0d80f191" />
+
+The layer height was set to 0.3 mm with the first layer being 0.35 mm, these settings were kept this way to primarily find the cost/benefit analysis based on time taken to print, compared to the benefit of accuracy. I can dedicate a lot more time to print by reducing these values but it will mean I will have to spend much more time on them. For the sake of a simple model these values work perfectly fine.
+
+<img width="1612" height="97" alt="image" src="https://github.com/user-attachments/assets/a12c1862-a53e-418a-be48-403bbf45ce29" />
+
+The last major setting was the dedication to support materials, due to the selected orientation of print my part horizontally it causes a great overhand that would almost definitely fail if supports were not used. I decided to choose to utilize the organic support structure as I find it easiest to remove without much complication and due to how the model is structure the process for removal is already going to be a very difficult issue to tackle. So the structure requires a lot of bulky large supports to support the large overhand while also avoiding interactions with the rest of the model. Another setting altered was turning off the "Don't Support Bridge" setting as it preventing the supports from supporting the large overhangs that required them. 
+
+<img width="1618" height="767" alt="image" src="https://github.com/user-attachments/assets/61e4d940-e007-41e3-b782-f2d4040a655e" />
+
+Once sliced we are able to observe a few key details that PrusaSlicer was able to give. Such as the Build volume being found at 0.86 inches cubed costing around 17.56 grams of filament. With a total of 78 layers of print it was estimated that print time would take around 1 hour 7 minutes. With over 20% of the time taken just being for the support material alone. This makes sense as in the image below was can see how much of an overhang there is and all of the structures that require supports.
+
+<img width="1897" height="1117" alt="image" src="https://github.com/user-attachments/assets/4d00880b-3b8a-4fe7-8e79-7c82bbb92be9" />
+
+Once silced I then uploaded the G-code to the 3D Printer.
+
+<img width="937" height="90" alt="image" src="https://github.com/user-attachments/assets/6073b360-b787-4163-995b-d87fad1fbfa5" />
+
+## Print 
+
+Using Printer Number 14 within the lab a PRUSA CORE ONE 0.4 nozzle Printer. I uploaded the G-code began to start the print.
+
+Below you can find a photo of the Print at the Start, Showing the base of the entire model with the structure and the support materials, I already knew that removing the supports would be difficult but this wasn't pretty sight to see. 
+
+<img width="4032" height="3024" alt="IMG_6007" src="https://github.com/user-attachments/assets/2fd81f5a-9b4f-4fed-9ff5-2da8763514ee" />
+
+The video shows a midstate of the Print with the Printer printing the infills, the walls, and the supports. 
+
+The final photo shows the final print with the model and support structure. 
+
+<img width="4032" height="3024" alt="IMG_6009" src="https://github.com/user-attachments/assets/4bb3d61d-eb0e-44f9-8b6d-7350856a05f1" />
 
 
-During print
-What is the name machine you use?
-Estimated Print time
+After all of the heating the print took 1 hour and 13 minutes to complete the print.
+
+<img width="4032" height="3024" alt="IMG_6010" src="https://github.com/user-attachments/assets/475dcd49-0c8c-4754-a5dc-5262848aa0ab" />
+
+## Postprocessing 
+
+## Lessons Learned
+
 Real print time
 
 
