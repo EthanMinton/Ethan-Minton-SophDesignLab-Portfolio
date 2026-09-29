@@ -90,10 +90,36 @@ The main values that changed during the design process were the measured motor d
 
 **Uploading To Prusa Slicer**
 
-Saving the model in SolidWorks as a STEP file, I am able to transfer the CAD model over to the slicer software.
+By saving the model in SolidWorks as a STEP file, I am able to transfer the CAD model over to the slicer software. As previously stated this allows for highly accurate models to be transferred over into PrusaSlicer, giving us better overall prints.
 
 <img width="940" height="72" alt="image" src="https://github.com/user-attachments/assets/98e64e2b-1817-41bc-80ac-8556c627be1c" />
 
+## PrusaSlicer
+Outline slicer settings and reasons for the settings.
+
+Outline reasons for the size of supports used.
+What was the wall thickness?
+How many layers are used in the print?
+What is the layer thickness?
+What is the build volume of your print?
+
+Utilizing Prusa Slicer I began to configure my settings for the Print. First, beginning with inserting the model into Prusa. Initially, I wanted to have the model print vertically, standing up. Primarily because I wanted to prevent any complex supports that might be difficult to remove or damage the model itself. But I opted to print it horizontally for the overall strength benefit that comes with the layer boundaries being parallel to the length of the beams. The placement was considered to be in the middle of the plate to achieve maximum accuracy with the printer itself, avoiding any of the outer edges. The overall size is 0.9255 inches in the x direction, 2.7005 inches in the y direction, and 0.9255 inches in the z direction. 
+
+<img width="1917" height="1125" alt="image" src="https://github.com/user-attachments/assets/90baa600-23a0-4fdf-9e43-54c2ccc07f4a" />
+
+
+
+During print
+What is the name machine you use?
+Estimated Print time
+Real print time
+
+
+
+Later - post print
+
+If the fit was not correct, how did you modify the design. 
+What did you use to remove the supports?
 ## Decide
 
 
