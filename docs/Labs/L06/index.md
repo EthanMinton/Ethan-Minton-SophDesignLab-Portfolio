@@ -70,19 +70,29 @@ The next step of the model was to perform 2 cut extrusions that will give our mo
 
 <img width="1917" height="1011" alt="image" src="https://github.com/user-attachments/assets/7b1f98e3-dbf2-49ab-8b39-d6399ee40a1d" />
 
-Once each of these sketches was created, they were then extruded through all in both directions to ensure that no part of the model that wasn't wanted was left.
+Once each of these sketches was created, they were then extruded through all in both directions to ensure that no part of the model that wasn't wanted was left. This is the reason to why we divided the circumference by 4 within our calculation for the base, as each of the beams was divided into 4 sections by the double cut extrusion. The base variable was not used directly anywhere other than to calculate the length of the model. 
 
 <img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/264069b2-0e0d-449f-94cb-c72566f3413a" />
 
-To note I decided to not include screenshots of the other sketch and cut extrusion of the other gap, it is exactly the same with all the same values and constraints. This is just to prevent any bloat, if further inspection is needed you can easily find the CAD model within the resources.
+Note that I decided to not include screenshots of the other sketch and cut extrusion of the other gap; it is the same with all the same values and constraints. This is just to prevent any bloat; if further inspection is needed, you can easily find the CAD model within the resources.
 ### Finalized Model
 
 **Finalized CAD model for Prusa.**
 <img width="1916" height="1012" alt="image" src="https://github.com/user-attachments/assets/6ad4e7a7-8869-4e46-a061-4563fa36a8aa" />
 
 **Finalized CAD Parameters and Variables**
-The list of variables below is the whole collection of parameters used when parametrically modeling our design. Each with a short attributed description describing what it is and how they were derived. To note, the Tolerance variable is currently unused, as for my hypothetical snap fit to function correctly it must be a tight fit. If iterated the tolerance variable will be used as needed, whether to shrink the model or increase it. 
+The list of variables below is the whole collection of parameters used when parametrically modeling our design. Each with a short attributed description describing what it is and how they were derived. To note, the Tolerance variable is currently unused, as for my hypothetical snap fit to function correctly it must be a tight fit. If iterated the tolerance variable will be used as needed, whether to shrink the model or increase it. The engineered allowance was therefore based on allowing the snap-fit arms to deflect over the larger 0.6255-inch bulb while returning toward the smaller 0.47-inch shaft diameter after installation. Rather than adding a large dimensional clearance, I chose to rely on the calculated 0.08-inch deflection so the part could maintain contact with the shaft and transfer torque. The tolerance parameter was left available in the model so it can be adjusted after physical testing if the initial fit is too tight or too loose
+
+The main values that changed during the design process were the measured motor dimensions and the assumed modulus of elasticity. The motor dimensions were remeasured using electronic calipers after inconsistent measurements were obtained with the classroom calipers, while the modulus of elasticity was reduced from the previously used 340,000 psi assumption because it produced an unrealistically long snap-fit as previously tested. If the initial print is found to contain a failure, I will decide to iterate these variables to ensure that the model is properly scaled.
+
+
 <img width="1815" height="267" alt="image" src="https://github.com/user-attachments/assets/46f7f9ae-6ed0-4c46-9180-12ff8275cba4" />
+
+**Uploading To Prusa Slicer**
+
+Saving the model in SolidWorks as a STEP file, I am able to transfer the CAD model over to the slicer software.
+
+<img width="940" height="72" alt="image" src="https://github.com/user-attachments/assets/98e64e2b-1817-41bc-80ac-8556c627be1c" />
 
 ## Decide
 
