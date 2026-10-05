@@ -171,7 +171,15 @@ G-code Utilized:
 
 ## Print 
 
-Printer Number 16
+I had utilized the PC-16 printer within the Duke Lab, which was supplied with a Gold PETG filament. I attempted to preheat the printer with PETG, as I know how long it takes to preheat. Once I uploaded the model, it began to print all of the bases. 
+
+**First Image Showcasing Early Print:**
+<img width="4032" height="3024" alt="IMG_0002" src="https://github.com/user-attachments/assets/ce171d29-6320-45bf-b9eb-b6e27d468036" />
+
+
+**Video Showcasing Print Process and Infill**
+
+**Last Image Showing Finished Print:**
 
 ## Analyze
 
