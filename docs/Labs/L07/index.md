@@ -131,37 +131,42 @@ In order to ensure and visualize the model, I decided to assemble it with the fi
 | **Sliding Pin** | The pin found within the main body between the different links that allows them to slide around each other when force is applied. | 3D Printed - Count of 6 |
 | **Interference Pin** | The pin found at the very end of the body, connected to the end links and the pinchers; these interference pins are not supposed to move so that the pincher doesn't deflect when grabbing something. | 3D Printed - Count of 2 |
 | **Pincher** | These are the pinchers; they are the end caps that are the utility of the structure. They are meant to be able to grab things once a force is applied to the opposite end as they are clamped down. | 3D Printed - Count of 2 |
+
 ## Print Settings
 
-Using press fit I leave the infill at 10% honeycomb so that the model can be pressed when needed.
+Utilizing the STEP files as previously mentioned in other labs, I was able to upload all of the models into a single plate to be printed. But before slicing, I had to modify a few key settings.
+
+Due to the sheer scale and size of the print. As well as the use of a press fit, I decided that the best way to set the infill is at 10% honeycomb so that any deflection needed can be used to properly ensure our model can be assembled correctly.
 
 <img width="1637" height="262" alt="image" src="https://github.com/user-attachments/assets/953fbad8-c446-4107-a9d0-b4b552257b41" />
 
-For similar reasons, I reduced the perimeter to 2 so that the model is able to properly flex.
+For similar reasons, I reduced the perimeter to 2 (which is typically set at 3) so that the model is able to properly flex. 
+
 <img width="1616" height="182" alt="image" src="https://github.com/user-attachments/assets/c06fdaa3-c456-4aad-88f7-0b02a0ee97e6" />
 
+We were asked to use the Elephant foot compensation setting, which I set to 1 mm. This should allow for any flattening on the model's bottom to be compensated for, preventing any major issues with the tolerancing I had already set. 
 
-Elephant foot compensation of 1 mm, I want to fit but also have clean models.
 <img width="1605" height="32" alt="image" src="https://github.com/user-attachments/assets/accb6a15-4118-4b09-87d0-4c597c90645a" />
 
-I also added a brim to the model 
+I also added a brim to the model to help minimize any nozzle issues.
+
 <img width="1632" height="140" alt="image" src="https://github.com/user-attachments/assets/034b0aef-d32c-45e0-a23a-db4e12d22e2c" />
 
-I also changed the seam alignment to random
+Another big and new setting I utilized was setting the Seam Alignment to random to help prevent any stacking from the printer running over and raising within the same position. This should leave a more scattered and bumpy surface finish but should allow for better tolerancing and minimizing issues.
 
 <img width="1617" height="35" alt="image" src="https://github.com/user-attachments/assets/a50554d8-a499-4718-9c11-d4b538db192b" />
 
-Some of the other settings I change is that I am using PETG, I scaled the model by 150%, and I am using a 0.4 Nozzle Prusa Core One printer. Although Supports were not needed I activated it just in case.
+Outside of the Specific Settings that I had altered, I chose to utilize Prusa PETG as my filament and utilizing a 0.4 Nozzle Prusa Core One printer. I also had activated the supports everywhere, but it seems that it wasn't needed after slicing. The last major decision that I made was scaling all of the parts up by 150%; I found that the models were extremely tiny and would have likely resulted in parts being too flimsy or struggling to stay together. Thankfully, the Scale feature is universal and scales all dimensions.
 
 
 <img width="1917" height="1138" alt="image" src="https://github.com/user-attachments/assets/e4612719-b9a0-4b41-a724-d0d7b4a49ad2" />
 
 
-Once sliced it was estimated to take 2 hours and 59 minutes.
+Once the print was sliced, it was estimated to take 2 hours and 59 minutes using 2.06 in^3 of filament or 42.97 grams. 
 
 <img width="1917" height="1027" alt="image" src="https://github.com/user-attachments/assets/ff553226-7c32-4834-8ee6-b4958f196250" />
 
-G-code
+G-code Utilized:
 <img width="927" height="67" alt="image" src="https://github.com/user-attachments/assets/43163d0c-79b9-47da-9f5f-f39f996f23ad" />
 
 ## Print 
