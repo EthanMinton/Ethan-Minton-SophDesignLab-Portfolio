@@ -22,42 +22,46 @@ need to insert image/sketch of the center-driven linkage here.
 
 One industry where this could be useful is the robotics industry, since the research specifically identifies potential applications of these mechanisms in robotics. A deployable linkage could allow a robot to have a compact configuration when it is not being used and then expand when additional reach or workspace is needed. Another possible industry is aerospace, where mechanisms that can fold into a smaller configuration and then deploy can be useful because available space and weight are major design considerations. The same basic idea could also be useful for deployable mechanical structures where the mechanism needs to change between a compact and expanded configuration.
 
-## Purpose
-
-The design that I wanted to go for was a linkage mechanism that can transfer an applied force to one end through the linkages to a "pincher" at the end. This is primarily to test how I am able to design around different types of fits, utilizing the tolerances the Printers are capable of to design the linking mechanism. Going into the design section I took a lot of notice to my previous labs such as the Lab 4 with the Cylinder_tolerance test finding that reducing my measurements by roughly 0.01 inches or 10 thou would provide a fit that would be abable to slide while also not falling out of the links. 
-
 ## CAD Design 
 
+### Purpose 
 
+The design that I wanted to go for was a linkage mechanism that can transfer an applied force to one end through the linkages to a "pincher" at the end. This is primarily to test how I am able to design around different types of fits, utilizing the tolerances the Printers are capable of to design the linkage mechanism. Going into the design section, I took a lot of notice of my previous labs, such as Lab 4 with the Cylinder_tolerance test finding that reducing my measurements by roughly 0.01 inches or 10 thou would provide a fit that would be able to slide while also not falling out of the links. The pincher itself is to be able to showcase the product of the effort and design that was put into the linking mechanism. One of the greatest difficulties that I am going to have to work around is the design of the different pins themselves; with a pin being too loose, it'll require me to ensure that they don't slip out with just the basic application of force. But with a too-tight tolerance, it doesn't allow for our models to slide. 
 
 ### Link 
-I first started with sketching on top plane
+
+
+For the Link I decided to utilize sketching onto the top plane; this is not a significant decision as in Pruse models can be oriented around.
 <img width="1647" height="983" alt="image" src="https://github.com/user-attachments/assets/bf8da211-6e2e-4146-a8ba-44a03f2520f6" />
 
-Creating a simple rectangular sketch with dimensions of 1.5 inches by 0.25 inches
+Creating a simple rectangular sketch with dimensions of 1.50 inches by 0.25 inches; this is the general shape of the link. To note, commenting on this later, this is more like the proportion distributed, as all dimensions will be scaled up in PrusaSlicer to achieve a better size.
 <img width="1632" height="983" alt="image" src="https://github.com/user-attachments/assets/bf0dcb90-12c3-4bd3-a691-45dc44ed8f60" />
 
 
-And then extruding it by 0.2 inches 
+Once the base sketch was completed, I extruded it by 0.2 inches.
 <img width="1917" height="987" alt="image" src="https://github.com/user-attachments/assets/6e788bbb-df4d-438a-ba45-68335e278dcd" />
 
 
-making 3 sketched circles with equal radi
+The next step was creating a new sketch on the top face of the base model and sketching 3 circles with equal radii so that their dimensions are proportional.
 
 <img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/f3b888dc-fce4-4a6a-ad1c-f9a36a48eeb8" />
 
-I then centered the middle sketch to be centered with the center of the model and had the secondary circles be constrained 0.6 inches away.
+With the middle circle being centered on the center of the rectangular base, utilizing the point you see at the bottom. The other 2 secondary circles were both constrained to be 0.60 inches away from the other middle sketch.
 
 <img width="1643" height="937" alt="image" src="https://github.com/user-attachments/assets/a43eac0b-cf27-48d4-a499-a794b15f05d3" />
 
-Sketched finished it was then extruded through
+Once the sketch was completed, the circles were extruded completely through the base model.
 <img width="1917" height="1016" alt="image" src="https://github.com/user-attachments/assets/78ffdb99-d1ed-4878-bd43-68194eda123c" />
 
-for artistic flare I decided to fillet the edges with a 0.2 inch radius.
+To avoid having such a rigid rectangular model, I added a fillet to the 4 corners at a radius of 0.20 inches. 
 <img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/f3efcc97-c68c-4af0-b801-df27836d65c7" />
 
-Leaving the final part looking like below
+Finalized Part:
 <img width="1646" height="937" alt="image" src="https://github.com/user-attachments/assets/771a55b5-abb3-423b-9a83-d54745b27a7c" />
+
+Starting with the link, I wanted to ensure that the design would function through most key situations when force is applied. The 2 primary design decisions I was thinking of making were the number of pin holes that would be included. Traditionally, a 2-hole model was considered, with each being found on the end of the model. This would reduce time cost, material cost, and complexity. But I also considered a 3-hole model, taking inspiration from the link design from our TA Nicholas de Souza Teixeira, which would elaborate on the design by preventing any awkward flexure or movement from the links and pins when force is applied. But this is at the cost of time, material, and simplicity.  
+
+Honestly, I have the time, material, and ability to perform the 3-holed link. As seen above, this was the chosen design to reduce failure and incorrect sliding from the links.
 
 ### Sliding Pin
 
