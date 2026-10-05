@@ -42,11 +42,11 @@ Once the base sketch was completed, I extruded it by 0.2 inches.
 <img width="1917" height="987" alt="image" src="https://github.com/user-attachments/assets/6e788bbb-df4d-438a-ba45-68335e278dcd" />
 
 
-The next step was creating a new sketch on the top face of the base model and sketching 3 circles with equal radii so that their dimensions are proportional.
+The next step was creating a new sketch on the top face of the base model and sketching 3 circles with equal diameter so that their dimensions are proportional.
 
 <img width="1917" height="1015" alt="image" src="https://github.com/user-attachments/assets/f3b888dc-fce4-4a6a-ad1c-f9a36a48eeb8" />
 
-With the middle circle being centered on the center of the rectangular base, utilizing the point you see at the bottom. The other 2 secondary circles were both constrained to be 0.60 inches away from the other middle sketch.
+With the middle circle being centered on the center of the rectangular base, utilizing the point you see at the bottom. The other 2 secondary circles were both constrained to be 0.60 inches away from the other middle sketch. They were all then given a diameter of 0.15 inches. 
 
 <img width="1643" height="937" alt="image" src="https://github.com/user-attachments/assets/a43eac0b-cf27-48d4-a499-a794b15f05d3" />
 
@@ -65,52 +65,63 @@ Honestly, I have the time, material, and ability to perform the 3-holed link. As
 
 ### Sliding Pin
 
-Starting with the pin I decided to again sketch onto the top plane 
+Similar to the link, I chose to perform the initial sketch on the top plane just for consistency.
 <img width="1646" height="985" alt="image" src="https://github.com/user-attachments/assets/05a736ad-bae0-42fe-9406-a1e51fdaf3c6" />
 
-I then sketched a circle with a radius of 0.14 inches, based on my result for lab 4 (talk more about)
+
+With the initial linkage having a diameter of 0.15 inches, I followed up with a sliding pin diameter of 0.14 inches. NOTE: I will elaborate more on the determination of this value at the end of this section.
 
 <img width="1647" height="986" alt="image" src="https://github.com/user-attachments/assets/4db518bb-a3ec-4dc8-8f00-d1d2da98e189" />
 
-I then extruded it by 1.5 inches 
+Once the simple circular sketch was completed I then extruded the Pin by 1.5 inches, this value was considerably arbitrary with it primarily being me determining the distance I wanted each side of the linkage to be from the other. 
 
 <img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/b13b8a95-47b9-4a90-912e-73fee48b71e2" />
 
-Final product here 
+Finalized Part: 
 <img width="1643" height="935" alt="image" src="https://github.com/user-attachments/assets/5ace4a6a-7860-4c75-a4a4-2763ff6689f9" />
+
+The diameter of the sliding pin was determined to be 0.14 inches.  This was from the personal information that I had gathered from Lab 4, as although the 0.01 reduction had not allowed for a pin to be pushed through, I was able to observe that, despite the fact, the printer was able to print them independently without merging the walls completely. This led to the conclusion that if they are printed separately, the pin could be inserted with a tight enough fit that will prevent sliding out while also allowing for the links to slide together. Initially, I considered printing with a reduction of 0.02 tolerance but felt that the biggest issue I could run into is that the pins are too thick and will slide out too easily.
+
+I decided that the best case would be to do the 0.01 inch reduction and iterate if necessary.
 
 ### Interference Pin 
 
-For the pincher, I wanted to avoid any movement, so I made a copy and increased the radius by 5 thou (0.005 inches). 
+For the interference pin, I decided to create a copy of the model of the sliding pin and modify the diameter of the sketch. For the pincher, I wanted to avoid any movement and decided that finding a middle between a sliding fit and a non-clearance fit would be an interference fit. I decided that to do this, I must increase the diameter by 0.005 inches, or 5 thou, to 0.145
 <img width="1648" height="982" alt="image" src="https://github.com/user-attachments/assets/92a5bba2-2613-40ad-9c82-ed37508369d4" />
+
+The greatest alternative here was considered doing a 0 tolerance and dimensioning it at 0.15 inches. The reason I decided against doing a 0 tolerance was that the likelihood of the print expanding after releasing the filament is very high, meaning that in the case of doing a press fit between the materials, they would likely yield and break before they are able to connect completely. The 0.145 inches felt like a safer option; they had a higher likelihood of working without the requirement for iteration. I will preface that if iteration is required, this part will be the likely culprit due to the more major unknowns.
 
 
 ### Pincher 
-Sketch on top plane
+
+Similar to the rest of the sketches I decided to utilize the top plane to create the initial sketch of the pincher.
 <img width="1637" height="982" alt="image" src="https://github.com/user-attachments/assets/e16ebc9b-a059-470e-82bc-c9f24a11df40" />
 
-I then created a simple sketch and dimensioned it for the basic shape. remind explain more
+I then created a simple sketch and dimensioned it for the basic shape. To elaborate more, the dimensions here don't hold any real weight other than to get the rough shape I am going for. I wanted to ensure it was the same width and length as the links at 0.25 inches and 1.5 inches, respectively. The height of the triangle and the length of the non-triangle space were chosen to get a sharper shape without having its teeth be too long.
+
 <img width="1645" height="985" alt="image" src="https://github.com/user-attachments/assets/27972bf0-2f49-421d-a55a-5b81c20edd9d" />
 
-I then extruded it 0.7 inches (talk about how 2 links and 1.5 - 0.8 = 0.7)
+Once the sketch was completed, I then extruded the model by 0.7 inches. This value of thickness was determined by the total length of the pins at 1.5 inches, minus 2 sets of links on each side that sum to 0.8 inches. This leaves us with 0.7 inches of clearance that the pincher can occupy without overlap.
+
+Note that once the model is completely assembled, this decision becomes clearer.
 
 <img width="1917" height="982" alt="image" src="https://github.com/user-attachments/assets/6bbf1b07-e796-4434-8eb5-55143edcded6" />
 
-For some artistic flare I added 0.2 radius fillits to the corners
+Similar to the lengths, to avoid any sharp corners, I filleted the free corners at a radius of 0.20 inches.
 
 <img width="1916" height="982" alt="image" src="https://github.com/user-attachments/assets/2841e177-64b8-4313-a7f8-842fd1ef5a18" />
 
-I then created a hole with dimensions below
+I then created a sketch on the top surface of the model and produced a circle with a diameter of 0.15 inches, similar to that of the links. I then centered the circle at the end of the model so that it can easily attach to the interference pins.
 
 <img width="1646" height="981" alt="image" src="https://github.com/user-attachments/assets/4e216fe4-8a4a-480c-aa88-b4da535e1a8b" />
 
-Then extrude it through the entire part.
+This circle was extruded through the entire part, similar to the links.
 
 <img width="1646" height="982" alt="image" src="https://github.com/user-attachments/assets/ef53949b-464c-4cb3-9c95-8a418e8319fa" />
 
  ### Assembly 
  
-In order to ensure and visuilizze the model I decided to assemble it togther with the final product seen below.
+In order to ensure and visualize the model, I decided to assemble it with the final product seen below. This was a lot of help in visualizing how all of the parts come together once they have been printed. As you can see, the extruded value of the pincher fits perfectly between the 2 links on the side. A link to the Assembly file and all of the CAD models are found below. I do want to preface that the model of the assembly contains a lot of the different parts. 
 
 <img width="1646" height="938" alt="image" src="https://github.com/user-attachments/assets/4cf1d6a9-35ac-4d3c-8d12-f766a2979685" />
 
