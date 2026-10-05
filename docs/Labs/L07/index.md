@@ -104,10 +104,18 @@ Then extrude it through the entire part.
 
 <img width="1646" height="982" alt="image" src="https://github.com/user-attachments/assets/ef53949b-464c-4cb3-9c95-8a418e8319fa" />
 
-## Print Settings  
+ ### Assembly 
+ 
 In order to ensure and visuilizze the model I decided to assemble it togther with the final product seen below.
 
 <img width="1646" height="938" alt="image" src="https://github.com/user-attachments/assets/4cf1d6a9-35ac-4d3c-8d12-f766a2979685" />
+
+| Component | Function | Obtaining |
+| :--- | :--- | :--- |
+| **Resistor** | Limits electrical current flow and reduces voltage levels within a circuit. | Electronics supply stores, online retailers (e.g., DigiKey, Mouser), or salvaged from old circuit boards. |
+| **Solar Panel** | Converts sunlight directly into electricity via the photovoltaic effect. | Clean energy vendors, hardware stores, or extracted from solar-powered devices like outdoor lights. |
+| **Microcontroller** | Executes programmed code to sense inputs and control electronic components. | Tech distributors (e.g., Adafruit, SparkFun), online marketplaces, or development starter kits. |
+## Print Settings
 
 Using press fit I leave the infill at 10% honeycomb so that the model can be pressed when needed.
 
