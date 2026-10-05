@@ -59,7 +59,7 @@ for artistic flare I decided to fillet the edges with a 0.2 inch radius.
 Leaving the final part looking like below
 <img width="1646" height="937" alt="image" src="https://github.com/user-attachments/assets/771a55b5-abb3-423b-9a83-d54745b27a7c" />
 
-Pin
+### Sliding Pin
 
 Starting with the pin I decided to again sketch onto the top plane 
 <img width="1646" height="985" alt="image" src="https://github.com/user-attachments/assets/05a736ad-bae0-42fe-9406-a1e51fdaf3c6" />
@@ -75,7 +75,7 @@ I then extruded it by 1.5 inches
 Final product here 
 <img width="1643" height="935" alt="image" src="https://github.com/user-attachments/assets/5ace4a6a-7860-4c75-a4a4-2763ff6689f9" />
 
-### Tight Pin Variant 
+### Interference Pin 
 
 For the pincher, I wanted to avoid any movement, so I made a copy and increased the radius by 5 thou (0.005 inches). 
 <img width="1648" height="982" alt="image" src="https://github.com/user-attachments/assets/92a5bba2-2613-40ad-9c82-ed37508369d4" />
@@ -112,9 +112,10 @@ In order to ensure and visuilizze the model I decided to assemble it togther wit
 
 | Component | Function | Obtaining |
 | :--- | :--- | :--- |
-| **Resistor** | Limits electrical current flow and reduces voltage levels within a circuit. | Electronics supply stores, online retailers (e.g., DigiKey, Mouser), or salvaged from old circuit boards. |
-| **Solar Panel** | Converts sunlight directly into electricity via the photovoltaic effect. | Clean energy vendors, hardware stores, or extracted from solar-powered devices like outdoor lights. |
-| **Microcontroller** | Executes programmed code to sense inputs and control electronic components. | Tech distributors (e.g., Adafruit, SparkFun), online marketplaces, or development starter kits. |
+| **Link** | Limits electrical current flow and reduces voltage levels within a circuit. | 3D Printed |
+| **Sliding Pin** | Converts sunlight directly into electricity via the photovoltaic effect. | 3D Printed |
+| **Interference Pin** | Executes programmed code to sense inputs and control electronic components. | 3D Printed |
+| **Pincher** | Stores chemical energy and provides portable rechargeable DC power to a circuit. | 3D Printed |
 ## Print Settings
 
 Using press fit I leave the infill at 10% honeycomb so that the model can be pressed when needed.
