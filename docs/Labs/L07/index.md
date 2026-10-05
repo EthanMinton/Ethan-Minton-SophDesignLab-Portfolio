@@ -178,6 +178,12 @@ I had utilized the PC-16 printer within the Duke Lab, which was supplied with a 
 
 
 **Video Showcasing Print Process and Infill**
+<video src="https://github.com/user-attachments/assets/43a1f168-de7b-43dc-bd72-5bb6dffe866b" controls style="max-width: 100%;">
+</video>
+
+
+
+
 
 **Last Image Showing Finished Print:**
 
