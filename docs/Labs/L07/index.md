@@ -112,10 +112,10 @@ In order to ensure and visuilizze the model I decided to assemble it togther wit
 
 | Component | Function | Obtaining |
 | :--- | :--- | :--- |
-| **Link** | Limits electrical current flow and reduces voltage levels within a circuit. | 3D Printed |
-| **Sliding Pin** | Converts sunlight directly into electricity via the photovoltaic effect. | 3D Printed |
-| **Interference Pin** | Executes programmed code to sense inputs and control electronic components. | 3D Printed |
-| **Pincher** | Stores chemical energy and provides portable rechargeable DC power to a circuit. | 3D Printed |
+| **Link** | The Basic Link acts as the main body for keeping the entire structure together and performing the transfer of force when applied. | 3D Printed - Count of 8 |
+| **Sliding Pin** | The pin found within the main body between the different links that allows them to slide around each other when force is applied. | 3D Printed - Count of 6 |
+| **Interference Pin** | The pin found at the very end of the body, connected to the end links and the pinchers; these interference pins are not supposed to move so that the pincher doesn't deflect when grabbing something. | 3D Printed - Count of 2 |
+| **Pincher** | These are the pinchers; they are the end caps that are the utility of the structure. They are meant to be able to grab things once a force is applied to the opposite end as they are clamped down. | 3D Printed - Count of 2 |
 ## Print Settings
 
 Using press fit I leave the infill at 10% honeycomb so that the model can be pressed when needed.
