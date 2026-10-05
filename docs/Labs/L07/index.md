@@ -22,7 +22,13 @@ need to insert image/sketch of the center-driven linkage here.
 
 One industry where this could be useful is the robotics industry, since the research specifically identifies potential applications of these mechanisms in robotics. A deployable linkage could allow a robot to have a compact configuration when it is not being used and then expand when additional reach or workspace is needed. Another possible industry is aerospace, where mechanisms that can fold into a smaller configuration and then deploy can be useful because available space and weight are major design considerations. The same basic idea could also be useful for deployable mechanical structures where the mechanism needs to change between a compact and expanded configuration.
 
-## Design 
+## Purpose
+
+The design that I wanted to go for was a linkage mechanism that can transfer an applied force to one end through the linkages to a "pincher" at the end. This is primarily to test how I am able to design around different types of fits, utilizing the tolerances the Printers are capable of to design the linking mechanism. Going into the design section I took a lot of notice to my previous labs such as the Lab 4 with the Cylinder_tolerance test finding that reducing my measurements by roughly 0.01 inches or 10 thou would provide a fit that would be abable to slide while also not falling out of the links. 
+
+## CAD Design 
+
+
 
 ### Link 
 I first started with sketching on top plane
@@ -68,6 +74,75 @@ I then extruded it by 1.5 inches
 
 Final product here 
 <img width="1643" height="935" alt="image" src="https://github.com/user-attachments/assets/5ace4a6a-7860-4c75-a4a4-2763ff6689f9" />
+
+### Tight Pin Variant 
+
+For the pincher, I wanted to avoid any movement, so I made a copy and increased the radius by 5 thou (0.005 inches). 
+<img width="1648" height="982" alt="image" src="https://github.com/user-attachments/assets/92a5bba2-2613-40ad-9c82-ed37508369d4" />
+
+
+### Pincher 
+Sketch on top plane
+<img width="1637" height="982" alt="image" src="https://github.com/user-attachments/assets/e16ebc9b-a059-470e-82bc-c9f24a11df40" />
+
+I then created a simple sketch and dimensioned it for the basic shape. remind explain more
+<img width="1645" height="985" alt="image" src="https://github.com/user-attachments/assets/27972bf0-2f49-421d-a55a-5b81c20edd9d" />
+
+I then extruded it 0.7 inches (talk about how 2 links and 1.5 - 0.8 = 0.7)
+
+<img width="1917" height="982" alt="image" src="https://github.com/user-attachments/assets/6bbf1b07-e796-4434-8eb5-55143edcded6" />
+
+For some artistic flare I added 0.2 radius fillits to the corners
+
+<img width="1916" height="982" alt="image" src="https://github.com/user-attachments/assets/2841e177-64b8-4313-a7f8-842fd1ef5a18" />
+
+I then created a hole with dimensions below
+
+<img width="1646" height="981" alt="image" src="https://github.com/user-attachments/assets/4e216fe4-8a4a-480c-aa88-b4da535e1a8b" />
+
+Then extrude it through the entire part.
+
+<img width="1646" height="982" alt="image" src="https://github.com/user-attachments/assets/ef53949b-464c-4cb3-9c95-8a418e8319fa" />
+
+## Print Settings  
+In order to ensure and visuilizze the model I decided to assemble it togther with the final product seen below.
+
+<img width="1646" height="938" alt="image" src="https://github.com/user-attachments/assets/4cf1d6a9-35ac-4d3c-8d12-f766a2979685" />
+
+Using press fit I leave the infill at 10% honeycomb so that the model can be pressed when needed.
+
+<img width="1637" height="262" alt="image" src="https://github.com/user-attachments/assets/953fbad8-c446-4107-a9d0-b4b552257b41" />
+
+For similar reasons, I reduced the perimeter to 2 so that the model is able to properly flex.
+<img width="1616" height="182" alt="image" src="https://github.com/user-attachments/assets/c06fdaa3-c456-4aad-88f7-0b02a0ee97e6" />
+
+
+Elephant foot compensation of 1 mm, I want to fit but also have clean models.
+<img width="1605" height="32" alt="image" src="https://github.com/user-attachments/assets/accb6a15-4118-4b09-87d0-4c597c90645a" />
+
+I also added a brim to the model 
+<img width="1632" height="140" alt="image" src="https://github.com/user-attachments/assets/034b0aef-d32c-45e0-a23a-db4e12d22e2c" />
+
+I also changed the seam alignment to random
+
+<img width="1617" height="35" alt="image" src="https://github.com/user-attachments/assets/a50554d8-a499-4718-9c11-d4b538db192b" />
+
+Some of the other settings I change is that I am using PETG, I scaled the model by 150%, and I am using a 0.4 Nozzle Prusa Core One printer. Although Supports were not needed I activated it just in case.
+
+
+<img width="1917" height="1138" alt="image" src="https://github.com/user-attachments/assets/e4612719-b9a0-4b41-a724-d0d7b4a49ad2" />
+
+
+Once sliced it was estimated to take 2 hours and 59 minutes.
+
+<img width="1917" height="1027" alt="image" src="https://github.com/user-attachments/assets/ff553226-7c32-4834-8ee6-b4958f196250" />
+
+G-code
+<img width="927" height="67" alt="image" src="https://github.com/user-attachments/assets/43163d0c-79b9-47da-9f5f-f39f996f23ad" />
+
+## Print 
+
+Printer Number 16
 
 ## Analyze
 
