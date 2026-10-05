@@ -54,6 +54,21 @@ Leaving the final part looking like below
 <img width="1646" height="937" alt="image" src="https://github.com/user-attachments/assets/771a55b5-abb3-423b-9a83-d54745b27a7c" />
 
 Pin
+
+Starting with the pin I decided to again sketch onto the top plane 
+<img width="1646" height="985" alt="image" src="https://github.com/user-attachments/assets/05a736ad-bae0-42fe-9406-a1e51fdaf3c6" />
+
+I then sketched a circle with a radius of 0.14 inches, based on my result for lab 4 (talk more about)
+
+<img width="1647" height="986" alt="image" src="https://github.com/user-attachments/assets/4db518bb-a3ec-4dc8-8f00-d1d2da98e189" />
+
+I then extruded it by 1.5 inches 
+
+<img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/b13b8a95-47b9-4a90-912e-73fee48b71e2" />
+
+Final product here 
+<img width="1643" height="935" alt="image" src="https://github.com/user-attachments/assets/5ace4a6a-7860-4c75-a4a4-2763ff6689f9" />
+
 ## Analyze
 
 
