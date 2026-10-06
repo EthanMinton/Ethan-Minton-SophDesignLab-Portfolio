@@ -182,13 +182,29 @@ I had utilized the PC-16 printer within the Duke Lab, which was supplied with a 
 </video>
 
 **Last Image Showing Finished Print:**
+<img width="4032" height="3024" alt="IMG_0004" src="https://github.com/user-attachments/assets/71697dcd-63bc-407b-b632-c4ae52823b27" />
+
+**Final Print Screen** 
+<img width="4032" height="3024" alt="IMG_0006" src="https://github.com/user-attachments/assets/a9d25d59-9023-4778-be30-34f991fa634d" />
+
+True Time taken by Print: 3 Hours 8 Minutes
 
 ## Lessons Learned 
 
 This project took roughly 11 hours of dedicated time to complete. The research took roughly 2 hours and 30 minutes to find all of the sources, write down the needed information, and cite them properly. The CAD took the most time with all 4 of the parts, and then the assembly took a total of 4 hours. Ensuring that all of the dimensions would line up before the assembly is considerably tedious, but it doesn't ruin time spent on documenting because you made a critical mistake early on and have to fix it. Slicing in total likely took around 30 minutes, with changing critical settings asked for from us and properly orienting the models so they could be properly printed. Once I had started the printing, it took around 3 hours flat, but I had utilized this time to complete my documentation and add all finalized details. Post-processing and final documentation roughly took an hour. This was a total of 11 hours, which is roughly what I had expected; in my head, it was around 12 hours.
 
-I wouldn't say I had any critical failures or struggles that were detrimental to the process, as I had thankfully been able to utilize previous labs for information I needed about the behavior of my fits. The biggest issue and mistake that I had made was the scaling of my dimensions when modeling; I had completely failed to properly visualize how small the scales I was adding to my models were. Thankfully, this issue was easily resolved within Prusa, as it contains a universal scale feature that is able to scale all of the parts up by 150%. Meaning that the effort I had put into the different dimensions wouldn't have been all for nothing due to a simple error.
+I wouldn't say I had any critical failures or struggles that were detrimental to the process, as I had thankfully been able to utilize previous labs for information I needed about the behavior of my fits. The biggest issue and mistake that I had made was the scaling of my dimensions when modeling; I had completely failed to properly visualize how small the scales I was adding to my models were. Thankfully, this issue was easily resolved within Prusa, as it contains a universal scale feature that is able to scale all of the parts up by 150%. Meaning that the effort I had put into the different dimensions wouldn't have been for nothing due to a simple error.
 
+Although my tolerances had worked out for the print, I do want to note the extreme difficulty of inserting the interference pins into the pinchers of the model. Most of the assembly time was spent inserting these 2 pins, showing that a fit can function as intended while still being considerably difficult to assemble. I had chosen the tighter fit to prevent the pinchers from moving independently when grabbing something, but this also made the assembly much more tedious than I had expected. If I were to print this again, I would consider reducing the final printed pin diameter with tests determining how much fit I am allowed without causing extreme difficulty with assembly.
+
+### Final Assembly and Test
+
+**Final Assembly**
+<img width="4032" height="3024" alt="IMG_0008" src="https://github.com/user-attachments/assets/6b10a821-49b9-4768-b93b-f16a8a85e274" />
+
+**Video Test**
+<video src="https://github.com/user-attachments/assets/4048def8-123d-40c2-a2be-b9b5ee9d4fd0" controls style="max-width: 100%;">
+</video>
 
 
 ## Resources 
@@ -199,5 +215,5 @@ Yang, T., Li, P., Shen, Y., and Liu, Y. “Center-driven planar closed-loop mech
 
 Zomerdijk, M. J. J., and van der Wijk, V. “Structural Design and Experiments of a Dynamically Balanced Inverted Four-Bar Linkage as Manipulator Arm for High Acceleration Applications.” Actuators, 2022, 11(5), 131.
 
-## Communicate
+
 
