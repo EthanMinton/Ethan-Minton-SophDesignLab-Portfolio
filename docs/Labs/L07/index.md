@@ -187,7 +187,9 @@ I had utilized the PC-16 printer within the Duke Lab, which was supplied with a 
 
 This project took roughly 11 hours of dedicated time to complete. The research took roughly 2 hours and 30 minutes to find all of the sources, write down the needed information, and cite them properly. The CAD took the most time with all 4 of the parts, and then the assembly took a total of 4 hours. Ensuring that all of the dimensions would line up before the assembly is considerably tedious, but it doesn't ruin time spent on documenting because you made a critical mistake early on and have to fix it. Slicing in total likely took around 30 minutes, with changing critical settings asked for from us and properly orienting the models so they could be properly printed. Once I had started the printing, it took around 3 hours flat, but I had utilized this time to complete my documentation and add all finalized details. Post-processing and final documentation roughly took an hour. This was a total of 11 hours, which is roughly what I had expected; in my head, it was around 12 hours.
 
-I wouldn't say I had any critical failures or struggles that were detrimental to the process, as I had thankfully been able to utilize previous labs for information I needed about the behavior of my fits.
+I wouldn't say I had any critical failures or struggles that were detrimental to the process, as I had thankfully been able to utilize previous labs for information I needed about the behavior of my fits. The biggest issue and mistake that I had made was the scaling of my dimensions when modeling; I had completely failed to properly visualize how small the scales I was adding to my models were. Thankfully, this issue was easily resolved within Prusa, as it contains a universal scale feature that is able to scale all of the parts up by 150%. Meaning that the effort I had put into the different dimensions wouldn't have been all for nothing due to a simple error.
+
+
 
 ## Resources 
 
