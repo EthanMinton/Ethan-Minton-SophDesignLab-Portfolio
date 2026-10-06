@@ -209,11 +209,13 @@ Although my tolerances had worked out for the print, I do want to note the extre
 
 ## Resources 
 
-Akhtar, A., Bretl, T., and Choi, K. Y. “Compliant Four-Bar Linkage Mechanism for a Robotic Finger.” U.S. Patent Application US20220183862A1, published June 16, 2022.
+[https://www.sciencedirect.com/science/article/pii/S0094114X22003767?utm](https://www.sciencedirect.com/science/article/pii/S0094114X22003767?utm)
 
-Yang, T., Li, P., Shen, Y., and Liu, Y. “Center-driven planar closed-loop mechanisms based on an angulated four-bar linkage.” Mechanism and Machine Theory, Vol. 180, 2023, Article 105130.
+[https://www.mdpi.com/2076-0825/11/5/131?utm](https://www.mdpi.com/2076-0825/11/5/131?utm)
 
-Zomerdijk, M. J. J., and van der Wijk, V. “Structural Design and Experiments of a Dynamically Balanced Inverted Four-Bar Linkage as Manipulator Arm for High Acceleration Applications.” Actuators, 2022, 11(5), 131.
+[https://patents.google.com/patent/US20220183862A1/en](https://patents.google.com/patent/US20220183862A1/en)
+
+
 
 
 
