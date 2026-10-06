@@ -215,7 +215,15 @@ Although my tolerances had worked out for the print, I do want to note the extre
 
 [https://patents.google.com/patent/US20220183862A1/en](https://patents.google.com/patent/US20220183862A1/en)
 
+[Link_LAB7.SLDPRT](Link_LAB7.SLDPRT)
 
+[Pin_LAB7.SLDPRT](Pin_LAB7.SLDPRT)
+
+[Pin_tight_LAB7.SLDPRT](Pin_tight_LAB7.SLDPRT)
+
+[Pincher_LAB7.SLDPRT](Pincher_LAB7.SLDPRT)
+
+[Lab7_Assembly.SLDASM](Lab7_Assembly.SLDASM)
 
 
 
