@@ -4,7 +4,7 @@
 
 ### Compliant Four-Bar Linkage for a Robotic Finger
 
-The first mechanism I researched was a compliant four-bar linkage that was developed for a robotic finger. This mechanism was published as a patent application in 2022 and was designed to improve the durability of robotic and prosthetic fingers. The main reason this mechanism was developed was because traditional four-bar linkages use rigid links and pin joints that can be damaged when the finger experiences an impact from the side. The compliant version uses a monolithic structure with a flexible joint section, allowing the mechanism to still move similarly to a traditional four-bar linkage while being able to flex when an unexpected force is applied.
+The first mechanism I researched was a compliant four-bar linkage that was developed for a robotic finger. This mechanism was published as a patent application in 2022 and was designed to improve the durability of robotic and prosthetic fingers. The main reason this mechanism was developed was that traditional four-bar linkages use rigid links and pin joints that can be damaged when the finger experiences an impact from the side. The compliant version uses a monolithic structure with a flexible joint section, allowing the mechanism to still move similarly to a traditional four-bar linkage while being able to flex when an unexpected force is applied.
 
 The basic idea is that an actuator provides the input motion, which is transferred through the linkage and causes the robotic finger to bend. Instead of having every connection behave like a traditional rigid pin joint, one of the joints can flex as part of the material itself. This allows the mechanism to absorb some of the unexpected movement instead of immediately transferring the entire load into a small joint. The mechanism can therefore provide the motion of a normal four-bar linkage while also giving the finger some additional flexibility.
 
@@ -181,16 +181,13 @@ I had utilized the PC-16 printer within the Duke Lab, which was supplied with a 
 <video src="https://github.com/user-attachments/assets/43a1f168-de7b-43dc-bd72-5bb6dffe866b" controls style="max-width: 100%;">
 </video>
 
-
-
-
-
 **Last Image Showing Finished Print:**
 
-## Analyze
+## Lessons Learned 
 
+This project took roughly 11 hours of dedicated time to complete. The research took roughly 2 hours and 30 minutes to find all of the sources, write down the needed information, and cite them properly. The CAD took the most time with all 4 of the parts, and then the assembly took a total of 4 hours. Ensuring that all of the dimensions would line up before the assembly is considerably tedious, but it doesn't ruin time spent on documenting because you made a critical mistake early on and have to fix it. Slicing in total likely took around 30 minutes, with changing critical settings asked for from us and properly orienting the models so they could be properly printed. Once I had started the printing, it took around 3 hours flat, but I had utilized this time to complete my documentation and add all finalized details. Post-processing and final documentation roughly took an hour. This was a total of 11 hours, which is roughly what I had expected; in my head, it was around 12 hours.
 
-## Decide
+I wouldn't say I had any critical failures or struggles that were detrimental to the process, as I had thankfully been able to utilize previous labs for information I needed about the behavior of my fits.
 
 ## Resources 
 
