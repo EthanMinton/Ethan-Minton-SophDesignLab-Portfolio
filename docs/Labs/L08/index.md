@@ -145,6 +145,15 @@ What is the build volume of your print?
 Note the slice information on Prusa Slicer
 
 
+## Iteration 
+
+Once the original Model had been printed I ran into a issue with how the rope was able to sit onto the model when being applied, as it kept getting pulled off of the pulley. I will elaborate more about the core issue in the lessons learned section. But I wanted to mention it here for the reason of the iteration. 
+
+I needed to design a surface that could allow for the pulley to be placed at a more optimal angle, attaching the same structure in the closet. 
+
+After taking some measurements I created a sketch onto the 
+
+
 ## Post Print 
 Comment on the surface finish of the supports
 What did you use to remove the supports?
