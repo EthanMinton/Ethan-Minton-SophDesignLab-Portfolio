@@ -16,6 +16,8 @@ My approach focused on the design was to create a 3-part pulley system that coul
 
 ## CAD Modeling
 
+I used a not-initialized hand-drawn sketch for the design, as I already had a pretty clear picture in my mind of what I wanted the design to be. 
+
 ### Pulley Wheel
 
 I first began my sketching on the front plane, planning on revolving the axis where the Right Plane and Front meet.
@@ -108,6 +110,7 @@ Below you can see the final product:
 
 
 ## Print Settings
+
  I did not use a raft, as it wasn't needed. I did decide to use a skirt that would print a single layer surrounding the settings below. With only a single loop, 6mm from the object, and a height of 1 layer.
 
 <img width="1663" height="176" alt="image" src="https://github.com/user-attachments/assets/586746a4-7820-4f88-a881-8c9fc328c26b" />
@@ -148,6 +151,9 @@ With an estimated time of 6 hours and 44 minutes, I decided it would be best to 
 
 
 ## Print 
+
+I utilized Print Machine Number 8 in the Lab.
+
 Early Stage of Primary Print:
 <img width="4032" height="3024" alt="IMG_0136" src="https://github.com/user-attachments/assets/e8acfba8-2bc0-4fad-915c-4626a151d28d" />
 
@@ -184,7 +190,17 @@ Utilizing the same settings for Prusa and printing the body flat on its face to 
 
 ## Post Print 
 
-The surface finish from the supports was considerably low quality, with much of their surface being very bumpy and stringy compared to the model, but once it was finished, they had left the model in much better shape. I don't expect the supports to be completely perfect surface finish and as long as they do their job in supporting the required structures I won't complain. Removing these supports was relatively easy as well only taking roughly about 3-5 minutes using mainly my hands and a set of sharp pliers. The pliers were mainly used to trim supports that were either difficult to get to or stuck to the actual structures. I found that the pin required the most attention as it was the one model with stricter tolerances and fits.
+The surface finish from the supports was considerably low quality, with much of their surface being very bumpy and stringy compared to the model, but once it was finished, they had left the model in much better shape. I don't expect the supports to be completely perfect surface finish and as long as they do their job in supporting the required structures, I won't complain. Removing these supports was relatively easy as well only taking roughly about 3-5 minutes using mainly my hands and a set of sharp pliers. The pliers were mainly used to trim supports that were either difficult to get to or stuck to the actual structures. I found that the pin required the most attention as it was the one model with stricter tolerances and fits.
+
+<img width="1169" height="1012" alt="IMG_0254" src="https://github.com/user-attachments/assets/948ec387-78f4-4d6a-8852-e501e036caf0" />
+
+Here is a video of the Pulley actually functioning properly with the closet door:
+<video src="https://github.com/user-attachments/assets/398c9f0e-f937-4d68-8a75-ecfeb6132eed" controls style="max-width: 100%;">
+</video>
+
+Photo of the Assembled Pulley without the Iteration:
+<img width="4032" height="3024" alt="IMG_0253" src="https://github.com/user-attachments/assets/e9ee033b-9323-4cf0-b9dc-f4ed48a7b6a0" />
+
 
 ## Lessons Learned 
 
@@ -195,3 +211,9 @@ Another major lesson came from my printing strategy. The total print time for al
 I do want to preface that coming back from Fall break gave me a lot more time and flexibility to complete this project, so I wanted to do something big that I could iterate upon and improve at a later date, but in doing this there was a much higher sunk cost I had to contribute to with the design, ideas, and print. It took roughly 15 hours and 30 minutes to complete all that was asked, with roughly 6 hours dedicated to modeling all of the different parts and ensuring tolerances checked out, and with the 6 hours and 44 minutes of printing time, I attempted to utilize much of that time for researching, reading the articles, and documenting. Even after printing was finished, I still had to iterate the design and set up the pulley system. This took up most of the remaining time mentioned.
 
 ### Resources
+
+[https://en.wikipedia.org/wiki/Pulley](https://en.wikipedia.org/wiki/Pulley)
+
+[https://www.toptal.com/designers/product-design/design-thinking-great-questions](https://www.toptal.com/designers/product-design/design-thinking-great-questions)
+
+[
