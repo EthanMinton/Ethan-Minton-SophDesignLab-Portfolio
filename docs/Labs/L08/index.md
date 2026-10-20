@@ -1,5 +1,19 @@
 # A8 – Gears
 
+## Asking Smart Questions 
+
+The reason that asking smart questions is important is that it can determine the very foundation of which new ideas come about. The quality of the question, the angle you take, and the assumptions you challenge decide whether you end up with a quick band-aid or a real solution. In design thinking, good questions keep you from jumping straight to conclusions or solving the wrong problem. Instead of just focusing on surface-level features, asking "why" forces you to dig into what people actually need and care about. Ultimately, starting with the right questions guides the entire design process, leading to ideas that make sense and work for real people.
+
+## Problem Statement
+
+The purpose of my design is to create a simple, 3D-printable pulley system that redirects force, specifically allowing me to close my closet door from bed. The main technical challenge is designing an interlocking mechanism with tight enough tolerances to let the wheel spin smoothly while keeping the frame sturdy. My research covered standard 3D printing clearance fits (0.25 to 0.4 mm), basic groove mechanics to keep the cord aligned, existing open-source designs on Thingiverse, and measuring the pull force needed to swing a door shut.
+
+I noticed it at night after getting completely settled into bed and realizing my closet door was wide open. I prefer keeping doors shut for room temperature and order, and I couldn't fall asleep without closing it. Getting up every time ruined my sleep momentum, so I decided to design a simple mechanical pulley system that solves the problem and gives me hands-on design experience.
+
+My ideal users are DIYers looking for low-tech, non-electronic ways to solve small household annoyances, as well as 3D printing makers who need a simple, open-source pulley template they can easily download, scale, and modify for their own projects.
+
+My approach focuses on parametric CAD modeling and iterative 3D printing. I designed a hardware-free, snap-fit axle mechanism so the model doesn't require extra metal bearings or screws, then printed and tested multiple tolerance variations directly on my door until the wheel spun smoothly under tension.
+
 ## CAD Modeling
 
 ### Pulley Wheel
@@ -13,7 +27,7 @@ Creating the general sketch of the model, I planned to utilize the revolve featu
 
 <img width="991" height="503" alt="image" src="https://github.com/user-attachments/assets/be75ac93-fe0b-4f7a-bca2-043403132f29" />
 
-Once the general sketch was completed I then created a small center line of which I could revolve around, it is between the intersection of the front and right plane.
+Once the general sketch was completed, I then created a small center line of which I could revolve around, it is between the intersection of the front and right planes.
 
 <img width="1640" height="986" alt="image" src="https://github.com/user-attachments/assets/60f831f4-f406-4ae5-91c4-a2e10cde31cc" />
 
