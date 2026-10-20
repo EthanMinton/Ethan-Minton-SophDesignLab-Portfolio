@@ -172,6 +172,10 @@ After taking some measurements I created a sketch onto the
 Early Stage of Primary Print:
 <img width="4032" height="3024" alt="IMG_0136" src="https://github.com/user-attachments/assets/e8acfba8-2bc0-4fad-915c-4626a151d28d" />
 
+Video of Primary Print:
+<video src="https://github.com/user-attachments/assets/e96a0b3a-cbb9-439a-920d-67779a4caeda" controls style="max-width: 100%;">
+</video>
+
 Late Stage of Primary Print:
 <img width="4032" height="3024" alt="IMG_0142" src="https://github.com/user-attachments/assets/4eac4eee-2e4e-415a-bbc7-3828d74233b6" />
 
