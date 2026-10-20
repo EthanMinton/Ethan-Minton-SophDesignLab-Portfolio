@@ -2,7 +2,7 @@
 
 ## Asking Smart Questions 
 
-The reason that asking smart questions is important is that it can determine the very foundation of which new ideas come about. The quality of the question, the angle you take, and the assumptions you challenge decide whether you end up with a quick band-aid or a real solution. In design thinking, good questions keep you from jumping straight to conclusions or solving the wrong problem. Instead of just focusing on surface-level features, asking "why" forces you to dig into what people actually need and care about. Ultimately, starting with the right questions guides the entire design process, leading to ideas that make sense and work for real people.
+The reason that asking smart questions is important is that it can determine the very foundation on which new ideas come about. The quality of the question, the angle you take, and the assumptions you challenge or introduce decide whether you end up with a quick half-attempted fix or a real solution. For design thinking, good questions prevent you from going straight to conclusions or solving the wrong problem. Instead of just focusing on surface-level observations, asking "why" over and over forces you to dig into what people actually need and care about. Starting with the right questions guides the entire design process, leading to ideas that make sense and work for real solutions.
 
 ## Problem Statement
 
