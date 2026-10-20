@@ -178,9 +178,8 @@ I then filleted many of the edges to a radius of 0.10 inches in order to prevent
 
 Utilizing the same settings for Prusa and printing the body flat on its face to maximize its bending strength. I was able to receive the model and use it for the demonstration.
 
-<video src="https://github.com/user-attachments/assets/e96a0b3a-cbb9-439a-920d-67779a4caeda" controls style="max-width: 100%;">
+<video src="https://github.com/user-attachments/assets/916dd5f4-8c9a-4ffa-922d-4cd1c76c8653" controls style="max-width: 100%;">
 </video>
-
 
 
 ## Post Print 
