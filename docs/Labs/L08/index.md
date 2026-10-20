@@ -216,4 +216,10 @@ I do want to preface that coming back from Fall break gave me a lot more time an
 
 [https://www.toptal.com/designers/product-design/design-thinking-great-questions](https://www.toptal.com/designers/product-design/design-thinking-great-questions)
 
-[
+[Pully_Base_V1.SLDPRT](Pully_Base_V1.SLDPRT)
+
+[Pully_pin_V1.SLDPRT](Pully_pin_V1.SLDPRT)
+
+[Pully_structure_V1.SLDPRT](Pully_structure_V1.SLDPRT)
+
+[Pully_wheel_V1.SLDPRT](Pully_wheel_V1.SLDPRT)
