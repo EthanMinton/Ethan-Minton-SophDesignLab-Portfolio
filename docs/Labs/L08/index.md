@@ -103,28 +103,23 @@ extruded 1.5 inches because width of strucute
 Final product
 <img width="1642" height="985" alt="image" src="https://github.com/user-attachments/assets/16c66757-c780-490f-a228-9b54721ffdcd" />
 
-### Assembly
-<img width="1647" height="967" alt="image" src="https://github.com/user-attachments/assets/c637a1d5-45a2-456f-a7eb-3651606179a5" />
 
 
 ## Print Settings
 What number machine did you use?
 
-NEED TO PUT
+Need to FINISH
+
 Did you use a raft? If so, what were the settings?
 
-I did not use a raft as it wasn't need I did decide to use a skirt that would print a single layer surrounding the settings are below. With only a single loop, 6mm from object, and a height of 1 layer.
+I did not use a raft, as it wasn't needed. I did decide to use a skirt that would print a single layer surrounding the settings below. With only a single loop, 6mm from the object, and a height of 1 layer.
 
 <img width="1663" height="176" alt="image" src="https://github.com/user-attachments/assets/586746a4-7820-4f88-a881-8c9fc328c26b" />
-
-
-
-
 
 What was the wall thickness?
 What is the layer thickness?
 
-As seen below the settings are considerably simple with the layer height and first layer heigh tbeing both found at 0.3mm and 0.35 mm respectively. The only major change I made was the perimetiter where I increased it by 1 from the traditional 3, this would result in better surface strength and structure.
+As seen below, the settings are considerably simple, with the layer height and first layer height being both found at 0.3mm and 0.35 mm, respectively. The only major change I made was the perimeter, where I increased it by 1 from the traditional 3; this would result in better surface strength and structure with a wall thickness of around 1.61 mm.
 
 <img width="1660" height="285" alt="image" src="https://github.com/user-attachments/assets/bc3c382c-eb37-4505-9582-a29c655f155e" />
 
@@ -137,10 +132,10 @@ Did you use supports? Why or why not? If you did, explain the technical process 
 
 <img width="1652" height="753" alt="image" src="https://github.com/user-attachments/assets/0c3b6965-6b2f-48e8-aa8d-7dc8bdc1e320" />
 
-I did use supports with the listed settings below being significant, using organic style for simplificity to remove. I honestly used the supoport everwhere it sees fite I understood that within the print the primary sections that would need to be supported is the overhang of the structure, the upper lip of the wheel, and the sides of the pin. All were covered by everywhere. If it was needed I would have utilized the paint tool in order to give our model supports it required.
+I did use supports, with the listed settings below being significant, using organic style for simplicity to remove. I honestly used the support wherever it sees fit. I understood that within the print, the primary sections that would need to be supported are the overhang of the structure, the upper lip of the wheel, and the sides of the pin. All were covered everywhere. If it was needed, I would have utilized the paint tool in order to give our model the support it required.
 
 
-Set seam postion to random 
+Set seam position to random 
 <img width="1647" height="67" alt="image" src="https://github.com/user-attachments/assets/8b8fd925-7a23-440f-9c07-d219a9a33bdd" />
 
 Elephant foot compensation 1 mm
@@ -150,32 +145,41 @@ Elephant foot compensation 1 mm
 Outline reasons for the layout.
 Outline reasons for build orientation.
 
+<img width="1916" height="1091" alt="image" src="https://github.com/user-attachments/assets/0a06ac8b-a08d-466c-be0f-42953d43df9d" />
+
+When organizing the plate, there were 2 key things I kept in mind when I decided to organize the structure: I needed to have all of the parts roughly spaced enough apart so that their supports do not interact with each other at all, while also remaining relatively in the center to allow for a higher accuracy of print. The reason for this build orientation for all 3 to be on their sides is because it gives them all the best strength in filament printed, with the structure part being aligned to the length it will bend over, and the pin being aligned perpendicular to its own shear plane when inserted. The Wheel was least important for strength, as it already was a very thick piece, but it made the most sense to print on its side for simplicity and structure.
 
 How many layers are used in the print?
 
+It is stated by Prusa that there are 127 layers of print utilized in the file. It can be observed in the right side of the main screen of Prusa after slicing.
+
 What is the build volume of your print?
 
+With an estimated time of 6 hours and 44 minutes, I decided it would be best to start preheating the Printer in order to ensure no time is wasted and that our predicted time is the actual. With a build volume of 134 grams of used filament and 6.44 inches cubed of space taken up the print already a very hefty size.
 
-Note the slice information on Prusa Slicer
-
+<img width="500" height="215" alt="image" src="https://github.com/user-attachments/assets/073edcc3-1f19-4fa5-a5e4-a046e71605e3" />
 
 ## Iteration 
 
-Once the original Model had been printed I ran into a issue with how the rope was able to sit onto the model when being applied, as it kept getting pulled off of the pulley. I will elaborate more about the core issue in the lessons learned section. But I wanted to mention it here for the reason of the iteration. 
+Once the original Model had been printed, I ran into a issue with how the rope was able to sit onto the model when being applied, as it kept getting pulled off of the pulley. I will elaborate more about the core issue in the lessons learned section. But I wanted to mention it here for the reason of the iteration. 
 
 I needed to design a surface that could allow for the pulley to be placed at a more optimal angle, attaching the same structure in the closet. 
 
 After taking some measurements I created a sketch onto the 
 
 
+## Print 
+Early Stage of Primary Print:
+<img width="4032" height="3024" alt="IMG_0136" src="https://github.com/user-attachments/assets/e8acfba8-2bc0-4fad-915c-4626a151d28d" />
+
+Late Stage of Primary Print:
+<img width="4032" height="3024" alt="IMG_0142" src="https://github.com/user-attachments/assets/4eac4eee-2e4e-415a-bbc7-3828d74233b6" />
+
+
 ## Post Print 
+
 Comment on the surface finish of the supports
+
+
 What did you use to remove the supports?
-## Analyze
-
-
-## Decide
-
-
-## Communicate
 
