@@ -184,10 +184,7 @@ Utilizing the same settings for Prusa and printing the body flat on its face to 
 
 ## Post Print 
 
-Comment on the surface finish of the supports
-
-
-What did you use to remove the supports?
+The surface finish from the supports was considerably low quality, with much of their surface being very bumpy and stringy compared to the model, but once it was finished, they had left the model in much better shape. I don't expect the supports to be completely perfect surface finish and as long as they do their job in supporting the required structures I won't complain. Removing these supports was relatively easy as well only taking roughly about 3-5 minutes using mainly my hands and a set of sharp pliers. The pliers were mainly used to trim supports that were either difficult to get to or stuck to the actual structures. I found that the pin required the most attention as it was the one model with stricter tolerances and fits.
 
 ## Lessons Learned 
 
