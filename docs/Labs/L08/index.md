@@ -16,7 +16,10 @@ My approach focused on the design was to create a 3-part pulley system that coul
 
 ## CAD Modeling
 
-I used a not-initialized hand-drawn sketch for the design, as I already had a pretty clear picture in my mind of what I wanted the design to be. 
+Here is a rough generalized sketch I made of the design to elaborate on more with the CAD modeling. 
+
+<img width="820" height="735" alt="Math Scratch Paper (31)" src="https://github.com/user-attachments/assets/23679a37-9032-40e2-b349-ac7e02d1dbfd" />
+
 
 ### Pulley Wheel
 
