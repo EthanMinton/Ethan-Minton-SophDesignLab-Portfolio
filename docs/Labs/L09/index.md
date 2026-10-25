@@ -1,4 +1,4 @@
-# A9 – Pulleys
+# Lab #9 - Laser Cutter
 
 ## Objective
 
