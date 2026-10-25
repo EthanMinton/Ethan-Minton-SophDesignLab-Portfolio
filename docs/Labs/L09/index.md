@@ -37,7 +37,8 @@ To elaborate on what Kerf actually is, it is the width of material that is compl
 
 I then had the assistance of one of the Lab volunteers with the printing process. Disappointingly, I was not able to get any screenshots of the setup due to this fact, although any significant steps for setup will be documented within the final kit once it is printed. I was however able to catch a video of the print as proof that I was the one to print the square used later. 
 
-
+<video src="https://github.com/user-attachments/assets/85034c2d-c6f7-4c07-b778-f15f9fbc84d0" controls style="max-width: 100%;">
+</video>
 
 The measured values for the nominal 1 inch by 1 inch square was 0.9965 inches for the x-axis and 0.9950 inches for the y-axis subtracting these from the nominal values and averaging them gives up calculated Kerf of roughly 0.00425 inches.
 
