@@ -1,4 +1,4 @@
-# A8 – Gears
+# Lab 8 - Design Something Useful
 
 ## Asking Smart Questions 
 
