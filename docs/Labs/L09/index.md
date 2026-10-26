@@ -83,6 +83,13 @@ Below is the parametric table I utilized for this process with the KERF having 0
 
 <img width="1498" height="592" alt="image" src="https://github.com/user-attachments/assets/a40a2cd3-bbb7-4981-afac-e31f0556a2d8" />
 
+
+REMIND FINISH ITERATION 
+
+<img width="1917" height="966" alt="image" src="https://github.com/user-attachments/assets/8616b7d5-f5de-49f3-9407-2d78b96bfb27" />
+
+<img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/7d16f234-237d-4c8c-ae2b-30512e89b34c" />
+
 ## Design 
 Created sketch on top surface and Set length to "LENGTH2," which was set to 4.50 inches. 
 <img width="1916" height="967" alt="image" src="https://github.com/user-attachments/assets/9e3c0fc5-b64d-45ba-9d3f-1a68ba22ed30" />
@@ -119,6 +126,10 @@ Creating the second shape with LENGTH1 4 inches
 
 <img width="1915" height="962" alt="image" src="https://github.com/user-attachments/assets/fd62d537-97e2-4733-af4d-4f826c41ffb5" />
 
+REMIND CLEARANCE OF 0.001 INCH which chhanges everything.
+
+<img width="1917" height="1140" alt="image" src="https://github.com/user-attachments/assets/239ab1d5-0b0a-40a9-b480-7a8c5d6ae2a2" />
+<img width="1917" height="1130" alt="image" src="https://github.com/user-attachments/assets/f4178995-51cc-4910-bc77-944e3ffaec0d" />
 
 ## Communicate
 
