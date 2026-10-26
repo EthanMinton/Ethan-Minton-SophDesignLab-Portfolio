@@ -1,5 +1,5 @@
 # Lab #9 - Laser Cutter
-
+Brendan Spinner & Ethan Minton
 ## Objective
 
 Our objective is to design, laser cut, assemble, and document a parametric construction kit using Taguchi’s Robust Design principles to engineer reliable. Utilizing calculated, repeatable joint connections that account for machine kerf and material thickness variation across an entire sheet. 
