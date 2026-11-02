@@ -89,13 +89,14 @@ I then uploaded it to the Cutter and had to manually adjust the height, as I fou
 
 <img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/7d16f234-237d-4c8c-ae2b-30512e89b34c" />
 
-It was the cutter out of the board.
+Video of Cutter being used for Clearance Test.
+<video src="https://github.com/user-attachments/assets/e8d18941-5655-46ba-84d5-ab8c84648247" controls style="max-width: 100%;">
+</video>
 
 
+REMIND TO SHOW TEST
 
-
-
-
+Once I had removed the part from the cutter, I found that, in the negative, the 1 KERF was too loose of a clearance and that 2 KERF was too tight a clearance, meaning that when it came to programming the final design of the model I would pick to have our clearance value be roughly 1.5 KERFs to hopefully accomidate the needed clearance.
 
 ## Design 
 Created sketch on top surface and Set length to "LENGTH2," which was set to 4.50 inches. 
