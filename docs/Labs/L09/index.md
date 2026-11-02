@@ -54,9 +54,9 @@ The measured values for the nominal 1 inch by 1 inch square were 0.9965 inches f
 
 ### Clearance Determination 
 
-When designing the clearance test I was told by the same Lab volunteer that for simplicity it would be best to use Fusion 360 as the CAD software for this assignment as it has the least amount of issues when sending DXF files over to Inkscape, which I was completely fine for as it would allow for me to gain more versatility with more CAD softwares across different branches. 
+When designing the clearance test, I was told by the same Lab volunteer that for simplicity, it would be best to use Fusion 360 as the CAD software for this assignment, as it has the least amount of issues when sending DXF files over to Inkscape, which I was completely fine for as it would allow for me to gain more versatility with more CAD software across different branches. 
 
-I just began by creating a simple sketch on the Front surface. and creating 5 equally spaced slits between each of the protrusions; these sliters where set to be 0.30 inches wide with them all being equalized witht he equal constraing. They were also set to a height of 0.70 inches to allow for proper grip ability and easy insertion. I started with the middle constraint, setting it just to our thickness value of 0.1072 inches. 
+I just began by creating a simple sketch on the Front surface. And creating 5 equally spaced slits between each of the protrusions; these sliters where set to be 0.30 inches wide, with them all being equalized with the equal constraint. They were also set to a height of 0.70 inches to allow for proper grip ability and easy insertion. I started with the middle constraint, setting it just to our thickness value of 0.1072 inches. 
 
 <img width="1911" height="961" alt="image" src="https://github.com/user-attachments/assets/0272427c-32ba-4408-85ab-1b17ceea80c0" />
 
@@ -73,22 +73,29 @@ I did the same process on the left side, but instead of adding increments of KER
 
 <img width="1911" height="962" alt="image" src="https://github.com/user-attachments/assets/ad9ce619-65b5-4c07-b663-6021c1ef8c84" />
 
-I then decided to upload the file to Inkscape so that it could be uploaded to the laser cutter.
+Before I uploaded the file to Inkscape, some of my peers told me to try making these fits to test a slot fit, which is what I had initially planned for my final design. I did this by adding a rectangular sketch to the top of the design, as you can see below. All other dimensions remained the same.
 
-<img width="1917" height="1140" alt="image" src="https://github.com/user-attachments/assets/bf00fc67-7068-4709-a875-ef58b9c693c9" />
-
-FINISH LASER CUT AND MAKE DETERMINATIONS OF WHAT FIT
+<img width="1917" height="966" alt="image" src="https://github.com/user-attachments/assets/8616b7d5-f5de-49f3-9407-2d78b96bfb27" />
 
 Below is the parametric table I utilized for this process with the KERF having 0.00425 inches set to its value, and the THICKNESS being set to 0.1072 inches.
 
 <img width="1498" height="592" alt="image" src="https://github.com/user-attachments/assets/a40a2cd3-bbb7-4981-afac-e31f0556a2d8" />
 
-
-REMIND FINISH ITERATION 
-
-<img width="1917" height="966" alt="image" src="https://github.com/user-attachments/assets/8616b7d5-f5de-49f3-9407-2d78b96bfb27" />
+I then uploaded the file with a DXF file into Inkscape so that the file could be cut.
 
 <img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/7d16f234-237d-4c8c-ae2b-30512e89b34c" />
+
+I then uploaded it to the Cutter and had to manually adjust the height, as I found that it wasn't cooperating. 
+
+<img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/7d16f234-237d-4c8c-ae2b-30512e89b34c" />
+
+It was the cutter out of the board.
+
+
+
+
+
+
 
 ## Design 
 Created sketch on top surface and Set length to "LENGTH2," which was set to 4.50 inches. 
