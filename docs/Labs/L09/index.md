@@ -85,10 +85,6 @@ I then uploaded the file with a DXF file into Inkscape so that the file could be
 
 <img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/7d16f234-237d-4c8c-ae2b-30512e89b34c" />
 
-I then uploaded it to the Cutter and had to manually adjust the height, as I found that it wasn't cooperating. 
-
-<img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/7d16f234-237d-4c8c-ae2b-30512e89b34c" />
-
 Video of Cutter being used for Clearance Test.
 <video src="https://github.com/user-attachments/assets/e8d18941-5655-46ba-84d5-ab8c84648247" controls style="max-width: 100%;">
 </video>
@@ -99,6 +95,9 @@ REMIND TO SHOW TEST
 Once I had removed the part from the cutter, I found that, in the negative, the 1 KERF was too loose of a clearance and that 2 KERF was too tight a clearance, meaning that when it came to programming the final design of the model I would pick to have our clearance value be roughly 1.5 KERFs to hopefully accomidate the needed clearance.
 
 ## Design 
+
+### Unique Part 1
+
 Created sketch on top surface and Set length to "LENGTH2," which was set to 4.50 inches. 
 <img width="1916" height="967" alt="image" src="https://github.com/user-attachments/assets/9e3c0fc5-b64d-45ba-9d3f-1a68ba22ed30" />
 
@@ -127,10 +126,8 @@ I finally aligned the smaller rectangles to the center of the main rectangle, ut
 <img width="1912" height="957" alt="image" src="https://github.com/user-attachments/assets/09020d75-3968-472d-b4e8-a2855a969879" />
 
 
-SECOND SHAPE
+### Unique Part 2
 Creating the second shape with LENGTH1 4 inches
-
-
 
 <img width="1915" height="962" alt="image" src="https://github.com/user-attachments/assets/fd62d537-97e2-4733-af4d-4f826c41ffb5" />
 
