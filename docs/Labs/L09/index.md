@@ -141,7 +141,59 @@ Creating the second shape with LENGTH1 4 inches
 
 <img width="1915" height="962" alt="image" src="https://github.com/user-attachments/assets/fd62d537-97e2-4733-af4d-4f826c41ffb5" />
 
-REMIND CLEARANCE OF 0.001 INCH which chhanges everything.
+Create the exterior slots to have the same length using the equal constraint and assign it to the value "WIDTH / 2 + ( KERF + CLEARANCE )" giving it a value of 0.307 inches
+
+<img width="1910" height="957" alt="image" src="https://github.com/user-attachments/assets/95300ca1-1a22-425f-8cbb-2faf590104e3" />
+
+I then constrained the width to the sides of the slots, with "WIDTH/4" using the equal constraints, giving a value of 0.15 inches.
+<img width="1912" height="958" alt="image" src="https://github.com/user-attachments/assets/4b583cae-b3cf-473b-a345-350101aa7418" />
+
+I constrained the exterior slot height with "WIDTH/2", 0.30 inch.
+<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/ed4595c8-a2b3-464c-ae78-10d582a21e4a" />
+
+I then created 2 45-degree rotated rectangles and distanced them by "WIDTH/2"; I equalized their distances, giving 0.30 inches.
+<img width="1910" height="961" alt="image" src="https://github.com/user-attachments/assets/9c8b15c3-4393-4e86-8e93-9aee40f67e52" />
+
+I constrained their heights on the main part to be "WIDTH/3" at 0.2 inches.
+<img width="1906" height="962" alt="image" src="https://github.com/user-attachments/assets/aa6c8b51-23be-4399-a71d-2b4b308245a9" />
+
+I then set the height of both the rectangles to "THICKNESS - ( KERF + CLEARANCE )", roughly 0.1 inches.
+<img width="1905" height="960" alt="image" src="https://github.com/user-attachments/assets/4f870ff6-a232-4775-95a3-9ec23a28bd00" />
+
+I then constrained the length of the rectangles to "WIDTH / 2 - ( KERF + CLEARANCE )",0.293 inches
+<img width="1901" height="958" alt="image" src="https://github.com/user-attachments/assets/dcb95592-fb14-42b6-9e75-4c34fba989fb" />
+
+### Unique Part 3
+
+I first started by creating the slot extruded part in the sketch with "WIDTH / 2 + ( KERF + CLEARANCE )", giving it a dimension of 0.307 inches.
+<img width="1917" height="956" alt="image" src="https://github.com/user-attachments/assets/2d98a916-84c6-426c-a67c-b6c3d6dbbc3b" />
+
+I then created the length of the slot extruded part with "WIDTH / 2", at 0.30 inches
+
+<img width="1911" height="952" alt="image" src="https://github.com/user-attachments/assets/f601959c-9d5b-4f72-8ffa-4a44593b6505" />
+
+I creating a 45 degree angled line and gave it the length of "LENGTH3" at 3.75 inches.
+
+<img width="1915" height="962" alt="image" src="https://github.com/user-attachments/assets/4b52fbc5-c3ed-476c-a033-1060386e213a" />
+
+I created a 90 degree angled line and set it to the "WIDTH" variable at 0.6 inches
+
+<img width="1916" height="963" alt="image" src="https://github.com/user-attachments/assets/7b575b91-f782-4f16-b431-c242c63bc7d4" />
+
+I created another 90 degree turn and created a line that when all the way down until we reached the base of the slot extrusion. I then created a vertical line downward and completed the part.
+
+<img width="1912" height="961" alt="image" src="https://github.com/user-attachments/assets/fa1aefc6-d653-4cb3-9956-0acf76a5f8e7" />
+
+I then created a separate sketch to remove from the Unique Part 3, I first constrained the top end by 0.8 inches downward. And then the width of the sketch to be set to "WIDTH" at 0.60 inches.
+
+<img width="1910" height="968" alt="image" src="https://github.com/user-attachments/assets/b1a5f5e4-780e-4da4-9f5e-81b3bf44eddd" />
+With the sketch of the part then having a aligned line at a length of "WIDTH/3" at 0.2 inches. And created a angle line at 45 degress from the length of part to connect up with a horizontal line.
+
+<img width="1912" height="962" alt="image" src="https://github.com/user-attachments/assets/fc506a1a-fdd5-415e-9239-ce78ab40fa4d" />
+
+
+
+REMIND CLEARANCE NEEDS TO BE CHANGED 0.5 KERF
 
 <img width="1917" height="1140" alt="image" src="https://github.com/user-attachments/assets/239ab1d5-0b0a-40a9-b480-7a8c5d6ae2a2" />
 <img width="1917" height="1130" alt="image" src="https://github.com/user-attachments/assets/f4178995-51cc-4910-bc77-944e3ffaec0d" />
