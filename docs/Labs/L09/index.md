@@ -1,10 +1,20 @@
 # Lab #9 - Laser Cutter
-Brendan Spinner & Ethan Minton
+
+Group: Brendan Spinner & Ethan Minton
+
 ## Objective
 
-Our objective is to design, laser cut, assemble, and document a parametric construction kit using Taguchi’s Robust Design principles to engineer reliable. Utilizing calculated, repeatable joint connections that account for machine kerf and material thickness variation across an entire sheet. 
+Our objective is to design, laser-cut, assemble, and document a parametric construction kit using Taguchi’s Robust Design principles to engineer reliability. Utilizing calculated, repeatable joint connections that account for machine kerf and material thickness variation across an entire sheet. 
+
+## Research 
+
+Laser Cutting is a manufacturing process that utilizes a high-powered laser to vaporize a material into specified shapes. Often used for industrial manufacturing applications, as they become more affordable to utilize, schools and small businesses are able to access them and use them for projects. Most laser cutters operate by directing the output of the high-power laser through optics that focus the laser beam. The Super Fab Lab specifically utilizes a CO2 Laser that is able to both cut and engrave into the material. It is a viable manufacturing process as it is able to perform its process extremely quickly with uniform and accurate precision. 
+
+Unlike FDM priniting Laser cutting is an extremely  quick process only taking roughly a minute or 2 to completely even the most complex loads given to the machines. FDM printing takes hours upon hours to complete more complex and scaled prints. But this is primarily due to the geometric limits of how each of these manufacturing systems functions, with Laser Cutting operating only within a 2-dimensional plane in which it cuts the parts out of we are limited by the geometries and shapes we can achieve working in flat 2d planes. While FDM operates in a 3-dimensional environment that is able to create complex and rounded geometries simply with the operations it is given. We can work around this with the Laser cutter, but not to the extent that the FDM handles it.
+
 
 ## Analyze
+
 
 ### Thickness Determination
 
