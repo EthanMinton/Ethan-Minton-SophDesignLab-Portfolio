@@ -6,13 +6,6 @@ Group: Brendan Spinner & Ethan Minton
 
 Our objective is to design, laser-cut, assemble, and document a parametric construction kit using Taguchi’s Robust Design principles to engineer reliability. Utilizing calculated, repeatable joint connections that account for machine kerf and material thickness variation across an entire sheet. 
 
-## Research 
-
-Laser Cutting is a manufacturing process that utilizes a high-powered laser to vaporize a material into specified shapes. Often used for industrial manufacturing applications, as they become more affordable to utilize, schools and small businesses are able to access them and use them for projects. Most laser cutters operate by directing the output of the high-power laser through optics that focus the laser beam. The Super Fab Lab specifically utilizes a CO2 Laser that is able to both cut and engrave into the material. It is a viable manufacturing process as it is able to perform its process extremely quickly with uniform and accurate precision. 
-
-Unlike FDM priniting Laser cutting is an extremely  quick process only taking roughly a minute or 2 to completely even the most complex loads given to the machines. FDM printing takes hours upon hours to complete more complex and scaled prints. But this is primarily due to the geometric limits of how each of these manufacturing systems functions, with Laser Cutting operating only within a 2-dimensional plane in which it cuts the parts out of we are limited by the geometries and shapes we can achieve working in flat 2d planes. While FDM operates in a 3-dimensional environment that is able to create complex and rounded geometries simply with the operations it is given. We can work around this with the Laser cutter, but not to the extent that the FDM handles it.
-
-
 ## Analyze
 
 
@@ -226,7 +219,12 @@ I then changed THICKNESS to 0.1200 in to see how the slot would update. With the
 <img width="1498" height="595" alt="image" src="https://github.com/user-attachments/assets/fdcff53c-4522-425e-9ca7-7567cdf3f0fd" />
 <img width="1887" height="947" alt="image" src="https://github.com/user-attachments/assets/85b7f6d2-512a-4583-9da0-355c5643bb51" />
 
-## Machine Setup
+## Manufacturing
+
+I arranged the eight pieces in Inkscape with the four straight pieces stacked above the four angled pieces. I moved the pieces closer together so the layout would take up less of the wood sheet. I then used the bed camera in the Epilog Dashboard to make sure the entire layout was on the sheet before cutting.
+
+<img width="1917" height="1140" alt="image" src="https://github.com/user-attachments/assets/239ab1d5-0b0a-40a9-b480-7a8c5d6ae2a2" />
+
 | Setting | Kerf coupon | Fit coupon | Final cut |
 | --- | --- | --- | --- |
 | Laser cutter (name or number) | Little_Boy_SFL_LA-5 | Little_Boy_SFL_LA-5 | Little_Boy_SFL_LA-5 |
@@ -240,8 +238,39 @@ I then changed THICKNESS to 0.1200 in to see how the slot would update. With the
 | Focus method and how you confirmed it | Used the metal focus rod to set and check the height manually. | Same as kerf coupon | Same as kerf coupon |
 | Air assist on? Exhaust on? | Both on with valves fully open. | Same as kerf coupon | Same as kerf coupon |
 | How you set origin and alignment | Used the bed camera to position the cut layout on the sheet. | Same as kerf coupon | Same as kerf coupon |
-<img width="1917" height="1140" alt="image" src="https://github.com/user-attachments/assets/239ab1d5-0b0a-40a9-b480-7a8c5d6ae2a2" />
+
 <img width="1917" height="1130" alt="image" src="https://github.com/user-attachments/assets/f4178995-51cc-4910-bc77-944e3ffaec0d" />
 
-## Communicate
+I ran the cut with the air assist and exhaust fully open. The smoke cleared quickly while the laser was running, and all eight pieces cut through easily. The edges were mostly smooth with a few small imperfections. The cut edges were darker brown, but there were no major burn marks. I was able to use the parts as they came off the cutter without sanding or cleanup.
 
+I connected the two copies of Part 1 and the two copies of Part 2 to form a square base. I then inserted the four angled copies of Part 3 into the slots near the middle of the Part 2 pieces. The angled pieces meet at the center above the base, giving the finished kit a pyramid shape.
+
+### Process Research 
+
+Laser Cutting is a manufacturing process that utilizes a high-powered laser to vaporize a material into specified shapes. Often used for industrial manufacturing applications, as they become more affordable to utilize, schools and small businesses are able to access them and use them for projects. Most laser cutters operate by directing the output of the high-power laser through optics that focus the laser beam. The Super Fab Lab specifically utilizes a CO2 Laser that is able to both cut and engrave into the material. It is a viable manufacturing process as it is able to perform its process extremely quickly with uniform and accurate precision. 
+
+Unlike FDM priniting Laser cutting is an extremely  quick process only taking roughly a minute or 2 to completely even the most complex loads given to the machines. FDM printing takes hours upon hours to complete more complex and scaled prints. But this is primarily due to the geometric limits of how each of these manufacturing systems functions, with Laser Cutting operating only within a 2-dimensional plane in which it cuts the parts out of we are limited by the geometries and shapes we can achieve working in flat 2d planes. While FDM operates in a 3-dimensional environment that is able to create complex and rounded geometries simply with the operations it is given. We can work around this with the Laser cutter, but not to the extent that FDM handles it.
+
+## Lessons Learned
+
+| Date and time | Time spent | Step | What happened | Decision or change made |
+| --- | --- | --- | --- | --- |
+| | 5 hours | CAD modeling | I worked on the kit design and learned how to model the fit coupon in Fusion 360. | I asked my teammate and other students for help, then restarted the coupon model. |
+| | 2 hours | Coupon testing | I measured the kerf and tested five slot widths. | I chose a slot adjustment of 1.5 times the measured kerf based on the two closest fits. |
+| | 2 hours | Final cut | I laid out and cut all eight parts from one wood sheet. | I moved the parts closer together to use less of the sheet. |
+| | 8 hours | Documentation | I put together the screenshots, tables, and explanations. | I added before-and-after screenshots showing how changing the sheet thickness updated the slot width. |
+| | **17 hours** | **Total** | | |
+
+The part I struggled with most was modeling the fit coupon. I was still getting comfortable with Fusion 360, and I initially misunderstood what the assignment was asking me to show with the coupon. After talking with my teammate and other students, I restarted the model and set up the five slots around the measured sheet thickness. Testing those slots gave me a better idea of how much to subtract in CAD to get the fit I wanted.
+
+I used one nominal 1/8 in wood sheet that was about a foot and a half across. I used calipers to measure the sheet and kerf coupon, Fusion 360 to model the parts, Inkscape to arrange them, and the Epilog laser cutter and metal focus rod to set up and make the cuts. No sanding or other cleanup was needed.
+
+### Reflections
+
+Measured Vs Expected. I expected the kerf to be around 0.005 in, and I measured an average of 0.00425 in. The wood was labeled 1/8 in, but I measured an average thickness of 0.1072 in. If I had used 0.125 in in the slot equation, the slot would have been drawn 0.0178 in wider, which could have made the joints loose. Using my original kerf estimate with the same equation would have made the slots slightly tighter.
+
+Taguchi’s quality loss. My target was a joint that held its position but could still be taken apart by hand. The coupon slot with one kerf subtracted still went together, but it could wobble and slide out when tilted. If that same fit were repeated across thousands of kits, more assemblies could feel loose or need rework even though the parts could still go together.
+
+Real product example. A flat-pack plywood stool can use tabs and slots to connect the seat and legs. If the slots are too wide, the stool could wobble. If they are too narrow, the customer might have to force the parts together and could damage a tab.
+
+What I would change. If I had one more cut, I would make four more copies of Part 3 and redesign Part 2 to hold angled pieces on both sides. That would let me try making a diamond shape like the one from The Sims.
