@@ -253,11 +253,11 @@ Unlike FDM priniting Laser cutting is an extremely  quick process only taking ro
 
 ## Lessons Learned
 
-| Date and time | Time spent | Step | What happened | Decision or change made |
+| Date and time | Time spent on task | Step | What happened | Decision or change made |
 | --- | --- | --- | --- | --- |
-| | 5 hours | CAD modeling | I worked on the kit design and learned how to model the fit coupon in Fusion 360. | I asked my teammate and other students for help, then restarted the coupon model. |
-| | 2 hours | Coupon testing | I measured the kerf and tested five slot widths. | I chose a slot adjustment of 1.5 times the measured kerf based on the two closest fits. |
-| | 2 hours | Final cut | I laid out and cut all eight parts from one wood sheet. | I moved the parts closer together to use less of the sheet. |
+| Oct. 23, 2026, 4–8 PM and Oct. 26, 2026, 11 AM–8 PM | 5 hours | CAD modeling | I worked on the kit design and learned how to model the fit coupon in Fusion 360. | I asked my teammate and other students for help, then restarted the coupon model. |
+| Oct. 23, 2026, 4–8 PM | 2 hours | Coupon testing | I measured the kerf and tested five slot widths. | I chose a slot adjustment of 1.5 times the measured kerf based on the two closest fits. |
+| Oct. 26, 2026, 11 AM–8 PM | 2 hours | Final cut | I laid out and cut all eight parts from one wood sheet. | I moved the parts closer together to use less of the sheet. |
 | | 8 hours | Documentation | I put together the screenshots, tables, and explanations. | I added before-and-after screenshots showing how changing the sheet thickness updated the slot width. |
 | | **17 hours** | **Total** | | |
 
