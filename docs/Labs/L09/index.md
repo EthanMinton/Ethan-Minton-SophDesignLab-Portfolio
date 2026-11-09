@@ -209,11 +209,24 @@ With the sketch of the part then having a aligned line at a length of "WIDTH/3" 
 
 <img width="1912" height="962" alt="image" src="https://github.com/user-attachments/assets/fc506a1a-fdd5-415e-9239-ce78ab40fa4d" />
 
+### Parameter Table
+
 Once I tested the slots, I found that subtracting one kerf left the fit slightly loose, while subtracting two kerfs made it difficult to take apart. I decided to use 1.5 times the measured kerf for the final design. In Fusion 360, I set CLEARANCE to KERF / 2, so adding it to one full kerf gave me a total adjustment of 0.006375 in. I then used THICKNESS − (KERF + CLEARANCE) to subtract that adjustment from the measured sheet thickness of 0.1072 in, giving me a CAD slot width of about 0.1008 in.
 
 <img width="1485" height="592" alt="image" src="https://github.com/user-attachments/assets/94db9005-e739-4858-ad19-8ffbb7e0804e" />
 
-## Machine Set Up
+### Before & After 
+I first set CLEARANCE to half of KERF. This gave me a total adjustment of 1.5 times the kerf and a slot dimension of about 0.306 in.
+<img width="1917" height="958" alt="image" src="https://github.com/user-attachments/assets/1bd085d0-45f1-4bd5-ac9e-6b02ecdb7543" />
+
+I then changed CLEARANCE to equal KERF to see how the slot would update.
+<img width="1497" height="597" alt="image" src="https://github.com/user-attachments/assets/1aee70c4-d8a8-4e60-a1ed-f1bf9e9d5af7" />
+
+After making this change, KERF + CLEARANCE was equal to two kerfs. This increased the slot dimension from about 0.306 in to 0.309 in.
+<img width="1915" height="957" alt="image" src="https://github.com/user-attachments/assets/00621004-7eb5-4612-ad3a-116ee2c38767" />
+
+
+## Machine Setup
 <img width="1917" height="1140" alt="image" src="https://github.com/user-attachments/assets/239ab1d5-0b0a-40a9-b480-7a8c5d6ae2a2" />
 <img width="1917" height="1130" alt="image" src="https://github.com/user-attachments/assets/f4178995-51cc-4910-bc77-944e3ffaec0d" />
 
