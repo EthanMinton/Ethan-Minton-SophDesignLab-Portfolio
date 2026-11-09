@@ -1,4 +1,4 @@
-# Lab #9 - Laser Cutter
+<img width="4032" height="3024" alt="IMG_0358" src="https://github.com/user-attachments/assets/6da08740-fbee-41fc-88d6-735634553a23" /># Lab #9 - Laser Cutter
 
 Group: Brendan Spinner & Ethan Minton
 
@@ -62,7 +62,7 @@ The measured values for the nominal 1 inch by 1 inch square were 0.9965 inches f
 | Y Axis | 1.0000 | 0.9950 | 0.0050 |
 | Mean | - | - | **0.00425** |
 
-### Clearance Determination 
+### Clearance Print 
 
 When designing the clearance test, I was told by the same Lab volunteer that for simplicity, it would be best to use Fusion 360 as the CAD software for this assignment, as it has the least amount of issues when sending DXF files over to Inkscape, which I was completely fine for as it would allow for me to gain more versatility with more CAD software across different branches. 
 
@@ -99,10 +99,28 @@ Video of Cutter being used for Clearance Test.
 <video src="https://github.com/user-attachments/assets/e8d18941-5655-46ba-84d5-ab8c84648247" controls style="max-width: 100%;">
 </video>
 
+### Clearance Test 
 
-REMIND TO SHOW TEST
+Once the part was obtained, I first started with testing. The first test: the Positive 2 KERF was way too loose; this was an observation I guessed based on how the cutter operates, but nonetheless.
+<img width="4032" height="3024" alt="IMG_0358" src="https://github.com/user-attachments/assets/eeb332fe-391e-4122-ad1f-27a342f46a4b" />
 
-Once I had removed the part from the cutter, I found that, in the negative, the 1 KERF was too loose of a clearance and that 2 KERF was too tight a clearance, meaning that when it came to programming the final design of the model I would pick to have our clearance value be roughly 1.5 KERFs to hopefully accomidate the needed clearance.
+The second test was the Positive 1 KERF; this was also observed to be too loose, similar to the prior. 
+
+<img width="4032" height="3024" alt="IMG_0360" src="https://github.com/user-attachments/assets/5ce2e1a4-6bdd-48f4-8db6-ae22dd25017d" />
+
+The third test was neutral, with no variable acting on it to adjust the KERF; this was tighter than the previous 2 but still would slide easily with just a bit of wobbling, which is not optimal for our wanted part.
+
+<img width="4032" height="3024" alt="IMG_0359" src="https://github.com/user-attachments/assets/3a3f17db-59f8-40ba-89bb-823c77173f12" />
+
+The fourth test had a negative 1 KERF; this was actually the first fit that I would consider pretty optimal for a slot fit, though I would consider it slightly too loose for a good slot fit, as it would still slide out at certain angles of wobble.
+
+<img width="4032" height="3024" alt="IMG_0361" src="https://github.com/user-attachments/assets/7571d899-9771-4313-b925-8aae45e0e514" />
+
+The fifth test had a negative 2 KERF; this was the final test, and I would consider it also pretty optimal for a slot fit if you do not want the part to be taken apart easily. The fit is extremely tight, and although it would be possible to slot and utilize, the fact it is incredibly difficult to remove led me to make an engineering decision. 
+
+<img width="4032" height="3024" alt="IMG_0362" src="https://github.com/user-attachments/assets/a4b2d3c0-22d7-4a07-91aa-b5d1db8a1690" />
+
+Once I had removed the part from the cutter, I found that, in the negative, the 1 KERF was too loose a clearance and that 2 KERF was too tight a clearance, meaning that when it came to programming the final design of the model, I would pick to have our clearance value be roughly 1.5 KERFs to hopefully accommodate the needed clearance.
 
 ## Design 
 
