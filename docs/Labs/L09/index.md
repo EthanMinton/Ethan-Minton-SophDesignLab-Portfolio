@@ -216,15 +216,15 @@ Once I tested the slots, I found that subtracting one kerf left the fit slightly
 <img width="1485" height="592" alt="image" src="https://github.com/user-attachments/assets/94db9005-e739-4858-ad19-8ffbb7e0804e" />
 
 ### Before & After 
-I first set CLEARANCE to half of KERF. This gave me a total adjustment of 1.5 times the kerf and a slot dimension of about 0.306 in.
-<img width="1917" height="958" alt="image" src="https://github.com/user-attachments/assets/1bd085d0-45f1-4bd5-ac9e-6b02ecdb7543" />
+I first set THICKNESS to the measured sheet thickness of 0.1072 in, which gave me a slot width of about 0.1008 in.
 
-I then changed CLEARANCE to equal KERF to see how the slot would update.
-<img width="1497" height="597" alt="image" src="https://github.com/user-attachments/assets/1aee70c4-d8a8-4e60-a1ed-f1bf9e9d5af7" />
+<img width="1502" height="597" alt="image" src="https://github.com/user-attachments/assets/9c1feec3-a3e2-4956-ae1a-db93cff7a907" />
+<img width="1907" height="957" alt="image" src="https://github.com/user-attachments/assets/e1d74c9c-ff3d-4cd8-8c23-8b2ffafa4b8e" />
 
-After making this change, KERF + CLEARANCE was equal to two kerfs. This increased the slot dimension from about 0.306 in to 0.309 in.
-<img width="1915" height="957" alt="image" src="https://github.com/user-attachments/assets/00621004-7eb5-4612-ad3a-116ee2c38767" />
+I then changed THICKNESS to 0.1200 in to see how the slot would update. With the kerf and clearance settings kept the same, the slot width increased to about 0.1136 in. I then changed the thickness back to 0.1072 in for the final design.
 
+<img width="1498" height="595" alt="image" src="https://github.com/user-attachments/assets/fdcff53c-4522-425e-9ca7-7567cdf3f0fd" />
+<img width="1887" height="947" alt="image" src="https://github.com/user-attachments/assets/85b7f6d2-512a-4583-9da0-355c5643bb51" />
 
 ## Machine Setup
 <img width="1917" height="1140" alt="image" src="https://github.com/user-attachments/assets/239ab1d5-0b0a-40a9-b480-7a8c5d6ae2a2" />
