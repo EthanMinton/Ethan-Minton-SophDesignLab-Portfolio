@@ -227,6 +227,19 @@ I then changed THICKNESS to 0.1200 in to see how the slot would update. With the
 <img width="1887" height="947" alt="image" src="https://github.com/user-attachments/assets/85b7f6d2-512a-4583-9da0-355c5643bb51" />
 
 ## Machine Setup
+| Setting | Kerf coupon | Fit coupon | Final cut |
+| --- | --- | --- | --- |
+| Laser cutter (name or number) | Little_Boy_SFL_LA-5 | Little_Boy_SFL_LA-5 | Little_Boy_SFL_LA-5 |
+| Material type | Wood sheet | Wood sheet | Wood sheet |
+| Nominal thickness | 1/8 in | 1/8 in | 1/8 in |
+| Measured thickness (mean) | 0.1072 in | 0.1072 in | 0.1072 in |
+| Speed | 20% | 20% | 20% |
+| Power | 100% | 100% | 100% |
+| Frequency or PPI (if applicable) | 20% frequency | 20% frequency | 20% frequency |
+| Number of passes | 1 | 1 | 1 |
+| Focus method and how you confirmed it | Used the metal focus rod to set and check the height manually. | Same as kerf coupon | Same as kerf coupon |
+| Air assist on? Exhaust on? | Both on with valves fully open. | Same as kerf coupon | Same as kerf coupon |
+| How you set origin and alignment | Used the bed camera to position the cut layout on the sheet. | Same as kerf coupon | Same as kerf coupon |
 <img width="1917" height="1140" alt="image" src="https://github.com/user-attachments/assets/239ab1d5-0b0a-40a9-b480-7a8c5d6ae2a2" />
 <img width="1917" height="1130" alt="image" src="https://github.com/user-attachments/assets/f4178995-51cc-4910-bc77-944e3ffaec0d" />
 
