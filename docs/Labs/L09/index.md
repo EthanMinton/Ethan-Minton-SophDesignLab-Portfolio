@@ -243,7 +243,12 @@ I arranged the eight pieces in Inkscape with the four straight pieces stacked ab
 
 I ran the cut with the air assist and exhaust fully open. The smoke cleared quickly while the laser was running, and all eight pieces cut through easily. The edges were mostly smooth with a few small imperfections. The cut edges were darker brown, but there were no major burn marks. I was able to use the parts as they came off the cutter without sanding or cleanup.
 
+<img width="4032" height="3024" alt="IMG_0364" src="https://github.com/user-attachments/assets/a60f5779-8d3e-4cc9-a2c9-1bc7b8f6cc05" />
+<img width="3024" height="4032" alt="IMG_0277 (2)" src="https://github.com/user-attachments/assets/8a577732-a80a-49f4-b82e-2eaedd25a4ee" />
+
 I connected the two copies of Part 1 and the two copies of Part 2 to form a square base. I then inserted the four angled copies of Part 3 into the slots near the middle of the Part 2 pieces. The angled pieces meet at the center above the base, giving the finished kit a pyramid shape.
+
+<img width="4032" height="3024" alt="IMG_0363 (1)" src="https://github.com/user-attachments/assets/99c336ea-13c4-4cc1-b1a2-45d9a6dbfc47" />
 
 ### Process Research 
 
@@ -263,13 +268,17 @@ Unlike FDM priniting Laser cutting is an extremely  quick process only taking ro
 
 The part I struggled with most was modeling the fit coupon. I was still getting comfortable with Fusion 360, and I initially misunderstood what the assignment was asking me to show with the coupon. After talking with my teammate and other students, I restarted the model and set up the five slots around the measured sheet thickness. Testing those slots gave me a better idea of how much to subtract in CAD to get the fit I wanted.
 
+<img width="1911" height="962" alt="image" src="https://github.com/user-attachments/assets/4f16c616-d329-489d-aaad-222439135700" />
+
+<img width="1917" height="966" alt="image" src="https://github.com/user-attachments/assets/9092d246-838b-4910-befe-1594c6d32c1e" />
+
 I used one nominal 1/8 in wood sheet that was about a foot and a half across. I used calipers to measure the sheet and kerf coupon, Fusion 360 to model the parts, Inkscape to arrange them, and the Epilog laser cutter and metal focus rod to set up and make the cuts. No sanding or other cleanup was needed.
 
 ### Reflections
 
 Measured Vs Expected. I expected the kerf to be around 0.005 in, and I measured an average of 0.00425 in. The wood was labeled 1/8 in, but I measured an average thickness of 0.1072 in. If I had used 0.125 in in the slot equation, the slot would have been drawn 0.0178 in wider, which could have made the joints loose. Using my original kerf estimate with the same equation would have made the slots slightly tighter.
 
-Taguchi’s quality loss. My target was a joint that held its position but could still be taken apart by hand. The coupon slot with one kerf subtracted still went together, but it could wobble and slide out when tilted. If that same fit were repeated across thousands of kits, more assemblies could feel loose or need rework even though the parts could still go together.
+Taguchi’s quality loss. The angled Part 3 pieces fit into the slots in Part 2 and held the pyramid together, but one of the joints had a little more play than I wanted. My target was a snug fit that I could still take apart by hand. Taguchi’s quality loss function says that the loss increases with the square of the distance from the target. For one kit, a little play might only make the pyramid wobble. Across thousands of kits, that same issue could lead to more complaints or parts needing to be remade.
 
 Real product example. A flat-pack plywood stool can use tabs and slots to connect the seat and legs. If the slots are too wide, the stool could wobble. If they are too narrow, the customer might have to force the parts together and could damage a tab.
 
