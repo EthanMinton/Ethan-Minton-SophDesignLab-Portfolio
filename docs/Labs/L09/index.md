@@ -1,4 +1,4 @@
-<img width="4032" height="3024" alt="IMG_0358" src="https://github.com/user-attachments/assets/6da08740-fbee-41fc-88d6-735634553a23" /># Lab #9 - Laser Cutter
+# Lab #9 - Laser Cutter
 
 Group: Brendan Spinner & Ethan Minton
 
@@ -209,10 +209,11 @@ With the sketch of the part then having a aligned line at a length of "WIDTH/3" 
 
 <img width="1912" height="962" alt="image" src="https://github.com/user-attachments/assets/fc506a1a-fdd5-415e-9239-ce78ab40fa4d" />
 
+Once I tested the slots, I found that subtracting one kerf left the fit slightly loose, while subtracting two kerfs made it difficult to take apart. I decided to use 1.5 times the measured kerf for the final design. In Fusion 360, I set CLEARANCE to KERF / 2, so adding it to one full kerf gave me a total adjustment of 0.006375 in. I then used THICKNESS − (KERF + CLEARANCE) to subtract that adjustment from the measured sheet thickness of 0.1072 in, giving me a CAD slot width of about 0.1008 in.
 
+<img width="1485" height="592" alt="image" src="https://github.com/user-attachments/assets/94db9005-e739-4858-ad19-8ffbb7e0804e" />
 
-REMIND CLEARANCE NEEDS TO BE CHANGED 0.5 KERF
-
+## Machine Set Up
 <img width="1917" height="1140" alt="image" src="https://github.com/user-attachments/assets/239ab1d5-0b0a-40a9-b480-7a8c5d6ae2a2" />
 <img width="1917" height="1130" alt="image" src="https://github.com/user-attachments/assets/f4178995-51cc-4910-bc77-944e3ffaec0d" />
 
