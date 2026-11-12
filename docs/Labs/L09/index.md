@@ -38,7 +38,7 @@ I do want to mention that I did change a setting that I will keep throughout thi
 
 To elaborate on what Kerf actually is, it is the width of material that is completely burned away by the laser beam when it follows the cut path. Because the laser burns away this material on both sides, it results in larger fits for holes created than they were modeled to be and tabs/edges becoming smaller than they were intended to be.
 
-I then had the assistance of one of the Lab volunteers with the printing process. Disappointingly, I was not able to get any screenshots of the setup due to this fact, although any significant steps for setup will be documented within the final kit once it is printed. I was however able to catch a video of the print as proof that I was the one to print the square used later. 
+I then had the assistance of one of the Lab volunteers with the printing process. Disappointingly, I was not able to get any screenshots of the setup due to this fact, although any significant steps for setup will be documented within the final kit once it is printed. I was however, able to catch a video of the print as proof that I was the one to print the square used later. 
 
 <video src="https://github.com/user-attachments/assets/85034c2d-c6f7-4c07-b778-f15f9fbc84d0" controls style="max-width: 100%;">
 </video>
@@ -134,7 +134,9 @@ I then constrained the top of these rectangles with "(WIDTH/2) - (KERF + CLEARAN
 
 <img width="1907" height="965" alt="image" src="https://github.com/user-attachments/assets/13262a1e-3715-4391-863e-1a1f7108fb63" />
 
-I then constrained the height of the smaller rectangles using "THICKNESS - (KERF + CLEARANCE)" for the same reasons. This equates to a value of roughly 0.103 inches.  
+I then constrained the height of the smaller rectangles using "THICKNESS - (KERF + CLEARANCE)" for the same reasons. This equates to a value of roughly 0.103 inches. 
+
+NOTE: This value would change later due to new information from other students. This value would then equate to 0.1008 inches.
 
 <img width="1916" height="952" alt="image" src="https://github.com/user-attachments/assets/1b757759-766d-4b15-8320-aa31fb6dd92e" />
 
@@ -268,7 +270,7 @@ Unlike FDM priniting Laser cutting is an extremely  quick process only taking ro
 | Oct. 23, 2026, 4–8 PM and Oct. 26, 2026, 11 AM–8 PM | 5 hours | CAD modeling | I worked on the kit design and learned how to model the fit coupon in Fusion 360. | I asked my teammate and other students for help, then restarted the coupon model. |
 | Oct. 23, 2026, 4–8 PM | 2 hours | Coupon testing | I measured the kerf and tested five slot widths. | I chose a slot adjustment of 1.5 times the measured kerf based on the two closest fits. |
 | Oct. 26, 2026, 11 AM–8 PM | 2 hours | Final cut | I laid out and cut all eight parts from one wood sheet. | I moved the parts closer together to use less of the sheet. |
-| | 8 hours | Documentation | I put together the screenshots, tables, and explanations. | I added before-and-after screenshots showing how changing the sheet thickness updated the slot width. |
+| Oct. 26-27, 2026 | 8 hours | Documentation | I put together the screenshots, tables, and explanations. | I added before-and-after screenshots showing how changing the sheet thickness updated the slot width. |
 | | **17 hours** | **Total** | | |
 
 The part I struggled with most was modeling the fit coupon. I was still getting comfortable with Fusion 360, and I initially misunderstood what the assignment was asking me to show with the coupon. After talking with my teammate and other students, I restarted the model and set up the five slots around the measured sheet thickness. Testing those slots gave me a better idea of how much to subtract in CAD to get the fit I wanted.
