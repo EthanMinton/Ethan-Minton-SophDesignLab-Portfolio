@@ -48,11 +48,27 @@ https://formlabs.com/support/Introduction-to-Post-Curing-Prints/
 
 REMIND CREATE HAND SKETCH
 
-## Analyze
+## CAD Design 
+### Ring Holder 
+<img width="1617" height="962" alt="image" src="https://github.com/user-attachments/assets/5aec8996-673e-471d-8666-aa71fb0f57af" />
+
+<img width="1621" height="958" alt="image" src="https://github.com/user-attachments/assets/70a63785-4a1f-47f2-b632-153ba29caa37" />
+
+<img width="1615" height="957" alt="image" src="https://github.com/user-attachments/assets/70f11805-382f-47aa-9e43-e204ccaee2ff" />
+
+<img width="1616" height="956" alt="image" src="https://github.com/user-attachments/assets/44d3f7cc-e157-418c-9ec1-d6cda0159b8f" />
 
 
-## Decide
-_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
+### Puck Cap
 
-## Communicate
+<img width="1251" height="523" alt="image" src="https://github.com/user-attachments/assets/4e3a9aad-71a2-4305-ab7a-242a85d23830" />
 
+<img width="1616" height="952" alt="image" src="https://github.com/user-attachments/assets/92a11ecb-4a54-4ae3-a23c-f1d739c4bd76" />
+
+<img width="1616" height="958" alt="image" src="https://github.com/user-attachments/assets/b7e92818-8368-41ba-818b-d1830ce5ac9b" />
+
+<img width="1617" height="957" alt="image" src="https://github.com/user-attachments/assets/6ed06de2-70bd-4d91-8bc3-52385fb77694" />
+
+<img width="1616" height="961" alt="image" src="https://github.com/user-attachments/assets/e6c66f45-e231-4c9d-b06c-6c6981fd6ca2" />
+
+<img width="1616" height="951" alt="image" src="https://github.com/user-attachments/assets/b326bdfd-c92b-40b2-b8fa-ca3dbcbf2f42" />
