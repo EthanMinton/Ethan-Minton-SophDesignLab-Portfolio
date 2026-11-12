@@ -241,10 +241,14 @@ I arranged the eight pieces in Inkscape with the four straight pieces stacked ab
 
 <img width="1917" height="1130" alt="image" src="https://github.com/user-attachments/assets/f4178995-51cc-4910-bc77-944e3ffaec0d" />
 
-I ran the cut with the air assist and exhaust fully open. The smoke cleared quickly while the laser was running, and all eight pieces cut through easily. The edges were mostly smooth with a few small imperfections. The cut edges were darker brown, but there were no major burn marks. I was able to use the parts as they came off the cutter without sanding or cleanup. So no sanding or cleanup was required to smooth the edges.
+I ran the cut with the air assist and exhaust fully open. The smoke cleared quickly while the laser was running, and all eight pieces cut through easily. The edges were mostly smooth with a few small imperfections. The cut edges were darker brown, but there were no major burn marks. I was able to use the parts as they came off the cutter without sanding or cleanup. So no sanding or cleanup was required to smooth the edges; no major settings were changed at all between all of the different cuts.
 
 <img width="4032" height="3024" alt="IMG_0364" src="https://github.com/user-attachments/assets/a60f5779-8d3e-4cc9-a2c9-1bc7b8f6cc05" />
 <img width="3024" height="4032" alt="IMG_0277 (2)" src="https://github.com/user-attachments/assets/8a577732-a80a-49f4-b82e-2eaedd25a4ee" />
+
+<video src="https://github.com/user-attachments/assets/418a00bc-2045-42c9-9fd2-a974ed036749" controls style="max-width: 100%;">
+</video>
+
 
 I connected the two copies of Part 1 and the two copies of Part 2 to form a square base. I then inserted the four angled copies of Part 3 into the slots near the middle of the Part 2 pieces. The angled pieces meet at the center above the base, giving the finished kit a pyramid shape.
 
