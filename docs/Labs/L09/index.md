@@ -246,6 +246,7 @@ I ran the cut with the air assist and exhaust fully open. The smoke cleared quic
 <img width="4032" height="3024" alt="IMG_0364" src="https://github.com/user-attachments/assets/a60f5779-8d3e-4cc9-a2c9-1bc7b8f6cc05" />
 <img width="3024" height="4032" alt="IMG_0277 (2)" src="https://github.com/user-attachments/assets/8a577732-a80a-49f4-b82e-2eaedd25a4ee" />
 
+Final Laser Cut Video
 <video src="https://github.com/user-attachments/assets/418a00bc-2045-42c9-9fd2-a974ed036749" controls style="max-width: 100%;">
 </video>
 
