@@ -2,10 +2,12 @@
 
 ## Objective
 
+The objective of this assignment is to design and print a useful pair of parts that demonstrates an RC2 sliding fit. I will create a puck and matching holder, research the required clearance, and account for variation from SLA printing and curing. After printing, I will measure the mating features and test whether the puck slides into the holder smoothly while maintaining accurate alignment. The total print volume, including supports, must remain below 20 mL.
 
 ## Research 
 
-Below is the machinery handbook page displaying all of the values for the typical sliding fits; we were instructed to attempt to create an RC 2 sliding fit. This is defined by the assignment as "It is a good choice for locating pins and parts that need to slide into place with minimal play." This is essentially our goal with designing our design and fit.
+### Sliding Fits
+Below is the machinery handbook page showing the values for typical sliding fits; we were instructed to attempt an RC 2 sliding fit. The assignment defines this as "It is a good choice for locating pins and parts that need to slide into place with minimal play." This is essentially our goal with designing our design and fit.
 
 <img width="1500" height="882" alt="image" src="https://github.com/user-attachments/assets/b67eb348-b377-432d-ae41-637fba9b1dfb" />
 
@@ -23,7 +25,7 @@ According to Table 8a in the Machinery’s Handbook, the RC2 clearance limits de
 
 Very quickly, the consensus of the design is that the values from the Machinery's handbook were not optimized for the Resin Printers. I encountered multiple students who had specifically pointed out that even measurements of 6 thou for their clearance were creating fits that would be considered interference fits that would not allow any amount of sliding. This caused me to greatly readjust my interpretation of the clearance in order to ensure that my part is printed correctly.
 
-With this in mind, I decided to refer back to the document from the beginning of the year that gave general allowances for different types of 3D printing. Since we handle Stereolithography, we have general clearance for "Connecting/ Moving Parts" set to roughly 0.5 mm, or just under 20 thou. With my knowledge from all of the information I have been given I decided that it would be best for me to pick a clearance of around 15 thou.
+With this in mind, I decided to refer back to the document from the beginning of the year that gave general allowances for different types of 3D printing. Since we handle Stereolithography, we have general clearance for "Connecting/ Moving Parts" set to roughly 0.5 mm, or just under 20 thou. With my knowledge from all of the information I have been given, I decided that it would be best for me to pick a clearance of around 15 thou.
 
 <img width="1381" height="971" alt="image" src="https://github.com/user-attachments/assets/189c5234-ea54-4c02-97db-ffb416705d54" />
 
@@ -37,10 +39,14 @@ With this in mind, I decided that adding an assumed shrinkage percentage to the 
 
 https://formlabs.com/support/Introduction-to-Post-Curing-Prints/
 
-REMIND CREATE HAND SKETCH
+### Real-World Application
 
 <img width="1917" height="1130" alt="image" src="https://github.com/user-attachments/assets/93bc2e14-98e1-45d9-8792-28a2db3ce421" />
 <img width="1423" height="52" alt="image" src="https://github.com/user-attachments/assets/4f2e5410-c31c-454e-9e98-a09fc9201fc5" />
+
+### Hand Sketch
+
+REMIND CREATE HAND SKETCH
 
 ## Analyze
 
