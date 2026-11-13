@@ -59,7 +59,7 @@ I then measured the height of the ring, which was approximately 0.2410 in. I use
 
 <img width="4032" height="3024" alt="IMG_0300" src="https://github.com/user-attachments/assets/14324f3e-9ffe-4bf5-8007-ee01a1875091" />
 
-I sketched the side profile of the holder with a 0.50 in inside radius and 0.25 in inside height based on the ring measurements. I also included the 0.35 in radius at the bottom opening, a 0.10 in base thickness, and the stepped area near the top for the puck cap. The other dimensions found here are not significant to the sliding fit and rather provide strucuture.
+I sketched the side profile of the holder with a 0.50 in inside radius and 0.25 in inside height based on the ring measurements. I also included the 0.35 in radius at the bottom opening, a 0.10 in base thickness, and the stepped area near the top for the puck cap. The remaining dimensions provide the holder’s structure and create the stepped groove that allows the puck tabs to turn beneath the upper lip.
 
 <img width="1617" height="962" alt="image" src="https://github.com/user-attachments/assets/5aec8996-673e-471d-8666-aa71fb0f57af" />
 
@@ -103,13 +103,16 @@ I used a boss extrusion to add the rectangular feature to the puck and merged it
 <img width="1616" height="951" alt="image" src="https://github.com/user-attachments/assets/b326bdfd-c92b-40b2-b8fa-ca3dbcbf2f42" />
 
 ### Assembly 
-Assembled View
+**Assembled View**
+
+I assembled the puck and holder using concentric and coincident mates to line up the parts. The puck’s tabs pass through the openings in the holder. Once inserted, the puck can turn so the tabs move beneath the upper lip, helping hold the cap in place. To remove it, the tabs must line up with the openings again. The exploded view shows the two parts and how they fit together.
+
 <img width="1617" height="955" alt="image" src="https://github.com/user-attachments/assets/51063712-e09b-4fe8-b9c2-16a1f48af021" />
 
-Showing the Locking Mechanism
+**Showing the Locking Mechanism**
 <img width="1612" height="961" alt="image" src="https://github.com/user-attachments/assets/4abc14ec-fd3f-4523-9709-cbd38ccfaf74" />
 
-Exploded View
+**Exploded View**
 <img width="1620" height="951" alt="image" src="https://github.com/user-attachments/assets/bdfda143-d9e1-402e-8929-e741c869fc5e" />
 
 ### Fit Comparison 
