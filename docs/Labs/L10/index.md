@@ -1,4 +1,4 @@
-# A10 – Lead Screw Translating System
+# Lab 10 – RC2 Sliding Fit Ring Holder
 
 ## Objective
 
