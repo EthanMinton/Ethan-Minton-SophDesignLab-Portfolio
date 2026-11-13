@@ -41,8 +41,7 @@ https://formlabs.com/support/Introduction-to-Post-Curing-Prints/
 
 ### Real-World Application
 
-<img width="1917" height="1130" alt="image" src="https://github.com/user-attachments/assets/93bc2e14-98e1-45d9-8792-28a2db3ce421" />
-<img width="1423" height="52" alt="image" src="https://github.com/user-attachments/assets/4f2e5410-c31c-454e-9e98-a09fc9201fc5" />
+An RC2 sliding fit can be used for pins that line up parts during assembly. The pin slides into a matching hole without needing to be pressed in, while the small clearance keeps the parts from moving around too much. This allows the parts to be lined up and taken apart when needed. My ring holder uses a similar idea, where the puck cap needs to slide into place while staying aligned with the holder. I plan on actually utilizing such a fit for the pulley that I am going to design for my final project.
 
 ### Hand Sketch
 
@@ -128,3 +127,33 @@ I used a 1.00 in nominal size for the circular fit between the ring holder and p
 The puck radius was reduced from 0.50 in to 0.48 in. This provides 0.020 in of clearance on each side, giving a total diameter clearance of 0.040 in.
 
 For the 1.00 in nominal circular fit, the Machinery’s Handbook gives an RC2 clearance range of 0.00030–0.00120 in. My CAD clearance is larger because I allowed extra space for printing variation. After printing and curing, I will measure both parts and compare the actual clearance with the RC2 range. I will also check whether the puck slides smoothly without too much play.
+
+### Pre-Processing 
+
+I prepared both parts in PreForm for the Form 4 printer named “HiddenCod” using Clear V5 resin.
+
+<img width="4032" height="3024" alt="Printer — HiddenCod" src="https://github.com/user-attachments/assets/f5b537de-2e37-4bd9-a854-581405cb61c6" />
+
+Since I had limited experience with SLA printing, I was recommended to use PreForm’s automatic orientation tool. I used the suggested orientation to help support the parts during printing. The holder was positioned with its opening facing upward, while the puck was tilted near vertical.
+
+<img width="742" height="322" alt="Automatic build orientation" src="https://github.com/user-attachments/assets/7af71231-2cb0-49db-9b6f-c7d83e0999e2" />
+
+Both parts were placed beside each other on the build plate. Since it was early in the morning, I was unable to share the plate with other students. My print contained only my holder and puck instead of the shared arrangement requested in the assignment.
+
+Supports were added beneath both parts to hold them during printing. The support settings are shown in the screenshot below.
+
+<img width="472" height="827" alt="Support settings" src="https://github.com/user-attachments/assets/87691d01-511c-42e7-87f7-9cdad12e6b81" />
+
+The thinnest dimensioned section of the holder is the upper lip, which is 0.05 in thick. The bottom section is 0.10 in thick. The puck’s rectangular tabs are 0.03 in thick after applying the clearance equation, making them the thinnest features across the two parts.
+
+The selected layer height was 0.100 mm, and PreForm estimated a total print time of 46 minutes. The total material volume for the supported setup was 14.44 mL. This was below the assignment’s 20 mL limit by 5.56 mL.
+
+The screenshot below shows the supported parts, build orientation, material, layer height, estimated print time, and total material volume.
+
+<img width="1917" height="1130" alt="PreForm build preview and print settings" src="https://github.com/user-attachments/assets/93bc2e14-98e1-45d9-8792-28a2db3ce421" />
+
+<img width="1423" height="52" alt="Printer status — HiddenCod and Clear V5" src="https://github.com/user-attachments/assets/4f2e5410-c31c-454e-9e98-a09fc9201fc5" />
+
+I used a CLEARANCE variable of 0.020 in to reduce the puck dimensions while keeping the holder dimensions fixed. This produced 0.040 in of total diameter clearance, 0.020 in of total width clearance, and 0.040 in of total length clearance for the rectangular feature.
+
+These gaps provide extra room for possible printing and curing variation. They are printing allowances rather than a measured shrinkage percentage. After printing and curing, I will measure the parts to determine the actual clearance.
