@@ -50,6 +50,11 @@ REMIND CREATE HAND SKETCH
 
 ## CAD Design 
 ### Ring Holder 
+
+<img width="4032" height="3024" alt="IMG_0299" src="https://github.com/user-attachments/assets/db309d78-2705-42a7-ac40-78fbc4ef54a4" />
+
+<img width="4032" height="3024" alt="IMG_0300" src="https://github.com/user-attachments/assets/14324f3e-9ffe-4bf5-8007-ee01a1875091" />
+
 <img width="1617" height="962" alt="image" src="https://github.com/user-attachments/assets/5aec8996-673e-471d-8666-aa71fb0f57af" />
 
 <img width="1621" height="958" alt="image" src="https://github.com/user-attachments/assets/70a63785-4a1f-47f2-b632-153ba29caa37" />
