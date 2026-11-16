@@ -63,11 +63,33 @@ https://docs.lightburnsoftware.com/latest/Guides/Test-KerfOffset/
 
 ### Modular Storage 
 
-Something that I have always wanted to create and design is a modular storage system that could be iterated and modified in a way that it could fit your unique needs, such as requiring storage for your tiny screws when assembling, your electronic components, different parts, or even Lego. The modularity is its strength in design, allowing for any optimization a person needs to be easily printed out and utilized 
+Something that I have always wanted to create and design is a modular storage system that could be modified to fit a person's unique needs. Small items such as screws, electronic components, different parts, or even Lego can become mixed and difficult to find. Standard storage containers may have compartments that are too large or too small, which wastes space and makes organization difficult.
+
+The problem I would like to solve is how to create storage that can change as the items being stored change. The modularity would be its strength in design, allowing different compartments and attachments to be printed out and utilized without replacing the entire system. This would be considered the simpliest in engineering decisions as it will all hingle on a single sliding fit connection that could be universal to the entire design. 
 
 ### Force Directional Change 
 
+Another problem that interests me is how to change the direction of an applied force when there is limited space to move or pull an object. For example, lifting an object directly upward can be difficult if there is no convenient place to grip it or stand above it. This is actually a problem I have previously attempted to design a pulley to close my closet door, but I ran into the issue of not being able to use it easily, requiring a specific setup.
+
+Outside of my door, a pulley system could allow a person to pull in a more accessible direction while moving the object in the direction needed. The design would need to keep the rope aligned, allow the pulley to rotate freely, and provide a secure mounting point. Depending on the pulley arrangement, the system could also reduce the force required to lift the object.
+
+
 ### Ball Bearing 
 
+Another problem I would like to explore is how to support smooth rotation in a prototype when a standard bearing does not fit the available space. Purchased bearings come in specific sizes, which can require changing other parts of the design or waiting for the correct bearing to arrive.
+
+A 3D-printed ball bearing could allow the dimensions to be modified around the needs of the prototype; especially if completed parametrically, the design could be modified and applied universally to all parts. The main challenge would be creating enough clearance for the balls to move freely while keeping them contained and limiting unwanted movement. This would require testing the fit, friction, and wear to determine how well the bearing works. This would likely be the most difficult of the 3 problems to complete, with the most testing being required to iterate the design.
+
+### Selected Problem
+
+#### Force Directional Change
+
+I wanted to take another crack at the pulley system that I created and improve on the flaws I had with the original design. The primary reason I want to solve this problem is that I was disappointed in the work I was able to produce and the lack of versatility the pulley actually had. Having to print another version just to get the pulley to work was frustrating. I want to use what I learned from that experience to create a design that is easier to assemble, modify, and use.
+
+The problem I want to address is how to change the direction of an applied force while allowing the pulley system to work in different arrangements. A pulley that only works with one mounting position or one specific setup has limited use. I would like to explore interchangeable mounting parts and different pulley sizes so the system can be adapted without redesigning and printing the entire assembly. Hopefully, this design is able to finally tackle the door that constantly wakes me up throughout the night.
+
+This problem can be addressed using the manufacturing processes used in class. FDM printing would allow me to create the pulley and support components, while smaller fit coupons could be used to check clearances before printing the full assembly. SLA can be used to create the pin, with its smooth surface and 100% infill it is able to structurally hold up and allow for the pulley wheel to freely spin.
+
+The goal is to create a pulley that rotates freely, keeps the rope aligned, and mounts securely.
 
 ## Part 2
