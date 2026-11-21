@@ -154,6 +154,80 @@ The screenshot below shows the supported parts, build orientation, material, lay
 
 <img width="1423" height="52" alt="Printer status — HiddenCod and Clear V5" src="https://github.com/user-attachments/assets/4f2e5410-c31c-454e-9e98-a09fc9201fc5" />
 
-I used a CLEARANCE variable of 0.020 in to reduce the puck dimensions while keeping the holder dimensions fixed. This produced 0.040 in of total diameter clearance, 0.020 in of total width clearance, and 0.040 in of total length clearance for the rectangular feature.
+## Post-Processing
+
+After the print finished, the parts were still attached to the build plate with their supports. This picture shows the printed holder before removing it from the machine.
+
+<img width="4032" height="3024" alt="IMG_0304" src="https://github.com/user-attachments/assets/043c6e35-efba-4d51-8112-31d4f1f4ea29" />
+
+I washed the printed parts to remove leftover resin. The wash cycle was set to 10 minutes, with 9 minutes and 54 seconds remaining when I took the picture.
+
+<img width="3024" height="4032" alt="IMG_0306" src="https://github.com/user-attachments/assets/3454e701-4145-4c1f-81b4-8bb603d50038" />
+
+I used a scraper to separate the printed parts and their support bases from the build plate.
+
+<img width="4032" height="3024" alt="IMG_0308" src="https://github.com/user-attachments/assets/73732b1b-f690-4a08-b2e2-318e7354cecd" />
+
+I then used flush cutters to clip away the supports. I worked around the holder and puck carefully because the thin tabs could be damaged during removal.
+
+<img width="4032" height="3024" alt="IMG_0310" src="https://github.com/user-attachments/assets/8306b19c-6197-4508-9b17-a120188233d5" />
+
+After removing the supports, I placed the parts in the curing machine. This step uses UV light to further cure the resin before checking the finished dimensions and fit. I cured both parts for 15 minutes using the machine’s default settings.
+
+<img width="3024" height="4032" alt="IMG_0313" src="https://github.com/user-attachments/assets/0c64969c-1043-4e8f-9957-70d5fcddd194" />
+
+
+The finished parts had a cloudy appearance, with visible marks where the supports had been attached. These areas are important to check because raised spots on the mating surfaces could affect the sliding fit. The finished holder and puck are shown below. Both parts kept their overall shape, but the surfaces had a cloudy appearance and visible marks from the supports. The holder’s internal groove and openings were also visible after printing.
+
+<img width="4032" height="3024" alt="IMG_0465" src="https://github.com/user-attachments/assets/25e0e50d-3c82-45ee-b329-41432a818fa4" />
+
+I placed the ring inside the holder to check whether the space selected from the original caliper measurements was large enough. The ring fit inside the holder, showing that the design could hold the single ring it was made for.
+
+<img width="4032" height="3024" alt="IMG_0466" src="https://github.com/user-attachments/assets/27d4f598-9415-4cbf-89e5-dcee6aa3bce0" />
+
+I then placed the puck into the holder to check the assembled design. The cap fits into the opening and covers the ring. The tabs are designed to pass through the openings and turn beneath the upper lip to hold the cap in place.
+
+<img width="4032" height="3024" alt="IMG_0467" src="https://github.com/user-attachments/assets/ff3b5497-3135-4bd6-a5b1-3dace41d1ca4" />
+
+## Fit Test
+
+I measured the outside diameter of the printed puck using digital calipers. The measured diameter was 0.9925 in, compared with the CAD diameter of 0.9600 in.
+
+<img width="4032" height="3024" alt="IMG_0462" src="https://github.com/user-attachments/assets/b4709d73-4b65-4c2b-a9b0-84c1f88b1a91" />
+
+I then measured the holder’s inside diameter using the inside jaws of the calipers. The measured diameter was 0.9965 in, compared with the CAD diameter of 1.0000 in.
+
+<img width="4032" height="3024" alt="IMG_0464" src="https://github.com/user-attachments/assets/837cf7c5-25bc-4518-90de-88aa4721989b" />
+
+| Feature | CAD dimension (in) | Measured dimension (in) | Difference from CAD (in) |
+|---|---:|---:|---:|
+| Puck outside diameter | 0.9600 | 0.9925 | +0.0325 |
+| Holder inside diameter | 1.0000 | 0.9965 | −0.0035 |
+
+I calculated the actual diameter clearance by subtracting the puck diameter from the holder’s inside diameter.
+
+**Actual clearance = 0.9965 − 0.9925 = 0.0040 in**
+
+The measured clearance was much smaller than the 0.0400 in clearance in CAD. The puck printed larger than designed, while the holder opening printed slightly smaller.
+
+For the 1.00 in nominal fit, the handbook RC2 clearance range is 0.00030–0.00120 in. My measured clearance of 0.0040 in was above this range, so these measurements do not show an RC2 fit. I used a CLEARANCE variable of 0.020 in to reduce the puck dimensions while keeping the holder dimensions fixed. This produced 0.040 in of total diameter clearance, 0.020 in of total width clearance, and 0.040 in of total length clearance for the rectangular feature.
 
 These gaps provide extra room for possible printing and curing variation. They are printing allowances rather than a measured shrinkage percentage. After printing and curing, I will measure the parts to determine the actual clearance.
+
+## Sliding and Locking
+
+The sliding fit was very inconsistent. Sometimes the puck slid into the holder smoothly and felt nice, while other times it was extremely tight and difficult to move. Because of this, I would not consider it a consistently smooth sliding fit, even though the parts could fit together.
+
+While I was showing the design to someone, one of the locking arms snapped from careless handling. This was also partially my fault because I made the arms too thin to handle much force. Thankfully, the ring holder still works without the locking mechanism, so the broken arm did not make the entire part unusable.
+
+If I were to do the project again, I would likely increase the tolerance even more to ensure that the Sliding Fit had much more consistency, and I would also make the locking mechanism much thicker to prevent it from snapping in any typical circumstances.
+
+## Lessons Learned
+
+The biggest challenge was figuring out the SLA machine and choosing the clearance between the parts. I spent a lot of time learning the printing process and trying to understand how the printed dimensions would compare with my CAD model. The inconsistent sliding fit showed me that having clearance between the parts does not always mean they will move smoothly.
+
+I also learned that I needed to make the locking arms thicker. Although the thin arms fit into the holder, they were too easy to damage during handling. Next time, I would make them stronger and adjust the matching openings to fit the thicker arms.
+
+Before printing another finished design, I would make a small fit test with several clearances. I would also check the fit in different positions to see whether it stays smooth throughout the movement. This would help me choose dimensions based on the actual printer instead of relying mostly on general clearance recommendations.
+
+I spent approximately 10 hours on this assignment, mostly trying to figure out the SLA machine and the tolerances needed for the parts to fit together.
