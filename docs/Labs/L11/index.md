@@ -2,20 +2,21 @@
 
 ## Objective
 
+The goal of this assignment is to design and print a useful artifact with two or more parts that snap together using the Form 4. I plan to create a ring holder with flexible arms that allow a ring to slide over the hooks and stay on the holder. I will use the snap-fit guide to choose the geometry, prepare the parts in PreForm, and test the fit after washing and curing.
 
 ## Snap-fit Research
 
 ### Cantilever Snap Fit
 
-For this design, I plan to use a cantilever snap fit. The arm bends during assembly so the hook can move past the edge of the other part and snap into place. Once connected, the arm should return close to its original position instead of staying bent. This allows the hook to hold the parts together without keeping the arm under constant bending stress.
+For this design, I selected a cantilever snap fit. The arm bends during assembly so the hook can move past the edge of the other part and snap into place. Once connected, the arm should return close to its original position instead of staying bent. This allows the hook to hold the parts together without keeping the arm under constant bending stress.
 
 ### Geometry and Stress
 
-The root of the arm is where the highest bending stress occurs. A sharp corner in this area makes the arm more likely to crack, so I plan to add a fillet where the arm connects to the body. Figures 8 and 9 in the guide show the hook geometry and how the root radius affects stress concentration.
+The root of the arm is where the highest bending stress occurs. A sharp corner in this area makes the arm more likely to crack, so I added a fillet where the arm connects to the body. Figures 8 and 9 in the guide show the hook geometry and how the root radius affects stress concentration.
 
-The guide also recommends tapering the arm to distribute strain more evenly. Table 1, Design 2 shows an arm that gradually decreases to half of its root thickness near the tip. I plan to use this recommendation when choosing the dimensions to help balance flexibility and strength.
+The guide also recommends tapering the arm to distribute strain more evenly. Table 1, Design 2 shows an arm that gradually decreases to half of its root thickness near the tip. I researched this option but kept a constant 0.10 in wall thickness in my model. I used the arm length, slots, and root fillets to provide flexibility while keeping the sections connected to the base.
 
-**[Insert annotated sketch showing the root radius, arm length, root thickness, tapered tip, hook undercut, and direction of deflection. Mark the root as the area of highest bending stress.]**
+**[Insert annotated sketch showing the root radius, arm length, constant wall thickness, hook undercut, and direction of deflection. Mark the root as the area of highest bending stress.]**
 
 ### Deflection and Undercut
 
@@ -34,23 +35,24 @@ $$
 | $y$ | Tip deflection |
 | $L$ | Arm length |
 
-A longer arm reduces the strain for the same deflection. A thicker arm is stiffer and requires more force to bend. This equation applies to a constant cross section; a tapered arm requires the corresponding equation from Table 1.
+A longer arm reduces the strain for the same deflection. A thicker arm is stiffer and requires more force to bend. This equation applies to a constant rectangular cross section. It provides an estimate for my curved sections rather than accounting for their full geometry.
 
 ### Assembly and Removal
 
 The assembly force depends on the arm stiffness, required deflection, friction, and hook entry angle. Figure 17 shows how the entry angle and friction affect the force needed to connect the parts.
 
-I plan to use a gradual entry ramp so the mating part can push the hook aside during assembly. Leaving access to press the arm out of engagement would allow the parts to be separated. The hook overlap will provide retention, while clearance around the mating surfaces will help prevent unwanted interference.
+I used an angled entry ramp so the mating part can push the hook aside during assembly. The openings between the arms provide access to press them inward for removal. The hook overlap provides retention, while clearance around the straight body allows the ring to slide.
 
 ### SLA Resin Properties
 
 The amount the arm can safely bend depends on the resin used and its properties after curing. Table 2 lists strain values for specific engineering plastics, so those values cannot be directly applied to the SLA resin. Elongation at break also does not represent a safe strain for repeated assembly.
 
-I will use the selected resin's material data when choosing the final dimensions. A longer arm, rounded root, and limited undercut should help reduce strain and the chance of cracking. The fit will need to be tested after washing and curing to check that the hook engages securely and the arm can handle the required deflection.
+The selected resin needs enough flexibility to handle the required deflection without cracking. A longer arm, rounded root, and limited undercut can help reduce strain. The printed fit still needs to be tested after washing and curing because the material properties and finished dimensions affect how the parts connect.
 
-## Parametric Modeling
+## Design
 
 ### Ring Holder
+
 I used equations in SolidWorks to estimate the deflection and link the main sketch dimensions. I used an assumed force of 0.705 lbf per section and an assumed Young’s modulus of 217,557 psi. Each section was treated as a rectangular cantilever with a width equal to one-quarter of the circumference before subtracting the cuts. This gave an estimated deflection of 0.13 in using the simplified beam equation.
 
 <img width="1505" height="521" alt="image" src="https://github.com/user-attachments/assets/14c4d20a-cd48-4bf8-bb3f-a6344e28dc14" />
@@ -63,11 +65,11 @@ I revolved the sketch 360° around the centerline to create the hollow body. Thi
 
 <img width="1617" height="957" alt="image" src="https://github.com/user-attachments/assets/b13eee14-4c16-4c3c-b6ff-4b8268ae194c" />
 
-I created a 0.15-in-wide rectangle on the Front Plane that extended from the top of the hook down to the base. This sketch was used to create the first openings in the body while keeping the bottom ring connected.
+I created a 0.15 in wide rectangle on the Front Plane that extended from the top of the hook down to the base. This sketch was used to create the first openings in the body while keeping the bottom ring connected.
 
 <img width="1612" height="956" alt="image" src="https://github.com/user-attachments/assets/86609395-9e3b-47f8-94b7-e9454af9ccfd" />
 
-I used an extruded cut in both directions to remove the material from the rectangular sketch. This created openings on opposite sides of the body and split the upper hook while leaving the base intact.
+I used an extruded cut through both directions to remove the material from the rectangular sketch. This created openings on opposite sides of the body and split the upper hook while leaving the base intact.
 
 <img width="1616" height="955" alt="image" src="https://github.com/user-attachments/assets/873b9c58-ba59-4d3b-bef3-b69d3b597c5e" />
 
@@ -75,7 +77,7 @@ I created a second 0.15 in wide rectangle on the Right Plane. This sketch was pe
 
 <img width="1616" height="961" alt="image" src="https://github.com/user-attachments/assets/56f2e305-997e-4567-85b2-b6e0b0f58952" />
 
-I used another extruded cut in both directions to create the four arms. Each arm stays connected to the base but has space on both sides to move inward during assembly. These cuts allow the sections to bend like cantilever snap arms instead of keeping the wall as one continuous ring.
+I used another extruded cut through both directions to create the four arms. Each arm stays connected to the base but has space on both sides to move inward during assembly. These cuts allow the sections to bend like cantilever snap arms instead of keeping the wall as one continuous ring.
 
 <img width="1621" height="953" alt="image" src="https://github.com/user-attachments/assets/8fee37d6-9fd1-42a1-8080-29e328125963" />
 
@@ -83,10 +85,9 @@ I added a 0.10 in fillet to the four edges where the arms connect to the base. T
 
 <img width="1617" height="956" alt="image" src="https://github.com/user-attachments/assets/ab8e1965-1536-4483-8ac5-0bfce44259f3" />
 
-The completed component has four arms with angled hooks and rounded roots. The arms are intended to bend inward as the hooks pass through the mating opening, then move back outward to hold the parts together. The slots provide room for the arms to move and access to compress them for removal. The fit and flexibility will need to be checked after printing and curing.
+The completed component has four arms with angled hooks and rounded roots. The arms bend inward as the hooks pass through the mating opening, then move back outward to hold the ring on the holder. The slots provide room for movement and access to compress the arms for removal.
 
 <img width="1616" height="955" alt="image" src="https://github.com/user-attachments/assets/be33600e-f17d-4c7f-ab1f-dd2e85c9ef5c" />
-
 
 ### Test Ring
 
@@ -98,50 +99,49 @@ I revolved the sketch 360° around the centerline to create the ring. This kept 
 
 <img width="1617" height="956" alt="image" src="https://github.com/user-attachments/assets/40a06899-fec5-42fe-b516-97182371a872" />
 
-The completed test ring is intended to push over the angled hooks by bending the holder’s four arms inward. Once the ring passes the hooks, the arms should return outward and retain it on the holder. This part will be used to check the assembly, retention, and removal after printing and curing.
+The completed test ring pushes over the angled hooks by bending the holder’s four arms inward. Once the ring passes the hooks, the arms return outward and retain it on the holder. This part was used to check the fit after printing and curing.
 
 <img width="1620" height="951" alt="image" src="https://github.com/user-attachments/assets/f05e0543-342c-42dd-a01f-a3e4f8b3eb13" />
 
-### Assembly 
+### Assembly
 
-I brought the ring and holder into an assembly to show how the two parts connect. The ring slides over the top of the holder and pushes against the 45° entry ramps, which are intended to bend the four arms inward. Once the ring passes the hooks, the arms can return outward. The shoulders underneath the hooks retain the ring, while the wider base prevents it from sliding off the bottom.
+I brought the ring and holder into an assembly to show how the two parts connect. The ring slides over the top of the holder and pushes against the 45° entry ramps. Once the ring passes the hooks, the arms can return outward. The shoulders underneath the hooks retain the ring, while the wider base prevents it from sliding off the bottom.
 
 <img width="1616" height="992" alt="image" src="https://github.com/user-attachments/assets/58f3ac51-f9e6-4bad-9c5b-1dc6103051a0" />
 
 I used a 0.10 in wall thickness and a 1.64 in arm length to balance flexibility and strength. The 0.13 in hook projection provides the retaining shoulder, although the actual overlap and required deflection depend on the ring’s opening. Following Figures 8 and 9 of the Snap-Fit Design Guide, I added 0.10 in root fillets to reduce stress concentration where the arms connect to the base. The arms have a constant wall thickness rather than a taper.
 
-The main geometry adjustments were dividing the revolved wall with two perpendicular 0.15 in cuts and rounding the roots. The cuts give the arms room to move independently, while the connected base supports all four sections. The consistent wall thickness also avoids making the arms unnecessarily thin. These choices will need to be checked after printing to see how well they balance flexibility, strength, and printability.
+The main geometry adjustments were dividing the revolved wall with two perpendicular 0.15 in cuts and rounding the roots. The cuts give the arms room to move independently, while the connected base supports all four sections. I kept the walls at a consistent thickness instead of making the arms thinner throughout.
 
-The separated view shows the ring above the holder and the direction it moves during assembly. The design is intended to be separable by pressing the arms inward until the hooks clear the ring, then lifting the ring off. This allows removal without forcing the ring backward over the retaining shoulders. The CAD views show the intended positions; the actual snap action and ease of removal will be checked after printing and curing.
+The separated view shows the ring above the holder and the direction it moves during assembly. The design is intended to be separable by pressing the arms inward until the hooks clear the ring, then lifting the ring off. This allows removal without forcing the ring backward over the retaining shoulders.
 
 <img width="1620" height="957" alt="image" src="https://github.com/user-attachments/assets/f1a8f1de-dc74-4d4a-a95d-9ffc8364b06f" />
 
-## Preprocessing 
+## Preprocessing
 
-I kept the same basic support settings in PreForm. The touchpoint size was 0.55 mm, with the overhang, stabilization, and reinforcement densities set to 1.00. The overhang angle was 18°, and internal supports were enabled. These supports hold the parts during printing, but the contact points will need to be removed carefully around the snap arms and mating surfaces so they do not affect the fit.
+I kept the same basic support settings in PreForm. The touchpoint size was 0.55 mm, with the overhang, stabilization, and reinforcement densities set to 1.00. The overhang angle was 18°, and internal supports were enabled. The contact points around the snap arms and mating surfaces needed careful removal so they would not affect the fit.
 
 <img width="472" height="827" alt="image" src="https://github.com/user-attachments/assets/9b99c931-a637-41a6-a187-f3585029388f" />
 
-The layer selection screenshot shows 0.100 mm selected, while the build plate screenshot shows the job set to 0.050 mm. The documented job setting is therefore 0.050 mm. This provides smaller steps in the vertical direction for the curved ring and angled hooks. I kept the basic print profile set to Default.
+The layer selection screenshot shows 0.100 mm selected, while the build plate screenshot shows the job set to 0.050 mm. I documented 0.050 mm as the job setting. This provides smaller steps in the vertical direction for the curved ring and angled hooks. I kept the basic print profile set to Default.
 
 <img width="742" height="322" alt="image" src="https://github.com/user-attachments/assets/9527089a-1241-4884-bbda-bb7f9df6cb94" />
 
 I prepared the parts for the Form 4 named HumorousPetrel using Grey V5 resin. The shared build plate contains four models, including my ring holder and test ring alongside another pair of components. The parts are spaced apart to provide room for their supports and rafts.
 
-The holder is tilted on supports, which helps avoid printing the entire circular base as one large flat section against the platform. The ring is supported separately so both components can be washed, cured, and cleaned up before assembly. Orientation still affects the surface finish, support locations, and dimensional accuracy.
+The holder is tilted on supports to avoid placing the entire circular base flat against the platform. The ring is supported separately so both components can be cleaned up before assembly. Orientation affects the surface finish, support locations, and dimensional accuracy.
 
 SLA resin parts are generally close to isotropic, meaning their material properties are similar in different directions. This differs from FDM parts, where the layer direction has a larger effect on strength. The holder itself is still more flexible in certain directions because of the four separate arms.
 
 The modeled arm thickness is 0.10 in, or 2.54 mm. Using the holder’s 0.28 in inner radius and 0.10 in wall thickness gives a body radius of 0.38 in. Compared with the test ring’s nominal inner radius of 0.40 in, this gives approximately 0.02 in of radial clearance around the straight body. The hooks extend beyond the body to retain the ring, so this clearance is separate from the deflection needed to pass over the hooks.
 
-PreForm estimated a print time of approximately 1 hour and 49 minutes and a resin volume of 20.74 mL for the entire shared job. These totals include the other components on the plate. The screenshot also shows one unsupported minimum warning, so this view does not confirm that every support issue had been cleared before printing.
+PreForm estimated a print time of approximately 1 hour and 49 minutes and a resin volume of 20.74 mL for the entire shared job. These totals include the other components on the plate. PreForm still showed one unsupported minimum in this screenshot.
 
 <img width="1917" height="1017" alt="Screenshot 2026-11-09 170051" src="https://github.com/user-attachments/assets/294c97e3-af05-4584-8a8a-c218e5f80df4" />
 
+## Post-Processing
 
-## Postprocessing 
-
-I used a scraper to remove the printed rafts from the build platform while keeping the supports attached. After washing and curing, I removed the supports using pliers and my hands. Support removal and cleanup took approximately 15 minutes. I worked carefully around the arms and ring so the support removal would not damage the mating surfaces.
+I used a scraper to remove the printed rafts from the build platform while keeping the supports attached. After washing and curing, I removed the supports using pliers and my hands. Support removal and cleanup took approximately 15 minutes. I worked carefully around the arms and ring to avoid damaging the mating surfaces.
 
 <img width="4032" height="3024" alt="IMG_0386" src="https://github.com/user-attachments/assets/2d476988-9b9c-4d74-8965-b6a77ab2907b" />
 
@@ -161,7 +161,7 @@ The ring could slide along the holder, which was intentional because I wanted mo
 
 Compared with PLA printed through FDM, SLA resin requires washing and curing, and its material properties are generally less dependent on layer direction. Flexibility and resistance to cracking still depend on the specific resin and geometry. In this print, the arms were flexible while some sharp corners still cracked.
 
-The smooth surfaces allowed the ring to slide as intended, but this was a functional observation rather than a dimensional measurement. The interference between the tips showed that the space available during bending also matters, even when the ring can pass over the hooks.
+The smooth surfaces allowed the ring to slide as intended, but this was a fit test rather than a dimensional measurement. The interference between the tips showed that the space available during bending also matters, even when the ring can pass over the hooks.
 
 ## Validation
 
@@ -172,24 +172,27 @@ The main issue during insertion was the tips bumping into each other as the arms
 <video src="https://github.com/user-attachments/assets/9decdb64-424a-41a5-b91c-0e1283b8785f" controls style="max-width: 100%;">
 </video>
 
-The surface finish was mostly smooth, but the corners and edges around the hooks were very sharp. Minor cracking occurred around some of these corners. Rounding these areas would be a priority for improving durability and making the part more comfortable to handle.
+The surface finish was mostly smooth, but the corners and edges around the hooks were very sharp. Minor cracking occurred around some of these corners. Rounding these areas would help improve durability and make the part more comfortable to handle.
 
 <img width="4032" height="3024" alt="IMG_0473 (1)" src="https://github.com/user-attachments/assets/8a1498a6-942e-4190-9823-11e135d39863" />
-
 
 ## Lessons Learned
 
 I learned that having flexible arms does not guarantee that the entire snap fit will move without interference. The arms could bend far enough for assembly, but the tips contacted each other during insertion. I needed to consider the space between the arms while they were bent, along with the clearance between the ring and holder.
 
-The print also showed that sharp corners can still crack even when the rest of the part is flexible. Adding fillets at the roots helped create a smoother connection to the base, but the hook edges also needed attention. In another version, I would round these edges and increase the space available for the prongs to move.
+The print also showed that sharp corners can still crack even when the rest of the part is flexible. Adding fillets at the roots created a smoother connection to the base, but the hook edges also needed attention. In another version, I would round these edges and increase the space available for the prongs to move.
 
-I learned that SLA tolerances need to be checked after washing, curing, and support removal. The ring had the sliding movement I wanted, but the printed fit still needed to be tested. Orientation and support placement also affected where cleanup was required, especially near the mating surfaces and flexible arms.
+I learned that SLA tolerances need to be checked after washing, curing, and support removal. The ring had the sliding movement I wanted, but I still needed to test the printed parts to find the interference between the tips. Orientation and support placement also affected where cleanup was required, especially near the mating surfaces and flexible arms.
 
-Compared with FDM snap fits, SLA requires additional washing and curing, and the selected resin has a large effect on flexibility. This print had mostly smooth surfaces and flexible arms, but the cracking showed that surface quality alone does not establish durability.
+Compared with FDM snap fits, SLA requires additional washing and curing, and the selected resin has a large effect on flexibility. This print had mostly smooth surfaces and flexible arms, but the cracking showed that a smooth finish does not mean every area will hold up during use.
 
-The project took approximately 8 hours from start to finish, including research, modeling, print preparation, printing, post-processing, testing, and documentation. Resources included SolidWorks, PreForm, the Form 4, Grey V5 resin, 99% IPA, washing and curing equipment, and hand tools. PreForm estimated 20.74 mL of resin for the shared build plate, including the other project. I did not record a separate material cost for my two components.
+The project took approximately 8 hours from start to finish, including research, modeling, print preparation, printing, post-processing, testing, and documentation. Resources included SolidWorks, PreForm, the Form 4, Grey V5 resin, 99% IPA, washing and curing equipment, and hand tools.
 
+For a rough material cost estimate, I assumed a resin price of $100 per liter, or $0.10 per mL. Using PreForm’s estimated volume of 20.74 mL gives approximately $2.07 in resin for the entire shared build plate. This includes the other project and is not the separate cost of my two components. The estimate does not include IPA, gloves, electricity, or equipment costs.
 
+## Resources
+
+- *Snap-Fit Joints for Plastics – A Design Guide*, provided through Canvas. Section B, Figures 8, 9, 12, and 17; Tables 1 and 2.
 
 
 ### Resource
