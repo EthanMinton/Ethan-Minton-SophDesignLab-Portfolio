@@ -192,7 +192,7 @@ For a rough material cost estimate, I assumed a resin price of $100 per liter, o
 
 ## Resources
 
-- *Snap-Fit Joints for Plastics – A Design Guide* (provided on Canvas)
+- *Snap-Fit Joints for Plastics – A Design Guide* (provided on Canvas) (Section B, Figures 8, 9, 12, and 17; Tables 1 and 2.)
 
 
 
