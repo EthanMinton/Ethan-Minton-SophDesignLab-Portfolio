@@ -92,4 +92,97 @@ This problem can be addressed using the manufacturing processes used in class. F
 
 The goal is to create a pulley that rotates freely, keeps the rope aligned, and mounts securely.
 
+## CAD Design 
+
+### Pulley Support CAD
+
+I started by creating a rectangle on the Top Plane with dimensions of 4.50 in by 5.00 in. This established the overall size of the base for the pulley support.
+
+<img width="1616" height="960" alt="Base sketch dimensions" src="https://github.com/user-attachments/assets/473bf258-59f2-4596-8caf-5853b2bb4c62" />
+
+I then extruded the rectangle 0.35 in to create the base. This gave me a starting point for adding the mounting holes and the supports above it.
+
+<img width="1616" height="956" alt="Base extrusion" src="https://github.com/user-attachments/assets/995ae45f-4e4c-4a74-8ee9-565bb1f7fc7f" />
+
+I created four mounting holes near the corners of the base. The hole diameter shown is 0.10 in, with the centers positioned 0.30 in from the adjacent edges.
+
+<img width="1617" height="953" alt="Mounting hole sketch" src="https://github.com/user-attachments/assets/e7531670-b24a-4334-b506-7cf9c883d315" />
+
+I used a Through All cut to extend the holes through the base. These holes provide locations for fastening the support to another surface.
+
+<img width="1615" height="957" alt="Mounting hole cut" src="https://github.com/user-attachments/assets/bbba9776-f172-4e70-820f-6c61b6853698" />
+
+I selected the bottom face and used the Shell feature with a thickness of 0.25 in. This removed material from the underside of the base.
+
+<img width="1612" height="957" alt="Shell settings" src="https://github.com/user-attachments/assets/e793077f-7657-45ad-9514-a4b88c563129" />
+
+The underside view shows the recessed area created by the shell. Material remains around the outside edges and the four mounting holes.
+
+<img width="1616" height="957" alt="Shelled underside of base" src="https://github.com/user-attachments/assets/2b86a597-4298-4627-bd63-5d2fc6acf32d" />
+
+I sketched a second rectangle measuring 3.50 in by 5.00 in. I positioned it in the center of the base, leaving a 0.50 in mounting strip along each side.
+
+<img width="1617" height="957" alt="Support body sketch" src="https://github.com/user-attachments/assets/2a92e28a-1c3b-426d-b4bc-8f21cbf34840" />
+
+I extruded this sketch 3.50 in and merged it with the base. I started with a solid body so I could cut away material to create the shape of the pulley support.
+
+<img width="1615" height="957" alt="Support body extrusion" src="https://github.com/user-attachments/assets/ab3f44de-eefe-4326-9b4e-bed87ec798c2" />
+
+I sketched the sloped upper profile and a 0.62 in diameter hole for the pulley shaft. The center of the hole is 0.50 in below the top, and the slopes extend down 1.50 in from the top edge.
+
+<img width="1616" height="957" alt="Upper profile and shaft hole sketch" src="https://github.com/user-attachments/assets/4993e327-834a-4986-8c22-5c6566d9465a" />
+
+I used a Through All cut to remove the upper corners and create the shaft opening. Making these features in the same cut kept the profile consistent through the body.
+
+<img width="1612" height="958" alt="Upper profile cut" src="https://github.com/user-attachments/assets/a26fea71-016d-4935-b8eb-a452893767e2" />
+
+I then created a sketch to remove the center material and shape the two supports. The upper sections are 0.40 in thick with a 0.80 in gap between them. The lower sections widen toward the base.
+
+<img width="1616" height="962" alt="Support spacing and tapered profile sketch" src="https://github.com/user-attachments/assets/36d56b4c-618c-4b85-afe8-19b56b5eab9b" />
+
+I cut these profiles Through All to form the two separate uprights. This opened the space between them for the pulley while leaving wider sections where the supports connect to the base.
+
+<img width="1616" height="958" alt="Cut forming the two supports" src="https://github.com/user-attachments/assets/10c41fb7-ef7a-4f66-8b75-9b2571023943" />
+
+I added a 0.20 in radius fillet to the two inside edges where the supports meet the base. This rounded the sharp transitions to help reduce stress concentrations in these areas.
+
+<img width="1611" height="962" alt="Base connection fillets" src="https://github.com/user-attachments/assets/09977098-9028-4f6a-9c88-9e03cff16f90" />
+
+I sketched triangular openings in the side of the support to remove more material. The lower sketch spans 4.00 in, and the two upper triangular sections each have a horizontal dimension of 1.50 in.
+
+<img width="1612" height="960" alt="Triangular cutout sketch" src="https://github.com/user-attachments/assets/305c7143-b96a-46ae-81fe-f8fc072457c8" />
+
+I used a Through All cut to create the openings. This removed material from the solid side while leaving a frame around the cutouts.
+
+<img width="1615" height="961" alt="First support cutout" src="https://github.com/user-attachments/assets/34c77618-42fc-4c6e-98d2-c444130ab7d3" />
+
+I copied and pasted the cutout sketch onto the opposite support and used another Through All cut. This gave both supports the same opening pattern.
+
+<img width="1616" height="960" alt="Cutout on the opposite support" src="https://github.com/user-attachments/assets/7ea1d60f-dee6-4223-9f96-e08a1d6904c8" />
+
+This view shows the copied sketch on the opposite side. I positioned it using the same 0.50 in offset so the cutouts would line up between the supports.
+
+<img width="1612" height="958" alt="Copied sketch positioning" src="https://github.com/user-attachments/assets/13b7677a-7d86-4aa7-a4a1-00f931ac4582" />
+
+I added 0.05 in radius fillets to the selected edges around the support openings. These rounded the smaller sharp corners left by the cuts.
+
+<img width="1617" height="961" alt="Small fillets around support openings" src="https://github.com/user-attachments/assets/82b3eae5-c4a0-45dc-a783-a26cd5a6d1af" />
+
+I created a rectangular sketch across the center of the base between the two supports. This defined the area for a shallow recessed channel.
+
+<img width="1616" height="956" alt="Base recess sketch" src="https://github.com/user-attachments/assets/a7d376be-6d3b-4c8b-bb48-82ab29aeedb0" />
+
+I used a Blind cut with a depth of 0.10 in to create the recess. This removed a shallow section of the base without cutting all the way through it.
+
+<img width="1615" height="962" alt="Base recess cut" src="https://github.com/user-attachments/assets/92076c05-2b5a-471c-98a3-68429ad97299" />
+
+I then used the Draft feature to apply a 5-degree taper to four selected faces, using the Top Plane as the neutral plane.
+
+<img width="1620" height="962" alt="Draft feature settings" src="https://github.com/user-attachments/assets/591d2beb-941f-4968-99e0-4544e629eb8d" />
+
+This view shows the support after applying the draft. The selected faces now have a slight taper, while the triangular openings and shaft holes remain in place.
+
+<img width="1616" height="958" alt="Support after applying draft" src="https://github.com/user-attachments/assets/f28e3f73-f322-464c-b3ac-bc8d294491f7" />
+
+### Pulley Wheel CAD
 ## Part 2
