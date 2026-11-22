@@ -30,7 +30,7 @@ With this in mind, I decided to refer back to the document from the beginning of
 <img width="1381" height="971" alt="image" src="https://github.com/user-attachments/assets/189c5234-ea54-4c02-97db-ffb416705d54" />
 
 
-<img width="1617" height="957" alt="image" src="https://github.com/user-attachments/assets/2bcfa3f5-b77a-4f56-9de1-92ff6946c92a" />
+
 
 
 I also researched how shrinking or expansion of the resin prints could affect the fit between my parts. According to Formlabs, resin can shrink during post-curing because the additional connections between the molecules pull the material closer together. However, Formlabs also states that PreForm already compensates for the expected shrinkage when using the correct material settings and recommended curing process.
