@@ -231,3 +231,9 @@ I also learned that I needed to make the locking arms thicker. Although the thin
 Before printing another finished design, I would make a small fit test with several clearances. I would also check the fit in different positions to see whether it stays smooth throughout the movement. This would help me choose dimensions based on the actual printer instead of relying mostly on general clearance recommendations.
 
 I spent approximately 10 hours on this assignment, mostly trying to figure out the SLA machine and the tolerances needed for the parts to fit together.
+
+## Resources
+
+[Protolabs — Design Rules for 3D Printing](https://github.com/user-attachments/assets/189c5234-ea54-4c02-97db-ffb416705d54)
+[Formlabs — Introduction to Post-Curing Prints](https://formlabs.com/support/Introduction-to-Post-Curing-Prints/)
+Machinery’s Handbook — Table 8a: Running and Sliding Fits
