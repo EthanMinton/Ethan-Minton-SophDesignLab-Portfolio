@@ -37,8 +37,6 @@ I also researched how shrinking or expansion of the resin prints could affect th
 
 With this in mind, I decided that adding an assumed shrinkage percentage to the entire model could cause more issues with the fit. I could not find a specific volume shrinkage percentage in the Clear V5 technical data sheet, so I accounted for possible dimensional variation through the clearance between my mating parts instead. After printing and fully curing the parts, I can compare the actual measurements to my model and adjust any dimensions that are preventing the parts from sliding properly.
 
-https://formlabs.com/support/Introduction-to-Post-Curing-Prints/
-
 ### Real-World Application
 
 An RC2 sliding fit can be used for pins that line up parts during assembly. The pin slides into a matching hole without needing to be pressed in, while the small clearance keeps the parts from moving around too much. This allows the parts to be lined up and taken apart when needed. My ring holder uses a similar idea, where the puck cap needs to slide into place while staying aligned with the holder. I plan on actually utilizing such a fit for the pulley that I am going to design for my final project.
