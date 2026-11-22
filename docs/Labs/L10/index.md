@@ -220,7 +220,7 @@ The sliding fit was very inconsistent. Sometimes the puck slid into the holder s
 
 While I was showing the design to someone, one of the locking arms snapped from careless handling. This was also partially my fault because I made the arms too thin to handle much force. Thankfully, the ring holder still works without the locking mechanism, so the broken arm did not make the entire part unusable.
 
-If I were to do the project again, I would likely increase the tolerance even more to ensure that the Sliding Fit had much more consistency, and I would also make the locking mechanism much thicker to prevent it from snapping in any typical circumstances.
+If I were to do the project again, I would likely increase the tolerance even more to ensure that the Sliding Fit had much more consistency, and I would also make the locking mechanism much thicker to prevent it from snapping in any typical circumstances. I do want to note that I did not sand down the part, as Fagan wanted to see parts that could function without needing complex post-processing, as if the need was to mass-produce parts.
 
 ## Lessons Learned
 
