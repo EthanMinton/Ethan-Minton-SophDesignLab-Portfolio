@@ -16,7 +16,7 @@ The root of the arm is where the highest bending stress occurs. A sharp corner i
 
 The guide also recommends tapering the arm to distribute strain more evenly. Table 1, Design 2 shows an arm that gradually decreases to half of its root thickness near the tip. I researched this option but kept a constant 0.10 in wall thickness in my model. I used the arm length, slots, and root fillets to provide flexibility while keeping the sections connected to the base.
 
-**[Insert annotated sketch showing the root radius, arm length, constant wall thickness, hook undercut, and direction of deflection. Mark the root as the area of highest bending stress.]**
+<img width="1434" height="1002" alt="23144" src="https://github.com/user-attachments/assets/75baec21-4675-4357-b7d1-ccf11cdf57c5" />
 
 ### Deflection and Undercut
 
@@ -192,14 +192,7 @@ For a rough material cost estimate, I assumed a resin price of $100 per liter, o
 
 ## Resources
 
-- *Snap-Fit Joints for Plastics – A Design Guide*, provided through Canvas. Section B, Figures 8, 9, 12, and 17; Tables 1 and 2.
-
-
-### Resource
-
-- *Snap-Fit Joints for Plastics – A Design Guide*, provided through Canvas. Section B, Figures 8, 9, 12, and 17; Tables 1 and 2.
-
-
+- *Snap-Fit Joints for Plastics – A Design Guide* (provided on Canvas)
 
 
 
