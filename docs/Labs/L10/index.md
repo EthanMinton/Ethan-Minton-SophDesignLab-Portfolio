@@ -43,7 +43,9 @@ An RC2 sliding fit can be used for pins that line up parts during assembly. The 
 
 ### Hand Sketch
 
-REMIND CREATE HAND SKETCH
+This rough hand sketch shows the main sliding fit between the puck and ring holder, along with the space for the ring. The proposed puck diameter is 0.96 in, and the holder opening is 1.00 in, giving 0.04 in of total diameter clearance. These are preliminary dimensions used to explain the fit. The final dimensions and remaining features had not been chosen at this stage.
+
+<img width="1640" height="1190" alt="90916" src="https://github.com/user-attachments/assets/4c6acb31-d2b0-4c19-abc1-be16f6b3fc11" />
 
 ## CAD Design 
 ### Ring Holder 
