@@ -185,4 +185,56 @@ This view shows the support after applying the draft. The selected faces now hav
 <img width="1616" height="958" alt="Support after applying draft" src="https://github.com/user-attachments/assets/f28e3f73-f322-464c-b3ac-bc8d294491f7" />
 
 ### Pulley Wheel CAD
+
+I started by sketching the cross section of the pulley wheel on the Front Plane. The sketch includes a 0.32 in radius for the shaft opening and a groove that is 0.19 in wide and 0.50 in deep. The material on each side of the groove is 0.29 in thick.
+
+<img width="1612" height="998" alt="Pulley cross section sketch" src="https://github.com/user-attachments/assets/f797aafb-6fbb-446b-889a-7b252835a120" />
+
+I used the Revolve feature to rotate the sketch 360 degrees around the centerline. This created the circular wheel, shaft opening, and outer groove in one feature.
+
+<img width="1616" height="957" alt="Pulley revolve" src="https://github.com/user-attachments/assets/a3adb08b-d58f-44ea-82ba-6fabdcbcd599" />
+
+I added a 0.10 in symmetric chamfer to four circular edges around the rim. This removed the sharp edges along the outside of the wheel and the groove.
+
+<img width="1615" height="958" alt="Pulley rim chamfers" src="https://github.com/user-attachments/assets/65314853-8b58-4f17-bb26-80bf6fc8bcc9" />
+
+I then sketched three openings around the center of the wheel. Each opening spans 100 degrees, with an outer radius of 2.30 in and a radial length of 1.50 in. The material between the openings forms the three spokes.
+
+<img width="1605" height="965" alt="Pulley opening sketch" src="https://github.com/user-attachments/assets/59784729-0781-4e51-9709-5b5701e92f0b" />
+
+I used a Through All cut to remove the three sections. This reduced the amount of material in the wheel while keeping the center hub connected to the outer rim.
+
+<img width="1616" height="955" alt="Pulley openings cut" src="https://github.com/user-attachments/assets/50ddd0ec-d6c5-4525-9d24-746cbd73f6ff" />
+
+I created another sketch using two concentric circles around the shaft opening. These circles defined the area between the center hub and the outer rim for the next cut.
+
+<img width="1615" height="961" alt="Recess sketch around the hub" src="https://github.com/user-attachments/assets/5c151c8c-978d-4f39-953a-b8abf1476235" />
+
+I used a Blind cut with a depth of 0.20 in to recess this area and reduce the thickness of the spokes. I repeated the same sketch and cut on the opposite side so both sides had the same recess.
+
+<img width="1617" height="956" alt="Pulley face recess" src="https://github.com/user-attachments/assets/47d31070-200d-4c55-a2dd-2d9ea84bc637" />
+
+I added 0.30 in radius fillets to six edges where the spokes connect to the center hub. This rounded the inside corners to help reduce stress concentrations at these connections.
+
+<img width="1612" height="956" alt="Spoke connection fillets" src="https://github.com/user-attachments/assets/0beab6b1-480c-4635-a1a1-65adc44f3730" />
+
+This view shows the wheel after adding the cuts and fillets. The three spokes connect the shaft hub to the outer rim, and the groove runs around the outside to guide the rope.
+
+<img width="1616" height="960" alt="Pulley wheel after cuts and fillets" src="https://github.com/user-attachments/assets/3f852bdd-314e-485d-93a1-c173893bf874" />
+
+### Pulley Pin CAD
+
+I started by sketching a circle centered at the origin with a diameter of 0.60 in. This is slightly smaller than the holes in the supports and wheel to leave clearance for assembly.
+
+<img width="1616" height="956" alt="Pulley pin sketch" src="https://github.com/user-attachments/assets/e0edbcd3-9a7b-4180-8669-2820e0fd28c7" />
+
+I extruded the circle 1.60 in to create the pin. This length allows it to pass through both supports and the pulley wheel.
+
+<img width="1616" height="956" alt="Pulley pin extrusion" src="https://github.com/user-attachments/assets/a9928648-210b-494b-b90d-6cfbfdc98a83" />
+
+This view shows the completed pin model. The pin will act as the axle for the pulley wheel, with the fit and rotation needing to be checked after manufacturing.
+
+<img width="1620" height="955" alt="Completed pulley pin model" src="https://github.com/user-attachments/assets/73612dd4-7b42-4092-bd96-413330add1af" />
+
+
 ## Part 2
