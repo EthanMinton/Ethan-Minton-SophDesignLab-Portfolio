@@ -339,3 +339,63 @@ NEED TO SHOWCASE AND DOCUMENT
 
 
 # Part 2
+
+## Student Peer Review
+
+<img width="3024" height="4032" alt="IMG_0479" src="https://github.com/user-attachments/assets/68cfd5d7-cd42-4c5c-a2f1-d3ffea7c014f" />
+
+<img width="3024" height="4032" alt="IMG_0480" src="https://github.com/user-attachments/assets/642c8512-f3a7-4b62-94ab-9e383dcbaa9f" />
+
+<img width="3024" height="4032" alt="IMG_0478" src="https://github.com/user-attachments/assets/55d5fbbd-a0ad-47aa-add3-30dd6becd1a6" />
+
+<img width="3024" height="4032" alt="IMG_0476" src="https://github.com/user-attachments/assets/a193873c-4271-4d36-a3df-34b0be3be7e2" />
+
+<img width="3024" height="4032" alt="IMG_0475" src="https://github.com/user-attachments/assets/e094c574-24a2-457e-8991-f756e08a192b" />
+
+<img width="3024" height="4032" alt="IMG_0477" src="https://github.com/user-attachments/assets/5fc24007-aeb1-4ff0-b6d8-33e7278e480e" />
+
+The feedback showed that my classmates understood the problem and thought the pulley was practical to manufacture using FDM and SLA. One positive comment was that the interchangeable pin was easy to slide in and out while still fitting the assembly. This helped show that the design was easy to assemble, but there were still issues with how it moved.
+
+The main issue was the wheel wobbling during rotation. The feedback mentioned shaking, rubbing noises, and the need for smoother spinning. I agree with these comments because having the parts fit together does not necessarily mean the pulley rotates smoothly. The wobbling makes the movement less consistent and could allow the wheel to rub against the support structure.
+
+Another concern was the space available for the rope and how well it fits in the wheel’s groove. The feedback mentioned better rope fitment and possible slippage. This matters because the rope needs to stay seated as the wheel turns, especially when the direction or tension changes. These comments helped me recognize that both the wheel’s stability and the space for the rope affect how reliably the pulley can work.
+
+## Redesign
+
+### Pulley Support CAD
+
+I made two main changes to the pulley support. First, I reduced the vertical dimension of the triangular cuts at the top from 1.50 in to 1.00 in. This made the slopes less steep and gave the upper section a cleaner appearance. The shaft holes remained 0.62 in in diameter, with their centers 0.50 in below the top.
+
+<img width="1617" height="962" alt="Modified upper profile sketch" src="https://github.com/user-attachments/assets/c2adf981-ba50-4ee7-adc7-31acd55eeb10" />
+
+I then added a 3-degree draft to the two inner faces near the shaft holes, using Plane1 as the neutral plane. This tapered the faces to provide more clearance for the pulley wheel and reduce rubbing against the support structure.
+
+<img width="1616" height="960" alt="Inner support draft settings" src="https://github.com/user-attachments/assets/aea872a5-b2ae-4f7e-928a-7534368556ab" />
+
+This view shows the updated support with both changes applied. The revised model will allow me to check whether the added clearance reduces contact between the wheel and supports during rotation.
+
+<img width="1612" height="958" alt="Updated pulley support model" src="https://github.com/user-attachments/assets/77cce6e2-696c-489a-86de-a249f1552a1c" />
+
+### Pulley Wheel CAD
+
+I wanted the wheel to resemble a nuclear radiation symbol. Some of my classmates noticed this during the peer review and thought it was cool, so I kept that appearance while adjusting the wheel’s fit.
+
+I added a global variable named CLEARANCE and set it to 0.01 in. Both flange thicknesses are controlled by the equation `0.27 - "CLEARANCE" * 0.5`. This makes the fit parametric, allowing me to adjust both sides together when optimizing the clearance later.
+
+<img width="1507" height="522" alt="Wheel clearance equations" src="https://github.com/user-attachments/assets/8cfb876d-c276-4d02-8c76-422d7999e7e1" />
+
+I updated the wheel’s cross-section to give it a tighter fit between the supports, with the goal of reducing sideways movement. I also increased the groove width from 0.19 in to 0.25 in to provide more space for the rope. The groove depth remained 0.50 in.
+
+<img width="1616" height="960" alt="Updated wheel cross section and clearance" src="https://github.com/user-attachments/assets/0fbc6e3a-6506-49fb-9814-d15107a03e4e" />
+
+I changed each of the three openings from 100 degrees to 60 degrees. This left wider solid sections between the openings and made the wheel look more like the radiation symbol. The outer radius of the openings remained 2.30 in.
+
+<img width="1617" height="963" alt="Updated wheel opening sketch" src="https://github.com/user-attachments/assets/3492da7b-79cc-40cb-bf7a-0534bd9e9e2f" />
+
+I reduced the depth of this face recess from 0.20 in to 0.10 in. This left more material in the spokes while keeping the recessed area around the hub.
+
+<img width="1617" height="957" alt="Modified wheel recess depth" src="https://github.com/user-attachments/assets/3dac5c3b-5351-4531-953e-cc5e9f4e6a7d" />
+
+I suppressed Fillet15 to keep the sharper corners of the symbol instead of rounding the connections around the hub.
+
+<img width="272" height="25" alt="Suppressed hub fillet" src="https://github.com/user-attachments/assets/b8ad8e28-59cb-44dd-9e8b-d3c2f65b3c48" />
