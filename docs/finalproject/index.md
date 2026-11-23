@@ -236,5 +236,102 @@ This view shows the completed pin model. The pin will act as the axle for the pu
 
 <img width="1620" height="955" alt="Completed pulley pin model" src="https://github.com/user-attachments/assets/73612dd4-7b42-4092-bd96-413330add1af" />
 
+## PreProcessing
+
+These settings will be used for all FDM prints in this project. I set both the layer height and first layer height to 0.20 mm.
+
+<img width="1646" height="110" alt="Layer height settings" src="https://github.com/user-attachments/assets/1426aff6-0a9d-40eb-ae77-71b4278f526c" />
+
+I selected 30% gyroid infill to provide internal support without making the parts solid. This also reduces the material used compared to printing with 100% infill.
+
+<img width="1648" height="253" alt="Infill settings" src="https://github.com/user-attachments/assets/049ca562-c0eb-4dbc-8571-35e2bb431329" />
+
+I set the skirt loops and brim width to zero, so neither will be generated. The draft shield is also disabled.
+
+<img width="1666" height="327" alt="Skirt and brim settings" src="https://github.com/user-attachments/assets/faac9d5f-42a3-4b66-acdb-0883d8999191" />
+
+I enabled automatically generated organic supports with an overhang threshold of 40 degrees. Supports are limited to the build plate, and no raft will be used.
+
+<img width="1645" height="345" alt="Support settings" src="https://github.com/user-attachments/assets/cee87c03-7e60-4c8e-8147-7410a428c61d" />
+
+The overall setup uses the modified 0.20 mm STRUCTURAL profile, Prusa PETG filament, and the Prusa CORE One printer with a 0.4 mm nozzle.
+
+<img width="497" height="222" alt="Printer and filament settings" src="https://github.com/user-attachments/assets/1e1e2b1b-6952-42ac-baf6-2b234c1d0202" />
+
+## Fit-Test
+
+To check the fit between the pin, support structure, and pulley wheel, I modified the CAD models to print only the areas around the holes. This allowed me to test the clearances without using the time and material needed for the full parts. The pin was left unchanged.
+
+### CAD Modifications
+
+I started by sketching a 1.00 in wide section around the shaft hole in the support. The larger rectangle covered the surrounding structure so I could remove the material outside the test section.
+
+<img width="1617" height="961" alt="Support fit-test sketch" src="https://github.com/user-attachments/assets/3c90bf64-ebe2-446f-9afa-164683e349c6" />
+
+I used a Through All cut in both directions to remove the rest of the structure. This kept the original hole size and support thickness for the fit test.
+
+<img width="1612" height="956" alt="Support fit-test cut" src="https://github.com/user-attachments/assets/ca213ac4-80b6-4df8-b596-3fafeb57c1f1" />
+
+The modified model left two small test pieces containing the support holes. These would allow me to check how the pin fits through both supports.
+
+<img width="1616" height="957" alt="Support hole test pieces" src="https://github.com/user-attachments/assets/212b33b6-3c76-46a9-802a-63989015cf1a" />
+
+For the pulley wheel, I sketched a 1.20 in diameter circle around the center hole. This defined the outside of the test piece while keeping the original shaft opening.
+
+<img width="1616" height="960" alt="Pulley hub fit-test sketch" src="https://github.com/user-attachments/assets/8aaec923-01be-4d91-8b2a-6eafb0bd6953" />
+
+I used a Through All cut to remove the material outside this circle. This removed the rim and spokes, leaving only the section needed to test the pin fit.
+
+<img width="1617" height="956" alt="Pulley hub fit-test cut" src="https://github.com/user-attachments/assets/7f63b2d3-82f8-4b2c-9311-4b7e48aba40e" />
+
+The remaining piece kept the wheel’s original hole diameter and hub thickness. I used this smaller piece to check the clearance between the wheel and pin.
+
+<img width="1616" height="961" alt="Pulley hub test piece" src="https://github.com/user-attachments/assets/7092e3ba-6f0b-46b5-a162-7816b79ca4f4" />
+
+### Slicer
+
+I arranged the two support pieces upright with their holes horizontal, placed the pulley hub flat with its hole vertical, and laid the unchanged pin horizontally. The preview shows supports beneath the pin and inside the horizontal support holes.
+
+For this fit test, the slicer used Prusa PETG, 20% infill, and supports set to Everywhere with no brim. The selected printer profile was the Prusa CORE One HF with a 0.4 mm nozzle. The estimated print time was 1 hour and 28 minutes, using 21.63 g of filament.
+
+<img width="1917" height="1031" alt="Fit-test slicer preview" src="https://github.com/user-attachments/assets/09126d24-ad8c-490d-838d-70b9c1530f7c" />
+
+### Print
+
+The completed print took 1 hour and 40 minutes, with the printer reporting 22 g of PETG used. This was 12 minutes longer than the slicer estimate.
+
+<img width="4032" height="3024" alt="Completed fit-test print information" src="https://github.com/user-attachments/assets/c4ca1513-5724-48fb-afbe-3d6d16139eff" />
+
+The video below documents the fit test between the printed pin, support pieces, and pulley hub.
+
+<video src="https://github.com/user-attachments/assets/9b3e9981-7534-444e-b843-2e7fb205d04e" controls style="max-width: 100%;">
+</video>
+
+## Prototype Print
+
+I placed the pulley wheel flat on the build plate with the shaft hole vertical and laid the pin horizontally beside it. I used PETG with a 0.20 mm layer height, 30% infill, and supports set to Everywhere. Supports were generated beneath the wheel’s overhangs and the pin. The estimated print time was 5 hours and 46 minutes, using 124.33 g of filament.
+
+<img width="1910" height="1031" alt="Pulley wheel and pin slicer preview" src="https://github.com/user-attachments/assets/46bc7fd4-d87d-4b60-a1f9-11b4e8d26ece" />
+
+I placed the support structure upright with its base flat on the build plate. This provided a large contact area, but supports were needed for the shaft holes and overhanging sections. I used PETG with a 0.20 mm layer height, 30% infill, and supports limited to the build plate. The estimated print time was 10 hours and 19 minutes, using 186.31 g of filament.
+
+<img width="1912" height="1036" alt="Support structure slicer preview" src="https://github.com/user-attachments/assets/2fa083de-8568-4af4-b12b-4c9dbbb9f3e9" />
+
+This image shows the printed support structure on the build plate with the organic supports still attached. These supports needed to be removed before assembling the wheel and pin.
+
+<img width="1912" height="1036" alt="Printed support structure before support removal" src="https://github.com/user-attachments/assets/2514f2e6-7eb4-469e-9bbe-a38fb9ce4c6d" />
+
+The video below shows the printed pulley wheel and pin.
+
+<video src="https://github.com/user-attachments/assets/b9be64c3-99b0-4c61-80d9-e80f7d2095d5" controls style="max-width: 100%;">
+</video>
+
+
+
+
+
+
+
+
 
 ## Part 2
