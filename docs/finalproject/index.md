@@ -399,3 +399,21 @@ I reduced the depth of this face recess from 0.20 in to 0.10 in. This left more 
 I suppressed Fillet15 to keep the sharper corners of the symbol instead of rounding the connections around the hub.
 
 <img width="272" height="25" alt="Suppressed hub fillet" src="https://github.com/user-attachments/assets/b8ad8e28-59cb-44dd-9e8b-d3c2f65b3c48" />
+
+### Final Assembly
+
+<img width="1617" height="962" alt="image" src="https://github.com/user-attachments/assets/cf5ebec6-753e-40a3-8db1-8dd632d6f9d6" />
+
+<img width="1616" height="961" alt="image" src="https://github.com/user-attachments/assets/be3ab5cc-caa9-4c69-b83b-d46cfc694e13" />
+
+## Printing Final Design
+
+I placed the updated support structure upright with its base flat on the build plate. I used Prusa PETG with a 0.20 mm layer height, 30% infill, and supports limited to the build plate. The organic supports extend beneath the shaft holes and overhanging sections. The estimated print time was 10 hours and 26 minutes, using 189.53 g of filament.
+
+<img width="1917" height="1027" alt="Updated support structure slicer preview" src="https://github.com/user-attachments/assets/aed5e1e9-6a27-4f43-b365-98c6a8b1d0b9" />
+
+I placed the updated pulley wheel flat with its shaft hole vertical on a separate build plate. I used the same material, layer height, and infill settings. Supports were generated from the build plate beneath the overhanging rim and recessed sections. The estimated print time was 6 hours and 53 minutes, using 138.83 g of filament. Neither print used a brim.
+
+<img width="1917" height="1040" alt="Updated pulley wheel slicer preview" src="https://github.com/user-attachments/assets/7d0e641d-304e-486d-8d5f-c2fcac917c10" />
+
+NEED TO DO SLA AS WELL
