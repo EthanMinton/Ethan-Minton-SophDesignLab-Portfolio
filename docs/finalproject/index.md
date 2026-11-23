@@ -2,11 +2,7 @@
 
 ## Objectives
 
-
-## Problem to Solve
-
-
-## Part 1
+# Part 1
 
 ### Spiral Design Process
 
@@ -91,6 +87,9 @@ The problem I want to address is how to change the direction of an applied force
 This problem can be addressed using the manufacturing processes used in class. FDM printing would allow me to create the pulley and support components, while smaller fit coupons could be used to check clearances before printing the full assembly. SLA can be used to create the pin, with its smooth surface and 100% infill it is able to structurally hold up and allow for the pulley wheel to freely spin.
 
 The goal is to create a pulley that rotates freely, keeps the rope aligned, and mounts securely.
+
+## Video Describing Problem
+NEED TO DO PROTO VIDEO
 
 ## CAD Design 
 
@@ -309,6 +308,8 @@ The video below documents the fit test between the printed pin, support pieces, 
 
 ## Prototype Print
 
+### FDM Print
+
 I placed the pulley wheel flat on the build plate with the shaft hole vertical and laid the pin horizontally beside it. I used PETG with a 0.20 mm layer height, 30% infill, and supports set to Everywhere. Supports were generated beneath the wheel’s overhangs and the pin. The estimated print time was 5 hours and 46 minutes, using 124.33 g of filament.
 
 <img width="1910" height="1031" alt="Pulley wheel and pin slicer preview" src="https://github.com/user-attachments/assets/46bc7fd4-d87d-4b60-a1f9-11b4e8d26ece" />
@@ -326,12 +327,15 @@ The video below shows the printed pulley wheel and pin.
 <video src="https://github.com/user-attachments/assets/b9be64c3-99b0-4c61-80d9-e80f7d2095d5" controls style="max-width: 100%;">
 </video>
 
+### SLA Pin
+
+I used the same CAD file for the SLA pin as the FDM pin, keeping the diameter and length unchanged. The pin was printed using Clear V5 resin, allowing me to use a second manufacturing process in the prototype.
+
+I was unable to retrieve the SLA print information, even after a friend helped me try to find it. Because of this, I could not include screenshots or confirm the orientation, support settings, layer height, print time, or resin volume used. The printed SLA pin will appear in the assembly section, where you can check its fit with the pulley wheel and support structure. The final SLA print will be showcased fully once completed.
+
+## Assembly and Test of the Prototype
+NEED TO SHOWCASE AND DOCUMENT
 
 
 
-
-
-
-
-
-## Part 2
+# Part 2
