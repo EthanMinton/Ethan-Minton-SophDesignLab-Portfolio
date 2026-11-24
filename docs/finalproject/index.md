@@ -417,3 +417,7 @@ I placed the updated pulley wheel flat with its shaft hole vertical on a separat
 <img width="1917" height="1040" alt="Updated pulley wheel slicer preview" src="https://github.com/user-attachments/assets/7d0e641d-304e-486d-8d5f-c2fcac917c10" />
 
 NEED TO DO SLA AS WELL
+
+<img width="1907" height="1081" alt="image" src="https://github.com/user-attachments/assets/0c350e22-6049-4464-a197-9d5b18355462" />
+
+<img width="1907" height="1133" alt="image" src="https://github.com/user-attachments/assets/1c0ba1e8-f184-4408-958b-aace8a8b65f3" />
