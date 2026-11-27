@@ -1,6 +1,8 @@
-# Final Project – [Topic]
+# Final Project – Door-Slowing Pulley System
 
 ## Objectives
+
+The objective of this project is to improve my previous pulley design and use it in a setup that slows a door before it closes. I will use FDM for the wheel and support structure and SLA for the pin, then use fit testing and peer feedback to improve the design.
 
 # Part 1
 
@@ -10,7 +12,7 @@ The Spiral Design Process is a method to improve a design through a repeated cyc
 
 Planning - The Main Attribute for planning is to define the goals, requirements, possible solutions, and limits, such as the budget, cost, materials, and time available. Each iteration, this plan is updated to fit new needs and circumstances.
 
-Risk Analysis - The main attribute here is to identify what could possibly prevent the design from actually working. In this stage, you should compare alternatives and use hand calculations, simulations, or smaller tests to reduce uncertainty. 
+Risk Analysis - The main attribute here is to identify what could possibly prevent the design from actually working. In this stage, you should compare alternatives and use hand calculations, simulations, or smaller tests to reduce uncertainty.
 
 Engineering - The main attribute here is to develop the design using sketches, CAD models, calculations, and prototypes. In this stage, we build and test the design using the information gathered during planning and risk analysis.
 
@@ -18,7 +20,7 @@ Evaluation - The main attribute here is to compare the results to the original g
 
 For my own project, this process can help us make improvements with a clear purpose. We can identify the biggest risk, build a prototype to test it, and use the results to update the design. Through each cycle, we can document what changed and why. This helps us address problems early and improve the design before spending more time and money on the final version. I actually plan to create a tolerance test to iterate my sliding fit and ensure it works properly without having to completely commit to the design and still have a failing design.
 
-### FDM Anisotropic 
+### FDM Anisotropic
 
 FDM Anisotropy - Anisotropy means that a part has different mechanical properties depending on the direction it is loaded. FDM produces this behavior by depositing melted plastic in lines and stacking them into layers. The connections between these lines and layers are different from the continuous material along each printed line. This generally makes the part stronger along the printed lines and weaker when a force pulls the layers apart. This can be leveraged through different design orientations that provide better flexibility and reduce the likelihood of snapping under applied loads.
 
@@ -37,6 +39,7 @@ SLA resin can shrink during printing and post-curing as the material becomes mor
 For Grey V5, Formlabs reports typical XY dimensional tolerances of ±0.15% for features between 1–30 mm, with a minimum tolerance of ±0.02 mm. These results used 100 µm layers and five minutes of room-temperature post-curing. This describes final dimensional accuracy, not the amount of shrinkage. An independent study using Clear V5 also found that print orientation affected the final dimensions.
 
 Grey V5
+
 | Feature Size | Typical XY Dimensional Tolerance |
 | --- | --- |
 | 1–30 mm | ±0.15%, with a minimum of ±0.02 mm |
@@ -57,20 +60,19 @@ https://docs.lightburnsoftware.com/latest/Guides/Test-KerfOffset/
 
 ## Problem Selection
 
-### Modular Storage 
+### Modular Storage
 
 Something that I have always wanted to create and design is a modular storage system that could be modified to fit a person's unique needs. Small items such as screws, electronic components, different parts, or even Lego can become mixed and difficult to find. Standard storage containers may have compartments that are too large or too small, which wastes space and makes organization difficult.
 
-The problem I would like to solve is how to create storage that can change as the items being stored change. The modularity would be its strength in design, allowing different compartments and attachments to be printed out and utilized without replacing the entire system. This would be considered the simpliest in engineering decisions as it will all hingle on a single sliding fit connection that could be universal to the entire design. 
+The problem I would like to solve is how to create storage that can change as the items being stored change. The modularity would be its strength in design, allowing different compartments and attachments to be printed out and utilized without replacing the entire system. This would be considered the simpliest in engineering decisions as it will all hingle on a single sliding fit connection that could be universal to the entire design.
 
-### Force Directional Change 
+### Force Directional Change
 
 Another problem that interests me is how to change the direction of an applied force when there is limited space to move or pull an object. For example, lifting an object directly upward can be difficult if there is no convenient place to grip it or stand above it. This is actually a problem I have previously attempted to design a pulley to close my closet door, but I ran into the issue of not being able to use it easily, requiring a specific setup.
 
 Outside of my door, a pulley system could allow a person to pull in a more accessible direction while moving the object in the direction needed. The design would need to keep the rope aligned, allow the pulley to rotate freely, and provide a secure mounting point. Depending on the pulley arrangement, the system could also reduce the force required to lift the object.
 
-
-### Ball Bearing 
+### Ball Bearing
 
 Another problem I would like to explore is how to support smooth rotation in a prototype when a standard bearing does not fit the available space. Purchased bearings come in specific sizes, which can require changing other parts of the design or waiting for the correct bearing to arrive.
 
@@ -89,9 +91,10 @@ This problem can be addressed using the manufacturing processes used in class. F
 The goal is to create a pulley that rotates freely, keeps the rope aligned, and mounts securely.
 
 ## Video Describing Problem
-NEED TO DO PROTO VIDEO
 
-## CAD Design 
+The problem and how the pulley setup will work are explained in Video #1 below.
+
+## CAD Design
 
 ### Pulley Support CAD
 
@@ -331,16 +334,20 @@ The video below shows the printed pulley wheel and pin.
 
 I used the same CAD file for the SLA pin as the FDM pin, keeping the diameter and length unchanged. The pin was printed using Clear V5 resin, allowing me to use a second manufacturing process in the prototype.
 
-I was unable to retrieve the SLA print information, even after a friend helped me try to find it. Because of this, I could not include screenshots or confirm the orientation, support settings, layer height, print time, or resin volume used. The printed SLA pin will appear in the assembly section, where you can check its fit with the pulley wheel and support structure. The final SLA print will be showcased fully once completed.
+I was unable to retrieve the initial SLA print information, even after a friend helped me try to find it. Because of this, I could not include screenshots or confirm the orientation, support settings, layer height, print time, or resin volume used for that print. The final SLA pin settings and screenshots are included in Part 2.
 
 ## Assembly and Test of the Prototype
-NEED TO SHOWCASE AND DOCUMENT
+
+### Assembly and Use Instructions
+
+To assemble the pulley, place the wheel between the two sides of the support structure. Line up the hole in the wheel with the holes in both supports, then slide the pin through the first support, the wheel, and the opposite support. The pin acts as the axle and holds the wheel in place while allowing it to rotate. The final assembly uses the FDM wheel and support structure with the SLA pin.
+
+To use the pulley for the door, nail the base to the wall through its mounting holes. Run the rope over the wheel so it sits inside the groove, then attach one end to the door and the other end to a weight resting on the ground. Adjust the rope length so the weight stays on the ground until the door is almost closed. As the door reaches that point, the rope becomes taut and lifts the weight off the ground. Lifting the weight resists the door's movement and slows it before it can slam shut.
 
 ## Video #1
 
 <video src="https://github.com/user-attachments/assets/b2caa847-ff46-47c0-9af5-c04da5f3a4a0" controls style="max-width: 100%;">
 </video>
-
 
 # Part 2
 
@@ -420,11 +427,19 @@ I placed the updated pulley wheel flat with its shaft hole vertical on a separat
 
 <img width="1917" height="1040" alt="Updated pulley wheel slicer preview" src="https://github.com/user-attachments/assets/7d0e641d-304e-486d-8d5f-c2fcac917c10" />
 
-NEED TO DO SLA AS WELL
+### Final SLA Pin
+
+I printed the final pin on the Form 4 named MatureImpala using Clear V5 resin and a layer thickness of 0.05 mm. The pin and its supports fit within one-quarter of the Form 4 build plate, meeting the size requirement. I positioned the pin upright with supports at its base. PreForm estimated a print time of 2 hours and 12 minutes and a resin volume of 8.58 mL.
 
 <img width="1907" height="1081" alt="image" src="https://github.com/user-attachments/assets/0c350e22-6049-4464-a197-9d5b18355462" />
 
 <img width="1907" height="1133" alt="image" src="https://github.com/user-attachments/assets/1c0ba1e8-f184-4408-958b-aace8a8b65f3" />
+
+## Final Assembly and Testing
+
+The final prototype uses the printed PETG wheel and support structure with the Clear V5 SLA pin. It assembles using the same process described in Part 1, with the holes lined up before sliding the pin through all three components.
+
+After testing the updated assembly, I found that it works better and makes less of the loud scratching noise from the original design. However, the wheel has a bit more friction than before, so it does not spin as freely. This is the tradeoff with the updated fit. I was able to reduce the noise, but there is still room to adjust the clearance to reduce friction while keeping the quieter operation.
 
 ## Part 2 Video
 
@@ -434,8 +449,4 @@ NEED TO DO SLA AS WELL
 ## Slide Presentation
 
 <img width="1907" height="1067" alt="image" src="https://github.com/user-attachments/assets/d1a306d6-6c5b-4423-87d9-93d519030084" />
-
-
-
-
 
