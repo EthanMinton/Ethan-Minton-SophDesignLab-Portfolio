@@ -431,6 +431,10 @@ NEED TO DO SLA AS WELL
 <video src="https://github.com/user-attachments/assets/4365d4ff-3482-43fc-82ae-3ef1db9d72d5" controls style="max-width: 100%;">
 </video>
 
+## Slide Presentation
+
+<img width="1907" height="1067" alt="image" src="https://github.com/user-attachments/assets/d1a306d6-6c5b-4423-87d9-93d519030084" />
+
 
 
 
