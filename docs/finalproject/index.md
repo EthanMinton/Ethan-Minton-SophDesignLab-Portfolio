@@ -425,3 +425,13 @@ NEED TO DO SLA AS WELL
 <img width="1907" height="1081" alt="image" src="https://github.com/user-attachments/assets/0c350e22-6049-4464-a197-9d5b18355462" />
 
 <img width="1907" height="1133" alt="image" src="https://github.com/user-attachments/assets/1c0ba1e8-f184-4408-958b-aace8a8b65f3" />
+
+## Part 2 Video
+
+<video src="https://github.com/user-attachments/assets/4365d4ff-3482-43fc-82ae-3ef1db9d72d5" controls style="max-width: 100%;">
+</video>
+
+
+
+
+
