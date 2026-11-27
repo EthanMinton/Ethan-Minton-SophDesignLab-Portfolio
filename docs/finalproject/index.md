@@ -336,6 +336,10 @@ I was unable to retrieve the SLA print information, even after a friend helped m
 ## Assembly and Test of the Prototype
 NEED TO SHOWCASE AND DOCUMENT
 
+## Video #1
+
+<video src="https://github.com/user-attachments/assets/b2caa847-ff46-47c0-9af5-c04da5f3a4a0" controls style="max-width: 100%;">
+</video>
 
 
 # Part 2
