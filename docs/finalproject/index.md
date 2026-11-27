@@ -2,41 +2,41 @@
 
 ## Objectives
 
-The objective of this project is to improve my previous pulley design and use it in a setup that slows a door before it closes. I will use FDM for the wheel and support structure and SLA for the pin, then use fit testing and peer feedback to improve the design.
+The goal of this project is to improve my previous pulley design and use it to slow a door before it closes. I will use FDM for the wheel and support structure and SLA for the pin. Fit testing and feedback from classmates will help me figure out what needs to change.
 
 # Part 1
 
 ### Spiral Design Process
 
-The Spiral Design Process is a method to improve a design through a repeated cycle of planning, risk analysis, engineering, and evaluation. Through each cycle, we use what we have learned to improve the preceding iteration. The primary feature is to understand the biggest risk early, before cost ramps up in the design.
+The Spiral Design Process repeats planning, risk analysis, engineering, and evaluation to improve a design. Each time through the cycle, you use what you learned from the previous version to decide what to change. The idea is to find the biggest problems early, before spending more time and money on the full design.
 
-Planning - The Main Attribute for planning is to define the goals, requirements, possible solutions, and limits, such as the budget, cost, materials, and time available. Each iteration, this plan is updated to fit new needs and circumstances.
+Planning - This is where you decide what the design needs to do and what limits you have, such as materials, cost, and time. The plan changes as you test the design and find out what works.
 
-Risk Analysis - The main attribute here is to identify what could possibly prevent the design from actually working. In this stage, you should compare alternatives and use hand calculations, simulations, or smaller tests to reduce uncertainty.
+Risk Analysis - This is where you look at what could stop the design from working. You can compare different ideas, run calculations, or make smaller test pieces before committing to the full prototype.
 
-Engineering - The main attribute here is to develop the design using sketches, CAD models, calculations, and prototypes. In this stage, we build and test the design using the information gathered during planning and risk analysis.
+Engineering - This is where you make the sketches, CAD models, and prototypes. You build and test the design using what you figured out during planning and risk analysis.
 
-Evaluation - The main attribute here is to compare the results to the original goals and requirements. We review what worked, what did not, and what needs to change. We then use feedback and test results to guide the next iteration.
+Evaluation - This is where you check whether the prototype does what you wanted. You look at what worked, what failed, and what feedback you received, then decide what to change in the next version.
 
-For my own project, this process can help us make improvements with a clear purpose. We can identify the biggest risk, build a prototype to test it, and use the results to update the design. Through each cycle, we can document what changed and why. This helps us address problems early and improve the design before spending more time and money on the final version. I actually plan to create a tolerance test to iterate my sliding fit and ensure it works properly without having to completely commit to the design and still have a failing design.
+For my project, I plan to use this process to check the fit before printing the full pulley. I can print smaller sections around the holes, test the pin, and change the clearance if needed. This should help me avoid spending hours printing a full assembly just to find out the parts do not fit. After that, I can use feedback from classmates to decide what else needs to change.
 
 ### FDM Anisotropic
 
-FDM Anisotropy - Anisotropy means that a part has different mechanical properties depending on the direction it is loaded. FDM produces this behavior by depositing melted plastic in lines and stacking them into layers. The connections between these lines and layers are different from the continuous material along each printed line. This generally makes the part stronger along the printed lines and weaker when a force pulls the layers apart. This can be leveraged through different design orientations that provide better flexibility and reduce the likelihood of snapping under applied loads.
+FDM Anisotropy - Anisotropy means that a part behaves differently depending on the direction of the force applied to it. FDM builds parts by laying down lines of melted plastic and stacking them into layers. A part is generally stronger along those printed lines than it is when a force tries to pull the layers apart. This means that changing the print orientation can affect how the part bends or breaks.
 
-Prototype Performance - To elaborate more for our prototype, this means that print orientation can affect how much force the part can withstand. A feature loaded across the layers could separate before the same feature printed in another orientation. We need to consider where forces act and how those forces travel through the part when deciding how to print it. A top priority of my design is to have it operate in a way that forces applied in any direction our model could withstand, which means it will likely require a large amount of material.
+Prototype Performance - For my pulley, the print orientation matters because the rope puts force on the wheel, pin, and support structure. I need to consider the direction of those forces when placing each part on the build plate. Adding more material can help reinforce the part, but I still need to avoid loading it in a way that pulls the layers apart.
 
-Design Decisions - We can use this behavior to our advantage by placing the main tensile loads along the printed lines within the layers. To reduce its limitations, we can add rounded corners and reinforce areas where stress is concentrated. If one orientation does not work for the entire prototype, we could divide it into separate parts and print each in a better orientation. Increasing the number of walls can also improve strength, although it does not eliminate the directional behavior. The key component that will likely require a specific orientation is pins within these fits being printed vertically with greatly increase the chances of failure.
+Design Decisions - I can place the main tensile loads along the printed lines, add fillets at sharp corners, and reinforce areas around the pin holes. If one orientation does not work for the whole assembly, I can print the parts separately in different orientations. More walls can also help, although they do not remove the difference in strength between directions. The pin especially needs attention because printing it vertically could make it easier to break between layers when it bends.
 
-Materials and Process Parameters - Material selection should consider layer adhesion along with the strength needed for the prototype. PETG is one option to investigate because it is less prone to cracking and layer separation during printing than other typical 3D printing filaments. Nozzle temperature and cooling also affect how well the layers bond. Using a temperature within the material’s recommended range and avoiding excessive cooling can improve layer adhesion. These choices should be checked through testing with our actual print settings.
+Materials and Process Parameters - I considered PETG for its toughness, but the strength of the printed part also depends on how well its layers bond. Nozzle temperature and cooling affect that bond. Printing within the recommended temperature range and avoiding excessive cooling can help with layer adhesion. I still need to check how the parts perform with the settings used for this project.
 
 https://www.stratasys.com/contentassets/1a0cc7a8e7d14f29ac972189bfeade4c/dg_fdm_designconsiderationsfdmtooling_0718a.pdf
 
 ### SLA Shrinkage
 
-SLA resin can shrink during printing and post-curing as the material becomes more tightly connected. Formlabs describes Grey V5 and Clear V5 as low-shrinkage resins, but the sources reviewed do not provide an exact curing-shrinkage percentage for either material.
+SLA resin can shrink during printing and post-curing as the resin cures. Formlabs describes Grey V5 and Clear V5 as low-shrinkage resins, but the sources I found did not give an exact curing-shrinkage percentage for either one.
 
-For Grey V5, Formlabs reports typical XY dimensional tolerances of ±0.15% for features between 1–30 mm, with a minimum tolerance of ±0.02 mm. These results used 100 µm layers and five minutes of room-temperature post-curing. This describes final dimensional accuracy, not the amount of shrinkage. An independent study using Clear V5 also found that print orientation affected the final dimensions.
+For Grey V5, Formlabs reports typical XY dimensional tolerances of ±0.15% for features between 1–30 mm, with a minimum tolerance of ±0.02 mm. These results used 100 µm layers and five minutes of room-temperature post-curing. This describes final dimensional accuracy, not the amount of shrinkage.
 
 Grey V5
 
@@ -46,15 +46,15 @@ Grey V5
 | 31–80 mm | ±0.2%, with a minimum of ±0.06 mm |
 | 81–150 mm | ±0.3%, with a minimum of ±0.15 mm |
 
-For our prototype, dimensional changes could affect how holes, shafts, and other mating parts fit together. We can print a fit coupon, measure it after washing and curing, and adjust the clearances based on the results. PreForm already compensates for expected shrinkage, so additional adjustments should address the remaining measured error.
+For my pulley, small changes in the hole and pin dimensions could make the fit too tight or too loose. I can check this with a fit coupon, measure it after washing and curing, and adjust the clearance based on the result. PreForm already compensates for expected shrinkage, so any extra adjustment should come from the error I measure in the printed part.
 
-https://formlabs-media.formlabs.com/datasheets/2401898-TDS-ENUS-0.pdf?utm
+https://formlabs-media.formlabs.com/datasheets/2401898-TDS-ENUS-0.pdf
 
 ### Laser Cut Kerf
 
 Kerf is the width of material removed by the laser during cutting. Without compensation, outside dimensions become smaller and holes or slots become larger. Kerf varies with the material, sheet thickness, focus, power, and cutting speed.
 
-We can compensate by adjusting dimensions in CAD or applying a cutting-path offset in the laser software. From past experience a Kerf variation of around 1.5 your Kerf value on the component. This creates a tight sliding fit. Meaning increasing this value will create a looser fit and lowering this value creates a tighter fit. For our prototype, uncompensated kerf could create loose joints that move or pull apart. Excessive compensation could make assembly difficult or cause parts to crack. We can measure the actual sheet thickness and cut a fit coupon with several slot widths before cutting the final parts. The coupon should use the same material and cutting settings as the prototype. Thankfully with past efforts we are able to consider the information we gather to apply to future needs.
+Kerf can be compensated for by adjusting the CAD dimensions or offsetting the cutting path in the laser software. In my previous kerf tests, I used a slot adjustment of around 1.5 times the measured kerf to get the fit I wanted. That adjustment came from testing with that material and setup. For a future laser-cut part, I would measure the sheet thickness and cut several test slots using the same settings as the final part. A loose joint could move or pull apart, while one that is too tight could be difficult to assemble or crack the material.
 
 https://docs.lightburnsoftware.com/latest/Guides/Test-KerfOffset/
 
@@ -64,11 +64,11 @@ https://docs.lightburnsoftware.com/latest/Guides/Test-KerfOffset/
 
 Something that I have always wanted to create and design is a modular storage system that could be modified to fit a person's unique needs. Small items such as screws, electronic components, different parts, or even Lego can become mixed and difficult to find. Standard storage containers may have compartments that are too large or too small, which wastes space and makes organization difficult.
 
-The problem I would like to solve is how to create storage that can change as the items being stored change. The modularity would be its strength in design, allowing different compartments and attachments to be printed out and utilized without replacing the entire system. This would be considered the simpliest in engineering decisions as it will all hingle on a single sliding fit connection that could be universal to the entire design.
+The problem I would like to solve is how to create storage that can change as the items being stored change. Different compartments and attachments could be printed and added without replacing the entire system. I think this would be the simplest of the three ideas because the design would mainly depend on getting one sliding fit to work across all the parts.
 
 ### Force Directional Change
 
-Another problem that interests me is how to change the direction of an applied force when there is limited space to move or pull an object. For example, lifting an object directly upward can be difficult if there is no convenient place to grip it or stand above it. This is actually a problem I have previously attempted to design a pulley to close my closet door, but I ran into the issue of not being able to use it easily, requiring a specific setup.
+Another problem that interests me is how to change the direction of an applied force when there is limited space to move or pull an object. For example, lifting an object directly upward can be difficult if there is no convenient place to grip it or stand above it. I previously tried making a pulley for my closet door, but it needed a specific setup and was difficult to use elsewhere.
 
 Outside of my door, a pulley system could allow a person to pull in a more accessible direction while moving the object in the direction needed. The design would need to keep the rope aligned, allow the pulley to rotate freely, and provide a secure mounting point. Depending on the pulley arrangement, the system could also reduce the force required to lift the object.
 
@@ -76,7 +76,7 @@ Outside of my door, a pulley system could allow a person to pull in a more acces
 
 Another problem I would like to explore is how to support smooth rotation in a prototype when a standard bearing does not fit the available space. Purchased bearings come in specific sizes, which can require changing other parts of the design or waiting for the correct bearing to arrive.
 
-A 3D-printed ball bearing could allow the dimensions to be modified around the needs of the prototype; especially if completed parametrically, the design could be modified and applied universally to all parts. The main challenge would be creating enough clearance for the balls to move freely while keeping them contained and limiting unwanted movement. This would require testing the fit, friction, and wear to determine how well the bearing works. This would likely be the most difficult of the 3 problems to complete, with the most testing being required to iterate the design.
+A 3D-printed ball bearing could be sized around the needs of the prototype. If I made the design parametric, I could change the dimensions for different projects. The main challenge would be leaving enough clearance for the balls to move freely while keeping them contained and limiting unwanted movement. I would need to test the fit, friction, and wear. This would likely be the most difficult of the three problems and require the most testing.
 
 ### Selected Problem
 
@@ -86,7 +86,7 @@ I wanted to take another crack at the pulley system that I created and improve o
 
 The problem I want to address is how to change the direction of an applied force while allowing the pulley system to work in different arrangements. A pulley that only works with one mounting position or one specific setup has limited use. I would like to explore interchangeable mounting parts and different pulley sizes so the system can be adapted without redesigning and printing the entire assembly. Hopefully, this design is able to finally tackle the door that constantly wakes me up throughout the night.
 
-This problem can be addressed using the manufacturing processes used in class. FDM printing would allow me to create the pulley and support components, while smaller fit coupons could be used to check clearances before printing the full assembly. SLA can be used to create the pin, with its smooth surface and 100% infill it is able to structurally hold up and allow for the pulley wheel to freely spin.
+I can use FDM to print the wheel and support structure, then print smaller test pieces to check the fit before making the full assembly. SLA can be used for the solid pin, with the goal of giving the wheel a smooth surface to rotate around.
 
 The goal is to create a pulley that rotates freely, keeps the rope aligned, and mounts securely.
 
@@ -338,6 +338,10 @@ I was unable to retrieve the initial SLA print information, even after a friend 
 
 ## Assembly and Test of the Prototype
 
+This image shows the assembled prototype with the white support structure. The wheel sits between the supports, with the pin passing through the holes in the structure and wheel.
+
+<img width="4032" height="3024" alt="IMG_0529" src="https://github.com/user-attachments/assets/0b33fa75-7d8b-4705-a5d8-d61294785f2b" />
+
 ### Assembly and Use Instructions
 
 To assemble the pulley, place the wheel between the two sides of the support structure. Line up the hole in the wheel with the holes in both supports, then slide the pin through the first support, the wheel, and the opposite support. The pin acts as the axle and holds the wheel in place while allowing it to rotate. The final assembly uses the FDM wheel and support structure with the SLA pin.
@@ -365,11 +369,11 @@ To use the pulley for the door, nail the base to the wall through its mounting h
 
 <img width="3024" height="4032" alt="IMG_0477" src="https://github.com/user-attachments/assets/5fc24007-aeb1-4ff0-b6d8-33e7278e480e" />
 
-The feedback showed that my classmates understood the problem and thought the pulley was practical to manufacture using FDM and SLA. One positive comment was that the interchangeable pin was easy to slide in and out while still fitting the assembly. This helped show that the design was easy to assemble, but there were still issues with how it moved.
+My classmates understood the problem and thought the pulley could be made using FDM and SLA. One comment I liked was that the pin was easy to slide in and out while still fitting the assembly. That was something I wanted from the design, but getting the parts together was only part of the problem.
 
-The main issue was the wheel wobbling during rotation. The feedback mentioned shaking, rubbing noises, and the need for smoother spinning. I agree with these comments because having the parts fit together does not necessarily mean the pulley rotates smoothly. The wobbling makes the movement less consistent and could allow the wheel to rub against the support structure.
+The main issue was the wheel wobbling as it turned. My classmates mentioned shaking, rubbing noises, and the need for smoother spinning. I agreed with this feedback because I could get the parts to fit together, but the wheel still did not rotate the way I wanted. The wobbling could also let the wheel rub against the supports.
 
-Another concern was the space available for the rope and how well it fits in the wheel’s groove. The feedback mentioned better rope fitment and possible slippage. This matters because the rope needs to stay seated as the wheel turns, especially when the direction or tension changes. These comments helped me recognize that both the wheel’s stability and the space for the rope affect how reliably the pulley can work.
+Another concern was how the rope would fit in the groove. The feedback mentioned rope fitment and possible slippage. I needed to leave enough space for the rope while still keeping it seated as the wheel turned. This gave me another feature to adjust along with the wheel clearance.
 
 ## Redesign
 
@@ -439,7 +443,15 @@ I printed the final pin on the Form 4 named MatureImpala using Clear V5 resin an
 
 The final prototype uses the printed PETG wheel and support structure with the Clear V5 SLA pin. It assembles using the same process described in Part 1, with the holes lined up before sliding the pin through all three components.
 
-After testing the updated assembly, I found that it works better and makes less of the loud scratching noise from the original design. However, the wheel has a bit more friction than before, so it does not spin as freely. This is the tradeoff with the updated fit. I was able to reduce the noise, but there is still room to adjust the clearance to reduce friction while keeping the quieter operation.
+This image shows the completed final design with the dark support structure and redesigned wheel.
+
+<img width="4032" height="3024" alt="IMG_0526 (1)" src="https://github.com/user-attachments/assets/a4e96575-7c14-48c3-b74d-b46f0a1ea546" />
+
+The close-up below shows the SLA pin pushed through the aligned holes in the support structure and wheel. The pin holds the assembly together and acts as the axle for the wheel.
+
+<img width="4032" height="3024" alt="IMG_0530" src="https://github.com/user-attachments/assets/a02557c0-27e4-4887-884d-6d7bf026d503" />
+
+After testing the updated assembly, I found that it works better and makes less of the loud scratching noise from the original design. The tradeoff is that the wheel has a bit more friction than before, so it does not spin as freely. I would still like to adjust the clearance to reduce that friction while keeping the quieter operation.
 
 ## Part 2 Video
 
@@ -449,9 +461,3 @@ After testing the updated assembly, I found that it works better and makes less 
 ## Slide Presentation
 
 <img width="1907" height="1067" alt="image" src="https://github.com/user-attachments/assets/d1a306d6-6c5b-4423-87d9-93d519030084" />
-
-
-
-<img width="4032" height="3024" alt="IMG_0529" src="https://github.com/user-attachments/assets/0b33fa75-7d8b-4705-a5d8-d61294785f2b" />
-<img width="4032" height="3024" alt="IMG_0526 (1)" src="https://github.com/user-attachments/assets/a4e96575-7c14-48c3-b74d-b46f0a1ea546" />
-<img width="4032" height="3024" alt="IMG_0530" src="https://github.com/user-attachments/assets/a02557c0-27e4-4887-884d-6d7bf026d503" />
