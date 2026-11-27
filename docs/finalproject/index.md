@@ -450,3 +450,8 @@ After testing the updated assembly, I found that it works better and makes less 
 
 <img width="1907" height="1067" alt="image" src="https://github.com/user-attachments/assets/d1a306d6-6c5b-4423-87d9-93d519030084" />
 
+
+
+<img width="4032" height="3024" alt="IMG_0529" src="https://github.com/user-attachments/assets/0b33fa75-7d8b-4705-a5d8-d61294785f2b" />
+<img width="4032" height="3024" alt="IMG_0526 (1)" src="https://github.com/user-attachments/assets/a4e96575-7c14-48c3-b74d-b46f0a1ea546" />
+<img width="4032" height="3024" alt="IMG_0530" src="https://github.com/user-attachments/assets/a02557c0-27e4-4887-884d-6d7bf026d503" />
