@@ -461,3 +461,12 @@ After testing the updated assembly, I found that it works better and makes less 
 ## Slide Presentation
 
 <img width="1907" height="1067" alt="image" src="https://github.com/user-attachments/assets/d1a306d6-6c5b-4423-87d9-93d519030084" />
+
+## Resources
+
+- [Pulley Support CAD](Pulley_structure_v2.SLDPRT)
+- [Pulley Wheel CAD](Pulley_wheel_v2.SLDPRT)
+- [Pulley Pin CAD](Pulley_PIN.SLDPRT)
+- [FDM Design Considerations](https://www.stratasys.com/contentassets/1a0cc7a8e7d14f29ac972189bfeade4c/dg_fdm_designconsiderationsfdmtooling_0718a.pdf)
+- [Grey V5 Technical Data Sheet](https://formlabs-media.formlabs.com/datasheets/2401898-TDS-ENUS-0.pdf)
+- [Laser Kerf Compensation](https://docs.lightburnsoftware.com/latest/Guides/Test-KerfOffset/)
